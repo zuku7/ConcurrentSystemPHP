@@ -1,0 +1,461 @@
+2015-04-14 11:30:30 Error: Fatal Error (1): Class 'Locale' not found in [C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\I18n\I18n.php, line 243]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-04-14 11:31:11 Error: Fatal Error (1): Class 'Locale' not found in [C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\I18n\I18n.php, line 243]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-04-14 11:31:57 Error: Fatal Error (1): Class 'Locale' not found in [C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\I18n\I18n.php, line 243]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-04-14 12:05:01 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'concurrentdb.user' doesn't exist
+Request URL: /user
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(96): Cake\Database\Schema\Collection->_reflect('Column', 'user', Array, Object(Cake\Database\Schema\Table))
+#1 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(65): Cake\Database\Schema\Collection->describe('user', Array)
+#2 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Table.php(425): Cake\Database\Schema\CachedCollection->describe('user')
+#3 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Query.php(141): Cake\ORM\Table->schema()
+#4 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Query.php(123): Cake\ORM\Query->addDefaultTypes(Object(App\Model\Table\UserTable))
+#5 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Table.php(1147): Cake\ORM\Query->__construct(Object(Cake\Database\Connection), Object(App\Model\Table\UserTable))
+#6 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Table.php(882): Cake\ORM\Table->query()
+#7 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Controller\Component\PaginatorComponent.php(164): Cake\ORM\Table->find('all', Array)
+#8 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Controller\Controller.php(634): Cake\Controller\Component\PaginatorComponent->paginate(Object(App\Model\Table\UserTable), Array)
+#9 C:\xampp\htdocs\concurrentSystem\src\Controller\UserController.php(24): Cake\Controller\Controller->paginate(Object(App\Model\Table\UserTable))
+#10 [internal function]: App\Controller\UserController->index()
+#11 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Controller\Controller.php(404): call_user_func_array(Array, Array)
+#12 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#13 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UserController))
+#14 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#15 {main}
+
+
+2015-04-14 12:06:29 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'concurrentdb.parent_tasks' doesn't exist
+Request URL: /tasks/add
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(96): Cake\Database\Schema\Collection->_reflect('Column', 'parent_tasks', Array, Object(Cake\Database\Schema\Table))
+#1 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(65): Cake\Database\Schema\Collection->describe('parent_tasks', Array)
+#2 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Table.php(425): Cake\Database\Schema\CachedCollection->describe('parent_tasks')
+#3 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Query.php(141): Cake\ORM\Table->schema()
+#4 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Query.php(123): Cake\ORM\Query->addDefaultTypes(Object(Cake\ORM\Table))
+#5 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Table.php(1147): Cake\ORM\Query->__construct(Object(Cake\Database\Connection), Object(Cake\ORM\Table))
+#6 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Table.php(882): Cake\ORM\Table->query()
+#7 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Association.php(582): Cake\ORM\Table->find('list', Array)
+#8 C:\xampp\htdocs\concurrentSystem\src\Controller\TasksController.php(63): Cake\ORM\Association->find('list', Array)
+#9 [internal function]: App\Controller\TasksController->add()
+#10 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Controller\Controller.php(404): call_user_func_array(Array, Array)
+#11 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#12 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\TasksController))
+#13 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#14 {main}
+
+
+2015-04-14 12:06:54 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'concurrentdb.parent_tasks' doesn't exist
+Request URL: /tasks
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(96): Cake\Database\Schema\Collection->_reflect('Column', 'parent_tasks', Array, Object(Cake\Database\Schema\Table))
+#1 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(65): Cake\Database\Schema\Collection->describe('parent_tasks', Array)
+#2 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Table.php(425): Cake\Database\Schema\CachedCollection->describe('parent_tasks')
+#3 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Table.php(501): Cake\ORM\Table->schema()
+#4 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Association\BelongsTo.php(167): Cake\ORM\Table->primaryKey()
+#5 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Association.php(493): Cake\ORM\Association\BelongsTo->_joinCondition(Array)
+#6 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\EagerLoader.php(323): Cake\ORM\Association->attachTo(Object(Cake\ORM\Query), Array)
+#7 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Query.php(670): Cake\ORM\EagerLoader->attachAssociations(Object(Cake\ORM\Query), Object(App\Model\Table\TasksTable), true)
+#8 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Query.php(626): Cake\ORM\Query->_transformQuery()
+#9 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php(116): Cake\ORM\Query->sql()
+#10 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Connection.php(220): Cake\Database\Driver\Mysql->prepare(Object(Cake\ORM\Query))
+#11 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Connection.php(272): Cake\Database\Connection->prepare(Object(Cake\ORM\Query))
+#12 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Query.php(175): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#13 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Query.php(645): Cake\Database\Query->execute()
+#14 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(218): Cake\ORM\Query->_execute()
+#15 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Query.php(596): Cake\ORM\Query->_all()
+#16 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Controller\Component\PaginatorComponent.php(169): Cake\ORM\Query->all()
+#17 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Controller\Controller.php(634): Cake\Controller\Component\PaginatorComponent->paginate(Object(App\Model\Table\TasksTable), Array)
+#18 C:\xampp\htdocs\concurrentSystem\src\Controller\TasksController.php(24): Cake\Controller\Controller->paginate(Object(App\Model\Table\TasksTable))
+#19 [internal function]: App\Controller\TasksController->index()
+#20 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Controller\Controller.php(404): call_user_func_array(Array, Array)
+#21 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#22 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\TasksController))
+#23 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#24 {main}
+
+
+2015-04-14 12:10:33 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'concurrentdb.parent_tasks' doesn't exist
+Request URL: /tasks/add
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(96): Cake\Database\Schema\Collection->_reflect('Column', 'parent_tasks', Array, Object(Cake\Database\Schema\Table))
+#1 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(65): Cake\Database\Schema\Collection->describe('parent_tasks', Array)
+#2 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Table.php(425): Cake\Database\Schema\CachedCollection->describe('parent_tasks')
+#3 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Query.php(141): Cake\ORM\Table->schema()
+#4 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Query.php(123): Cake\ORM\Query->addDefaultTypes(Object(Cake\ORM\Table))
+#5 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Table.php(1147): Cake\ORM\Query->__construct(Object(Cake\Database\Connection), Object(Cake\ORM\Table))
+#6 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Table.php(882): Cake\ORM\Table->query()
+#7 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Association.php(582): Cake\ORM\Table->find('list', Array)
+#8 C:\xampp\htdocs\concurrentSystem\src\Controller\TasksController.php(63): Cake\ORM\Association->find('list', Array)
+#9 [internal function]: App\Controller\TasksController->add()
+#10 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Controller\Controller.php(404): call_user_func_array(Array, Array)
+#11 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#12 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\TasksController))
+#13 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#14 {main}
+
+
+2015-04-14 12:11:02 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'concurrentdb.parent_tasks' doesn't exist
+Request URL: /tasks
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(96): Cake\Database\Schema\Collection->_reflect('Column', 'parent_tasks', Array, Object(Cake\Database\Schema\Table))
+#1 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(65): Cake\Database\Schema\Collection->describe('parent_tasks', Array)
+#2 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Table.php(425): Cake\Database\Schema\CachedCollection->describe('parent_tasks')
+#3 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Table.php(501): Cake\ORM\Table->schema()
+#4 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Association\BelongsTo.php(167): Cake\ORM\Table->primaryKey()
+#5 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Association.php(493): Cake\ORM\Association\BelongsTo->_joinCondition(Array)
+#6 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\EagerLoader.php(323): Cake\ORM\Association->attachTo(Object(Cake\ORM\Query), Array)
+#7 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Query.php(670): Cake\ORM\EagerLoader->attachAssociations(Object(Cake\ORM\Query), Object(App\Model\Table\TasksTable), true)
+#8 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Query.php(626): Cake\ORM\Query->_transformQuery()
+#9 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php(116): Cake\ORM\Query->sql()
+#10 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Connection.php(220): Cake\Database\Driver\Mysql->prepare(Object(Cake\ORM\Query))
+#11 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Connection.php(272): Cake\Database\Connection->prepare(Object(Cake\ORM\Query))
+#12 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Query.php(175): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#13 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Query.php(645): Cake\Database\Query->execute()
+#14 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(218): Cake\ORM\Query->_execute()
+#15 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Query.php(596): Cake\ORM\Query->_all()
+#16 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Controller\Component\PaginatorComponent.php(169): Cake\ORM\Query->all()
+#17 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Controller\Controller.php(634): Cake\Controller\Component\PaginatorComponent->paginate(Object(App\Model\Table\TasksTable), Array)
+#18 C:\xampp\htdocs\concurrentSystem\src\Controller\TasksController.php(24): Cake\Controller\Controller->paginate(Object(App\Model\Table\TasksTable))
+#19 [internal function]: App\Controller\TasksController->index()
+#20 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Controller\Controller.php(404): call_user_func_array(Array, Array)
+#21 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#22 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\TasksController))
+#23 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#24 {main}
+
+
+2015-04-14 12:14:25 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'concurrentdb.parent_tasks' doesn't exist
+Request URL: /tasks
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(96): Cake\Database\Schema\Collection->_reflect('Column', 'parent_tasks', Array, Object(Cake\Database\Schema\Table))
+#1 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(65): Cake\Database\Schema\Collection->describe('parent_tasks', Array)
+#2 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Table.php(425): Cake\Database\Schema\CachedCollection->describe('parent_tasks')
+#3 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Table.php(501): Cake\ORM\Table->schema()
+#4 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Association\BelongsTo.php(167): Cake\ORM\Table->primaryKey()
+#5 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Association.php(493): Cake\ORM\Association\BelongsTo->_joinCondition(Array)
+#6 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\EagerLoader.php(323): Cake\ORM\Association->attachTo(Object(Cake\ORM\Query), Array)
+#7 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Query.php(670): Cake\ORM\EagerLoader->attachAssociations(Object(Cake\ORM\Query), Object(App\Model\Table\TasksTable), true)
+#8 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Query.php(626): Cake\ORM\Query->_transformQuery()
+#9 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php(116): Cake\ORM\Query->sql()
+#10 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Connection.php(220): Cake\Database\Driver\Mysql->prepare(Object(Cake\ORM\Query))
+#11 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Connection.php(272): Cake\Database\Connection->prepare(Object(Cake\ORM\Query))
+#12 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Query.php(175): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#13 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Query.php(645): Cake\Database\Query->execute()
+#14 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(218): Cake\ORM\Query->_execute()
+#15 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Query.php(596): Cake\ORM\Query->_all()
+#16 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Controller\Component\PaginatorComponent.php(169): Cake\ORM\Query->all()
+#17 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Controller\Controller.php(634): Cake\Controller\Component\PaginatorComponent->paginate(Object(App\Model\Table\TasksTable), Array)
+#18 C:\xampp\htdocs\concurrentSystem\src\Controller\TasksController.php(24): Cake\Controller\Controller->paginate(Object(App\Model\Table\TasksTable))
+#19 [internal function]: App\Controller\TasksController->index()
+#20 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Controller\Controller.php(404): call_user_func_array(Array, Array)
+#21 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#22 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\TasksController))
+#23 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#24 {main}
+
+
+2015-04-14 12:14:40 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'concurrentdb.parent_tasks' doesn't exist
+Request URL: /tasks
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(96): Cake\Database\Schema\Collection->_reflect('Column', 'parent_tasks', Array, Object(Cake\Database\Schema\Table))
+#1 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(65): Cake\Database\Schema\Collection->describe('parent_tasks', Array)
+#2 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Table.php(425): Cake\Database\Schema\CachedCollection->describe('parent_tasks')
+#3 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Table.php(501): Cake\ORM\Table->schema()
+#4 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Association\BelongsTo.php(167): Cake\ORM\Table->primaryKey()
+#5 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Association.php(493): Cake\ORM\Association\BelongsTo->_joinCondition(Array)
+#6 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\EagerLoader.php(323): Cake\ORM\Association->attachTo(Object(Cake\ORM\Query), Array)
+#7 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Query.php(670): Cake\ORM\EagerLoader->attachAssociations(Object(Cake\ORM\Query), Object(App\Model\Table\TasksTable), true)
+#8 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Query.php(626): Cake\ORM\Query->_transformQuery()
+#9 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php(116): Cake\ORM\Query->sql()
+#10 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Connection.php(220): Cake\Database\Driver\Mysql->prepare(Object(Cake\ORM\Query))
+#11 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Connection.php(272): Cake\Database\Connection->prepare(Object(Cake\ORM\Query))
+#12 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Query.php(175): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#13 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Query.php(645): Cake\Database\Query->execute()
+#14 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(218): Cake\ORM\Query->_execute()
+#15 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Query.php(596): Cake\ORM\Query->_all()
+#16 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Controller\Component\PaginatorComponent.php(169): Cake\ORM\Query->all()
+#17 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Controller\Controller.php(634): Cake\Controller\Component\PaginatorComponent->paginate(Object(App\Model\Table\TasksTable), Array)
+#18 C:\xampp\htdocs\concurrentSystem\src\Controller\TasksController.php(24): Cake\Controller\Controller->paginate(Object(App\Model\Table\TasksTable))
+#19 [internal function]: App\Controller\TasksController->index()
+#20 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Controller\Controller.php(404): call_user_func_array(Array, Array)
+#21 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#22 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\TasksController))
+#23 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#24 {main}
+
+
+2015-04-14 12:15:07 Error: [Cake\View\Exception\MissingTemplateException] Template file "Tasks\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Tasks\\index.ctp',
+)
+Request URL: /tasks
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\View\View.php(460): Cake\View\View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Controller\Controller.php(575): Cake\View\View->render(NULL, NULL)
+#2 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(120): Cake\Controller\Controller->render()
+#3 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\TasksController))
+#4 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 {main}
+
+
+2015-04-14 12:18:43 Error: [InvalidArgumentException] Tasks is not associated with Tasks
+Request URL: /tasks
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\EagerLoader.php(233): Cake\ORM\EagerLoader->_normalizeContain(Object(App\Model\Table\TasksTable), 'Tasks', Array, Array)
+#1 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\EagerLoader.php(338): Cake\ORM\EagerLoader->normalized(Object(App\Model\Table\TasksTable))
+#2 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\EagerLoader.php(317): Cake\ORM\EagerLoader->attachableAssociations(Object(App\Model\Table\TasksTable))
+#3 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Query.php(670): Cake\ORM\EagerLoader->attachAssociations(Object(Cake\ORM\Query), Object(App\Model\Table\TasksTable), true)
+#4 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Query.php(626): Cake\ORM\Query->_transformQuery()
+#5 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php(116): Cake\ORM\Query->sql()
+#6 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Connection.php(220): Cake\Database\Driver\Mysql->prepare(Object(Cake\ORM\Query))
+#7 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Connection.php(272): Cake\Database\Connection->prepare(Object(Cake\ORM\Query))
+#8 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Query.php(175): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#9 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Query.php(645): Cake\Database\Query->execute()
+#10 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(218): Cake\ORM\Query->_execute()
+#11 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Query.php(596): Cake\ORM\Query->_all()
+#12 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Controller\Component\PaginatorComponent.php(169): Cake\ORM\Query->all()
+#13 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Controller\Controller.php(634): Cake\Controller\Component\PaginatorComponent->paginate(Object(App\Model\Table\TasksTable), Array)
+#14 C:\xampp\htdocs\concurrentSystem\src\Controller\TasksController.php(24): Cake\Controller\Controller->paginate(Object(App\Model\Table\TasksTable))
+#15 [internal function]: App\Controller\TasksController->index()
+#16 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Controller\Controller.php(404): call_user_func_array(Array, Array)
+#17 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#18 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\TasksController))
+#19 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#20 {main}
+
+
+2015-04-14 12:18:57 Error: [RuntimeException] Table "App\Model\Table\TasksTable" is not associated with "Tasks"
+Request URL: /tasks/add
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\src\Controller\TasksController.php(63): Cake\ORM\Table->__get('Tasks')
+#1 [internal function]: App\Controller\TasksController->add()
+#2 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Controller\Controller.php(404): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#4 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\TasksController))
+#5 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#6 {main}
+
+
+2015-04-14 13:27:54 Error: [RuntimeException] Table "App\Model\Table\TasksTable" is not associated with "Tasks"
+Request URL: /tasks/add
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\src\Controller\TasksController.php(63): Cake\ORM\Table->__get('Tasks')
+#1 [internal function]: App\Controller\TasksController->add()
+#2 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Controller\Controller.php(404): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#4 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\TasksController))
+#5 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#6 {main}
+
+
+2015-04-14 13:28:18 Error: [InvalidArgumentException] Tasks is not associated with Tasks
+Request URL: /tasks
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\EagerLoader.php(233): Cake\ORM\EagerLoader->_normalizeContain(Object(App\Model\Table\TasksTable), 'Tasks', Array, Array)
+#1 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\EagerLoader.php(338): Cake\ORM\EagerLoader->normalized(Object(App\Model\Table\TasksTable))
+#2 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\EagerLoader.php(317): Cake\ORM\EagerLoader->attachableAssociations(Object(App\Model\Table\TasksTable))
+#3 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Query.php(670): Cake\ORM\EagerLoader->attachAssociations(Object(Cake\ORM\Query), Object(App\Model\Table\TasksTable), true)
+#4 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Query.php(626): Cake\ORM\Query->_transformQuery()
+#5 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php(116): Cake\ORM\Query->sql()
+#6 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Connection.php(220): Cake\Database\Driver\Mysql->prepare(Object(Cake\ORM\Query))
+#7 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Connection.php(272): Cake\Database\Connection->prepare(Object(Cake\ORM\Query))
+#8 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Query.php(175): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#9 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Query.php(645): Cake\Database\Query->execute()
+#10 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(218): Cake\ORM\Query->_execute()
+#11 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Query.php(596): Cake\ORM\Query->_all()
+#12 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Controller\Component\PaginatorComponent.php(169): Cake\ORM\Query->all()
+#13 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Controller\Controller.php(634): Cake\Controller\Component\PaginatorComponent->paginate(Object(App\Model\Table\TasksTable), Array)
+#14 C:\xampp\htdocs\concurrentSystem\src\Controller\TasksController.php(24): Cake\Controller\Controller->paginate(Object(App\Model\Table\TasksTable))
+#15 [internal function]: App\Controller\TasksController->index()
+#16 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Controller\Controller.php(404): call_user_func_array(Array, Array)
+#17 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#18 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\TasksController))
+#19 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#20 {main}
+
+
+2015-04-14 13:31:38 Error: [RuntimeException] Table "App\Model\Table\TasksTable" is not associated with "Tasks"
+Request URL: /tasks/add
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\src\Controller\TasksController.php(63): Cake\ORM\Table->__get('Tasks')
+#1 [internal function]: App\Controller\TasksController->add()
+#2 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Controller\Controller.php(404): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#4 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\TasksController))
+#5 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#6 {main}
+
+
+2015-04-14 13:32:09 Error: [RuntimeException] Table "App\Model\Table\TasksTable" is not associated with "Tasks"
+Request URL: /tasks/add
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\src\Controller\TasksController.php(63): Cake\ORM\Table->__get('Tasks')
+#1 [internal function]: App\Controller\TasksController->add()
+#2 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Controller\Controller.php(404): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#4 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\TasksController))
+#5 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#6 {main}
+
+
+2015-04-14 13:33:59 Error: [RuntimeException] Table "App\Model\Table\TasksTable" is not associated with "Tasks"
+Request URL: /tasks/add
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\src\Controller\TasksController.php(63): Cake\ORM\Table->__get('Tasks')
+#1 [internal function]: App\Controller\TasksController->add()
+#2 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Controller\Controller.php(404): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#4 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\TasksController))
+#5 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#6 {main}
+
+
+2015-04-14 13:36:35 Error: [InvalidArgumentException] Users is not associated with Login
+Request URL: /users
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\EagerLoader.php(233): Cake\ORM\EagerLoader->_normalizeContain(Object(App\Model\Table\UsersTable), 'Login', Array, Array)
+#1 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\EagerLoader.php(338): Cake\ORM\EagerLoader->normalized(Object(App\Model\Table\UsersTable))
+#2 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\EagerLoader.php(317): Cake\ORM\EagerLoader->attachableAssociations(Object(App\Model\Table\UsersTable))
+#3 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Query.php(670): Cake\ORM\EagerLoader->attachAssociations(Object(Cake\ORM\Query), Object(App\Model\Table\UsersTable), true)
+#4 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Query.php(626): Cake\ORM\Query->_transformQuery()
+#5 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php(116): Cake\ORM\Query->sql()
+#6 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Connection.php(220): Cake\Database\Driver\Mysql->prepare(Object(Cake\ORM\Query))
+#7 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Connection.php(272): Cake\Database\Connection->prepare(Object(Cake\ORM\Query))
+#8 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Query.php(175): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#9 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Query.php(645): Cake\Database\Query->execute()
+#10 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(218): Cake\ORM\Query->_execute()
+#11 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Query.php(596): Cake\ORM\Query->_all()
+#12 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Controller\Component\PaginatorComponent.php(169): Cake\ORM\Query->all()
+#13 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Controller\Controller.php(634): Cake\Controller\Component\PaginatorComponent->paginate(Object(App\Model\Table\UsersTable), Array)
+#14 C:\xampp\htdocs\concurrentSystem\src\Controller\UsersController.php(24): Cake\Controller\Controller->paginate(Object(App\Model\Table\UsersTable))
+#15 [internal function]: App\Controller\UsersController->index()
+#16 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Controller\Controller.php(404): call_user_func_array(Array, Array)
+#17 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#18 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#19 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#20 {main}
+
+
+2015-04-14 13:42:46 Error: [InvalidArgumentException] Users is not associated with Login
+Request URL: /users
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\EagerLoader.php(233): Cake\ORM\EagerLoader->_normalizeContain(Object(App\Model\Table\UsersTable), 'Login', Array, Array)
+#1 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\EagerLoader.php(338): Cake\ORM\EagerLoader->normalized(Object(App\Model\Table\UsersTable))
+#2 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\EagerLoader.php(317): Cake\ORM\EagerLoader->attachableAssociations(Object(App\Model\Table\UsersTable))
+#3 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Query.php(670): Cake\ORM\EagerLoader->attachAssociations(Object(Cake\ORM\Query), Object(App\Model\Table\UsersTable), true)
+#4 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Query.php(626): Cake\ORM\Query->_transformQuery()
+#5 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php(116): Cake\ORM\Query->sql()
+#6 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Connection.php(220): Cake\Database\Driver\Mysql->prepare(Object(Cake\ORM\Query))
+#7 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Connection.php(272): Cake\Database\Connection->prepare(Object(Cake\ORM\Query))
+#8 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Query.php(175): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#9 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Query.php(645): Cake\Database\Query->execute()
+#10 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(218): Cake\ORM\Query->_execute()
+#11 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Query.php(596): Cake\ORM\Query->_all()
+#12 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Controller\Component\PaginatorComponent.php(169): Cake\ORM\Query->all()
+#13 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Controller\Controller.php(634): Cake\Controller\Component\PaginatorComponent->paginate(Object(App\Model\Table\UsersTable), Array)
+#14 C:\xampp\htdocs\concurrentSystem\src\Controller\UsersController.php(24): Cake\Controller\Controller->paginate(Object(App\Model\Table\UsersTable))
+#15 [internal function]: App\Controller\UsersController->index()
+#16 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Controller\Controller.php(404): call_user_func_array(Array, Array)
+#17 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#18 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#19 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#20 {main}
+
+
+2015-04-14 13:50:12 Error: [InvalidArgumentException] Users is not associated with Login
+Request URL: /users
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\EagerLoader.php(233): Cake\ORM\EagerLoader->_normalizeContain(Object(App\Model\Table\UsersTable), 'Login', Array, Array)
+#1 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\EagerLoader.php(338): Cake\ORM\EagerLoader->normalized(Object(App\Model\Table\UsersTable))
+#2 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\EagerLoader.php(317): Cake\ORM\EagerLoader->attachableAssociations(Object(App\Model\Table\UsersTable))
+#3 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Query.php(670): Cake\ORM\EagerLoader->attachAssociations(Object(Cake\ORM\Query), Object(App\Model\Table\UsersTable), true)
+#4 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Query.php(626): Cake\ORM\Query->_transformQuery()
+#5 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php(116): Cake\ORM\Query->sql()
+#6 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Connection.php(220): Cake\Database\Driver\Mysql->prepare(Object(Cake\ORM\Query))
+#7 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Connection.php(272): Cake\Database\Connection->prepare(Object(Cake\ORM\Query))
+#8 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Query.php(175): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#9 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Query.php(645): Cake\Database\Query->execute()
+#10 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(218): Cake\ORM\Query->_execute()
+#11 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Query.php(596): Cake\ORM\Query->_all()
+#12 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Controller\Component\PaginatorComponent.php(169): Cake\ORM\Query->all()
+#13 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Controller\Controller.php(634): Cake\Controller\Component\PaginatorComponent->paginate(Object(App\Model\Table\UsersTable), Array)
+#14 C:\xampp\htdocs\concurrentSystem\src\Controller\UsersController.php(24): Cake\Controller\Controller->paginate(Object(App\Model\Table\UsersTable))
+#15 [internal function]: App\Controller\UsersController->index()
+#16 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Controller\Controller.php(404): call_user_func_array(Array, Array)
+#17 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#18 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#19 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#20 {main}
+
+
+2015-04-14 13:51:08 Error: [InvalidArgumentException] Users is not associated with Login
+Request URL: /users
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\EagerLoader.php(233): Cake\ORM\EagerLoader->_normalizeContain(Object(App\Model\Table\UsersTable), 'Login', Array, Array)
+#1 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\EagerLoader.php(338): Cake\ORM\EagerLoader->normalized(Object(App\Model\Table\UsersTable))
+#2 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\EagerLoader.php(317): Cake\ORM\EagerLoader->attachableAssociations(Object(App\Model\Table\UsersTable))
+#3 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Query.php(670): Cake\ORM\EagerLoader->attachAssociations(Object(Cake\ORM\Query), Object(App\Model\Table\UsersTable), true)
+#4 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Query.php(626): Cake\ORM\Query->_transformQuery()
+#5 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php(116): Cake\ORM\Query->sql()
+#6 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Connection.php(220): Cake\Database\Driver\Mysql->prepare(Object(Cake\ORM\Query))
+#7 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Connection.php(272): Cake\Database\Connection->prepare(Object(Cake\ORM\Query))
+#8 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Query.php(175): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#9 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Query.php(645): Cake\Database\Query->execute()
+#10 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(218): Cake\ORM\Query->_execute()
+#11 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Query.php(596): Cake\ORM\Query->_all()
+#12 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Controller\Component\PaginatorComponent.php(169): Cake\ORM\Query->all()
+#13 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Controller\Controller.php(634): Cake\Controller\Component\PaginatorComponent->paginate(Object(App\Model\Table\UsersTable), Array)
+#14 C:\xampp\htdocs\concurrentSystem\src\Controller\UsersController.php(24): Cake\Controller\Controller->paginate(Object(App\Model\Table\UsersTable))
+#15 [internal function]: App\Controller\UsersController->index()
+#16 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Controller\Controller.php(404): call_user_func_array(Array, Array)
+#17 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#18 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#19 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#20 {main}
+
+
+2015-04-14 13:51:45 Error: [InvalidArgumentException] Users is not associated with Login
+Request URL: /users/index
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\EagerLoader.php(233): Cake\ORM\EagerLoader->_normalizeContain(Object(App\Model\Table\UsersTable), 'Login', Array, Array)
+#1 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\EagerLoader.php(338): Cake\ORM\EagerLoader->normalized(Object(App\Model\Table\UsersTable))
+#2 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\EagerLoader.php(317): Cake\ORM\EagerLoader->attachableAssociations(Object(App\Model\Table\UsersTable))
+#3 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Query.php(670): Cake\ORM\EagerLoader->attachAssociations(Object(Cake\ORM\Query), Object(App\Model\Table\UsersTable), true)
+#4 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Query.php(626): Cake\ORM\Query->_transformQuery()
+#5 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php(116): Cake\ORM\Query->sql()
+#6 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Connection.php(220): Cake\Database\Driver\Mysql->prepare(Object(Cake\ORM\Query))
+#7 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Connection.php(272): Cake\Database\Connection->prepare(Object(Cake\ORM\Query))
+#8 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Query.php(175): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#9 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Query.php(645): Cake\Database\Query->execute()
+#10 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(218): Cake\ORM\Query->_execute()
+#11 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Query.php(596): Cake\ORM\Query->_all()
+#12 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Controller\Component\PaginatorComponent.php(169): Cake\ORM\Query->all()
+#13 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Controller\Controller.php(634): Cake\Controller\Component\PaginatorComponent->paginate(Object(App\Model\Table\UsersTable), Array)
+#14 C:\xampp\htdocs\concurrentSystem\src\Controller\UsersController.php(24): Cake\Controller\Controller->paginate(Object(App\Model\Table\UsersTable))
+#15 [internal function]: App\Controller\UsersController->index()
+#16 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Controller\Controller.php(404): call_user_func_array(Array, Array)
+#17 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#18 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#19 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#20 {main}
+
+

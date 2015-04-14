@@ -1,0 +1,140 @@
+2015-04-14 12:00:51 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'concurrentdb.groups' doesn't exist
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(96): Cake\Database\Schema\Collection->_reflect('Column', 'groups', Array, Object(Cake\Database\Schema\Table))
+#1 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(65): Cake\Database\Schema\Collection->describe('groups', Array)
+#2 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Table.php(425): Cake\Database\Schema\CachedCollection->describe('groups')
+#3 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Table.php(501): Cake\ORM\Table->schema()
+#4 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\bake\src\Utility\Model\AssociationFilter.php(93): Cake\ORM\Table->primaryKey()
+#5 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\bake\src\Shell\Task\TemplateTask.php(444): Bake\Utility\Model\AssociationFilter->filterAssociations(Object(App\Model\Table\UserTable))
+#6 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\bake\src\Shell\Task\TemplateTask.php(284): Bake\Shell\Task\TemplateTask->_filteredAssociations(Object(App\Model\Table\UserTable))
+#7 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\bake\src\Shell\Task\TemplateTask.php(147): Bake\Shell\Task\TemplateTask->_loadController()
+#8 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\bake\src\Shell\BakeShell.php(243): Bake\Shell\Task\TemplateTask->main('User')
+#9 [internal function]: Bake\Shell\BakeShell->all('user')
+#10 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Console\Shell.php(376): call_user_func_array(Array, Array)
+#11 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(200): Cake\Console\Shell->runCommand(Array, true)
+#12 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(171): Cake\Console\ShellDispatcher->_dispatch()
+#13 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(122): Cake\Console\ShellDispatcher->dispatch()
+#14 C:\xampp\htdocs\concurrentSystem\bin\cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#15 {main}
+
+
+2015-04-14 12:01:39 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'concurrentdb.groups' doesn't exist
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(96): Cake\Database\Schema\Collection->_reflect('Column', 'groups', Array, Object(Cake\Database\Schema\Table))
+#1 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(65): Cake\Database\Schema\Collection->describe('groups', Array)
+#2 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Table.php(425): Cake\Database\Schema\CachedCollection->describe('groups')
+#3 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Table.php(501): Cake\ORM\Table->schema()
+#4 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\bake\src\Utility\Model\AssociationFilter.php(93): Cake\ORM\Table->primaryKey()
+#5 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\bake\src\Shell\Task\TemplateTask.php(444): Bake\Utility\Model\AssociationFilter->filterAssociations(Object(App\Model\Table\UserTable))
+#6 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\bake\src\Shell\Task\TemplateTask.php(284): Bake\Shell\Task\TemplateTask->_filteredAssociations(Object(App\Model\Table\UserTable))
+#7 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\bake\src\Shell\Task\TemplateTask.php(147): Bake\Shell\Task\TemplateTask->_loadController()
+#8 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\bake\src\Shell\BakeShell.php(243): Bake\Shell\Task\TemplateTask->main('User')
+#9 [internal function]: Bake\Shell\BakeShell->all('user')
+#10 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Console\Shell.php(376): call_user_func_array(Array, Array)
+#11 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(200): Cake\Console\Shell->runCommand(Array, true)
+#12 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(171): Cake\Console\ShellDispatcher->_dispatch()
+#13 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(122): Cake\Console\ShellDispatcher->dispatch()
+#14 C:\xampp\htdocs\concurrentSystem\bin\cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#15 {main}
+
+
+2015-04-14 12:03:51 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'concurrentdb.parent_tasks' doesn't exist
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(96): Cake\Database\Schema\Collection->_reflect('Column', 'parent_tasks', Array, Object(Cake\Database\Schema\Table))
+#1 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(65): Cake\Database\Schema\Collection->describe('parent_tasks', Array)
+#2 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Table.php(425): Cake\Database\Schema\CachedCollection->describe('parent_tasks')
+#3 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Table.php(501): Cake\ORM\Table->schema()
+#4 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\bake\src\Utility\Model\AssociationFilter.php(93): Cake\ORM\Table->primaryKey()
+#5 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\bake\src\Shell\Task\TemplateTask.php(444): Bake\Utility\Model\AssociationFilter->filterAssociations(Object(App\Model\Table\TasksTable))
+#6 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\bake\src\Shell\Task\TemplateTask.php(284): Bake\Shell\Task\TemplateTask->_filteredAssociations(Object(App\Model\Table\TasksTable))
+#7 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\bake\src\Shell\Task\TemplateTask.php(147): Bake\Shell\Task\TemplateTask->_loadController()
+#8 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\bake\src\Shell\BakeShell.php(243): Bake\Shell\Task\TemplateTask->main('Tasks')
+#9 [internal function]: Bake\Shell\BakeShell->all('tasks')
+#10 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Console\Shell.php(376): call_user_func_array(Array, Array)
+#11 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(200): Cake\Console\Shell->runCommand(Array, true)
+#12 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(171): Cake\Console\ShellDispatcher->_dispatch()
+#13 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(122): Cake\Console\ShellDispatcher->dispatch()
+#14 C:\xampp\htdocs\concurrentSystem\bin\cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#15 {main}
+
+
+2015-04-14 12:09:18 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'concurrentdb.parent_tasks' doesn't exist
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(96): Cake\Database\Schema\Collection->_reflect('Column', 'parent_tasks', Array, Object(Cake\Database\Schema\Table))
+#1 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(65): Cake\Database\Schema\Collection->describe('parent_tasks', Array)
+#2 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Table.php(425): Cake\Database\Schema\CachedCollection->describe('parent_tasks')
+#3 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Table.php(501): Cake\ORM\Table->schema()
+#4 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\bake\src\Utility\Model\AssociationFilter.php(93): Cake\ORM\Table->primaryKey()
+#5 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\bake\src\Shell\Task\TemplateTask.php(444): Bake\Utility\Model\AssociationFilter->filterAssociations(Object(App\Model\Table\TasksTable))
+#6 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\bake\src\Shell\Task\TemplateTask.php(284): Bake\Shell\Task\TemplateTask->_filteredAssociations(Object(App\Model\Table\TasksTable))
+#7 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\bake\src\Shell\Task\TemplateTask.php(147): Bake\Shell\Task\TemplateTask->_loadController()
+#8 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\bake\src\Shell\BakeShell.php(243): Bake\Shell\Task\TemplateTask->main('Tasks')
+#9 [internal function]: Bake\Shell\BakeShell->all('tasks')
+#10 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Console\Shell.php(376): call_user_func_array(Array, Array)
+#11 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(200): Cake\Console\Shell->runCommand(Array, true)
+#12 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(171): Cake\Console\ShellDispatcher->_dispatch()
+#13 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(122): Cake\Console\ShellDispatcher->dispatch()
+#14 C:\xampp\htdocs\concurrentSystem\bin\cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#15 {main}
+
+
+2015-04-14 12:09:50 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'concurrentdb.parent_tasks' doesn't exist
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(96): Cake\Database\Schema\Collection->_reflect('Column', 'parent_tasks', Array, Object(Cake\Database\Schema\Table))
+#1 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(65): Cake\Database\Schema\Collection->describe('parent_tasks', Array)
+#2 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Table.php(425): Cake\Database\Schema\CachedCollection->describe('parent_tasks')
+#3 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Table.php(501): Cake\ORM\Table->schema()
+#4 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\bake\src\Utility\Model\AssociationFilter.php(93): Cake\ORM\Table->primaryKey()
+#5 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\bake\src\Shell\Task\TemplateTask.php(444): Bake\Utility\Model\AssociationFilter->filterAssociations(Object(App\Model\Table\TasksTable))
+#6 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\bake\src\Shell\Task\TemplateTask.php(284): Bake\Shell\Task\TemplateTask->_filteredAssociations(Object(App\Model\Table\TasksTable))
+#7 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\bake\src\Shell\Task\TemplateTask.php(147): Bake\Shell\Task\TemplateTask->_loadController()
+#8 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\bake\src\Shell\BakeShell.php(243): Bake\Shell\Task\TemplateTask->main('Tasks')
+#9 [internal function]: Bake\Shell\BakeShell->all('tasks')
+#10 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Console\Shell.php(376): call_user_func_array(Array, Array)
+#11 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(200): Cake\Console\Shell->runCommand(Array, true)
+#12 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(171): Cake\Console\ShellDispatcher->_dispatch()
+#13 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(122): Cake\Console\ShellDispatcher->dispatch()
+#14 C:\xampp\htdocs\concurrentSystem\bin\cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#15 {main}
+
+
+2015-04-14 12:11:48 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'concurrentdb.parent_tasks' doesn't exist
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(96): Cake\Database\Schema\Collection->_reflect('Column', 'parent_tasks', Array, Object(Cake\Database\Schema\Table))
+#1 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(65): Cake\Database\Schema\Collection->describe('parent_tasks', Array)
+#2 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Table.php(425): Cake\Database\Schema\CachedCollection->describe('parent_tasks')
+#3 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Table.php(501): Cake\ORM\Table->schema()
+#4 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\bake\src\Utility\Model\AssociationFilter.php(93): Cake\ORM\Table->primaryKey()
+#5 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\bake\src\Shell\Task\TemplateTask.php(444): Bake\Utility\Model\AssociationFilter->filterAssociations(Object(App\Model\Table\TasksTable))
+#6 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\bake\src\Shell\Task\TemplateTask.php(284): Bake\Shell\Task\TemplateTask->_filteredAssociations(Object(App\Model\Table\TasksTable))
+#7 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\bake\src\Shell\Task\TemplateTask.php(147): Bake\Shell\Task\TemplateTask->_loadController()
+#8 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\bake\src\Shell\BakeShell.php(243): Bake\Shell\Task\TemplateTask->main('Tasks')
+#9 [internal function]: Bake\Shell\BakeShell->all('tasks')
+#10 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Console\Shell.php(376): call_user_func_array(Array, Array)
+#11 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(200): Cake\Console\Shell->runCommand(Array, true)
+#12 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(171): Cake\Console\ShellDispatcher->_dispatch()
+#13 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(122): Cake\Console\ShellDispatcher->dispatch()
+#14 C:\xampp\htdocs\concurrentSystem\bin\cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#15 {main}
+
+
+2015-04-14 12:12:25 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'concurrentdb.parent_tasks' doesn't exist
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(96): Cake\Database\Schema\Collection->_reflect('Column', 'parent_tasks', Array, Object(Cake\Database\Schema\Table))
+#1 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(65): Cake\Database\Schema\Collection->describe('parent_tasks', Array)
+#2 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Table.php(425): Cake\Database\Schema\CachedCollection->describe('parent_tasks')
+#3 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Table.php(501): Cake\ORM\Table->schema()
+#4 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\bake\src\Utility\Model\AssociationFilter.php(93): Cake\ORM\Table->primaryKey()
+#5 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\bake\src\Shell\Task\TemplateTask.php(444): Bake\Utility\Model\AssociationFilter->filterAssociations(Object(App\Model\Table\TasksTable))
+#6 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\bake\src\Shell\Task\TemplateTask.php(284): Bake\Shell\Task\TemplateTask->_filteredAssociations(Object(App\Model\Table\TasksTable))
+#7 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\bake\src\Shell\Task\TemplateTask.php(147): Bake\Shell\Task\TemplateTask->_loadController()
+#8 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\bake\src\Shell\BakeShell.php(243): Bake\Shell\Task\TemplateTask->main('Tasks')
+#9 [internal function]: Bake\Shell\BakeShell->all('tasks')
+#10 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Console\Shell.php(376): call_user_func_array(Array, Array)
+#11 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(200): Cake\Console\Shell->runCommand(Array, true)
+#12 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(171): Cake\Console\ShellDispatcher->_dispatch()
+#13 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(122): Cake\Console\ShellDispatcher->dispatch()
+#14 C:\xampp\htdocs\concurrentSystem\bin\cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#15 {main}
+
+
