@@ -11,6 +11,7 @@
     <thead>
         <tr>
             <th><?= $this->Paginator->sort('id') ?></th>
+            <th><?= $this->Paginator->sort('name') ?></th>
             <th class="actions"><?= __('Actions') ?></th>
         </tr>
     </thead>
@@ -18,6 +19,7 @@
     <?php foreach ($groups as $group): ?>
         <tr>
             <td><?= $this->Number->format($group->id) ?></td>
+                        <td><?= $group->name ?></td>
             <td class="actions">
                 <?= $this->Html->link(__('View'), ['action' => 'view', $group->id]) ?>
                 <?= $this->Html->link(__('Edit'), ['action' => 'edit', $group->id]) ?>

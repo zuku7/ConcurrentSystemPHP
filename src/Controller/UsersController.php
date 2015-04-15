@@ -16,15 +16,21 @@ class UsersController extends AppController
      *
      * @return void
      */
+     
+  
     public function index()
     {
-        $this->paginate = [
-            'contain' => ['Groups']
-        ];
-        $this->set('users', $this->paginate($this->Users));
-        $this->set('_serialize', ['users']);
-    }
+   		
+   		    $this->paginate = [
+        'contain' => [ 'Groups']
+    ];
 
+    $this->set('users', $this->paginate($this->Users));
+		 
+	}
+
+
+  
     /**
      * View method
      *
@@ -35,7 +41,7 @@ class UsersController extends AppController
     public function view($id = null)
     {
         $user = $this->Users->get($id, [
-            'contain' => ['Groups', 'Login','Password', 'Tasks']
+            'contain' => ['Groups']
         ]);
         $this->set('user', $user);
         $this->set('_serialize', ['user']);

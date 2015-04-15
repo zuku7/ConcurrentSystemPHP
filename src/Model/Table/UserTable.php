@@ -23,6 +23,7 @@ class UserTable extends Table
     {
         $this->table('user');
         $this->displayField('id');
+		
         $this->primaryKey('id');
         $this->belongsTo('Groups', [
             'foreignKey' => 'group_id'

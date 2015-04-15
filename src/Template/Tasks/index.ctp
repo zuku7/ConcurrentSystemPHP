@@ -28,7 +28,7 @@
             <td><?= h($task->start) ?></td>
             <td><?= h($task->end) ?></td>
             <td>
-                <?= $task->has('user') ? $this->Html->link($task->user->id, ['controller' => 'Users', 'action' => 'view', $task->user->id]) : '' ?>
+                <?= $task->has('user') ? $this->Html->link($task->user->login, ['controller' => 'Users', 'action' => 'view', $task->user->id]) : '' ?>
             </td>
             <td>
                 <?= $task->has('project') ? $this->Html->link($task->project->name, ['controller' => 'Projects', 'action' => 'view', $task->project->id]) : '' ?>

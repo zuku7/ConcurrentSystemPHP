@@ -58,7 +58,9 @@ class TasksController extends AppController
                 $this->Flash->error('The task could not be saved. Please, try again.');
             }
         }
-        $users = $this->Tasks->Users->find('list', ['limit' => 200]);
+        $users = $this->Tasks->Users->find('list', [
+    'keyField' => 'id', 'valueField' => 'login'
+]);
         $projects = $this->Tasks->Projects->find('list', ['limit' => 200]);
         $tasks = $this->Tasks->find('list', ['limit' => 200]);
         $this->set(compact('task', 'users', 'projects'));

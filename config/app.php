@@ -9,7 +9,7 @@ return [
      * Development Mode:
      * true: Errors and warnings shown.
      */
-    'debug' => true,
+    'debug' => false,
 
     /**
      * Configure basic information about the application.
@@ -220,7 +220,7 @@ return [
              */
             //'port' => 'nonstandard_port_number',
             'username' => 'root',
-            'password' => 'admin1',
+            'password' => '',
             'database' => 'concurrentDb',
             'encoding' => 'utf8',
             'timezone' => 'UTC',

@@ -16,10 +16,10 @@ class User extends Entity
      */
     protected $_accessible = [
         'login' => true,
-        'password' => true,
-        'email' => true,
+        'password' => FALSE,
+        'email' => TRUE,
         'group_id' => true,
-        'group' => true,
-        'tasks' => true,
+        'group' =>TRUE,
+        'tasks' => TRUE,
     ];
 }
