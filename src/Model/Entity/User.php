@@ -14,12 +14,13 @@ class User extends Entity
      *
      * @var array
      */
-    protected $_accessible = [
-        'login' => true,
-        'password' => FALSE,
-        'email' => TRUE,
-        'group_id' => true,
-        'group' =>TRUE,
-        'tasks' => TRUE,
-    ];
+// Make all fields mass assignable for now.
+protected $_accessible = ['*' => true];
+
+protected function _setPassword($password) {
+      $hasher = new  \Cake\Auth\DefaultPasswordHasher();
+    return $hasher->hash($password);
 }
+
+}
+	

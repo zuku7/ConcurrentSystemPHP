@@ -1189,3 +1189,628 @@ Stack Trace:
 #21 {main}
 
 
+2015-04-22 07:51:47 Warning: Warning (4096): Argument 1 passed to Cake\View\Helper\FormHelper::end() must be of the type array, string given, called in C:\xampp\htdocs\ConcurrentSystemPHP\src\Template\Users\login.ctp on line 13 and defined in [C:\xampp\htdocs\ConcurrentSystemPHP\vendor\cakephp\cakephp\src\View\Helper\FormHelper.php, line 513]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+Cake\View\Helper\FormHelper::end() - CORE\src\View\Helper\FormHelper.php, line 513
+include - APP/Template\Users\login.ctp, line 13
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 575
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-04-22 07:52:17 Error: [Cake\Controller\Exception\MissingActionException] Action UsersController::add_non() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'add_non',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /users/add_non
+Stack Trace:
+#0 C:\xampp\htdocs\ConcurrentSystemPHP\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 C:\xampp\htdocs\ConcurrentSystemPHP\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#2 C:\xampp\htdocs\ConcurrentSystemPHP\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2015-04-22 07:56:27 Error: Fatal Error (1): Call to a member function findByEmailAndPassword() on boolean in [C:\xampp\htdocs\ConcurrentSystemPHP\src\Controller\UsersController.php, line 122]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-04-22 07:56:27 Error: [Cake\Error\FatalErrorException] Call to a member function findByEmailAndPassword() on boolean
+Request URL: /users/login
+Stack Trace:
+#0 C:\xampp\htdocs\ConcurrentSystemPHP\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 122)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-04-22 07:57:39 Error: Fatal Error (1): Call to a member function findByEmailAndPassword() on boolean in [C:\xampp\htdocs\ConcurrentSystemPHP\src\Controller\UsersController.php, line 122]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-04-22 07:57:39 Error: [Cake\Error\FatalErrorException] Call to a member function findByEmailAndPassword() on boolean
+Request URL: /users/login
+Stack Trace:
+#0 C:\xampp\htdocs\ConcurrentSystemPHP\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 122)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-04-22 08:01:55 Error: Fatal Error (1): Call to a member function findByEmailAndPassword() on boolean in [C:\xampp\htdocs\ConcurrentSystemPHP\src\Controller\UsersController.php, line 122]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-04-22 08:01:55 Error: [Cake\Error\FatalErrorException] Call to a member function findByEmailAndPassword() on boolean
+Request URL: /users/login
+Stack Trace:
+#0 C:\xampp\htdocs\ConcurrentSystemPHP\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 122)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-04-22 08:04:11 Error: Fatal Error (1): Call to a member function findByEmailAndPassword() on boolean in [C:\xampp\htdocs\ConcurrentSystemPHP\src\Controller\UsersController.php, line 122]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-04-22 08:04:11 Error: [Cake\Error\FatalErrorException] Call to a member function findByEmailAndPassword() on boolean
+Request URL: /users/login
+Stack Trace:
+#0 C:\xampp\htdocs\ConcurrentSystemPHP\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 122)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-04-22 08:05:25 Error: Fatal Error (1): Call to a member function findByEmailAndPassword() on boolean in [C:\xampp\htdocs\ConcurrentSystemPHP\src\Controller\UsersController.php, line 122]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-04-22 08:05:25 Error: [Cake\Error\FatalErrorException] Call to a member function findByEmailAndPassword() on boolean
+Request URL: /users/login
+Stack Trace:
+#0 C:\xampp\htdocs\ConcurrentSystemPHP\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 122)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-04-22 08:06:38 Error: Fatal Error (1): Call to a member function findByEmailAndPassword() on boolean in [C:\xampp\htdocs\ConcurrentSystemPHP\src\Controller\UsersController.php, line 123]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-04-22 08:06:38 Error: [Cake\Error\FatalErrorException] Call to a member function findByEmailAndPassword() on boolean
+Request URL: /users/login
+Stack Trace:
+#0 C:\xampp\htdocs\ConcurrentSystemPHP\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 123)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-04-22 08:12:00 Warning: Warning (4096): Argument 1 passed to App\Controller\UsersController::beforeFilter() must be an instance of App\Controller\Event, instance of Cake\Event\Event given, called in C:\xampp\htdocs\ConcurrentSystemPHP\vendor\cakephp\cakephp\src\Event\EventManager.php on line 381 and defined in [C:\xampp\htdocs\ConcurrentSystemPHP\src\Controller\UsersController.php, line 21]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+App\Controller\UsersController::beforeFilter() - APP/Controller\UsersController.php, line 21
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 381
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 351
+Cake\Controller\Controller::dispatchEvent() - CORE\src\Event\EventManagerTrait.php, line 78
+Cake\Controller\Controller::startupProcess() - CORE\src\Controller\Controller.php, line 466
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 109
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-04-22 08:12:00 Error: Fatal Error (1): Call to a member function allow() on boolean in [C:\xampp\htdocs\ConcurrentSystemPHP\src\Controller\UsersController.php, line 24]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-04-22 08:12:00 Error: [Cake\Error\FatalErrorException] Call to a member function allow() on boolean
+Request URL: /
+Stack Trace:
+#0 C:\xampp\htdocs\ConcurrentSystemPHP\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 24)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-04-22 08:18:46 Warning: Warning (4096): Argument 1 passed to App\Controller\UsersController::beforeFilter() must be an instance of App\Controller\Event, instance of Cake\Event\Event given, called in C:\xampp\htdocs\ConcurrentSystemPHP\vendor\cakephp\cakephp\src\Event\EventManager.php on line 381 and defined in [C:\xampp\htdocs\ConcurrentSystemPHP\src\Controller\UsersController.php, line 21]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+App\Controller\UsersController::beforeFilter() - APP/Controller\UsersController.php, line 21
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 381
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 351
+Cake\Controller\Controller::dispatchEvent() - CORE\src\Event\EventManagerTrait.php, line 78
+Cake\Controller\Controller::startupProcess() - CORE\src\Controller\Controller.php, line 466
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 109
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-04-22 08:18:46 Warning: Warning (4096): Argument 1 passed to App\Controller\AppController::beforeFilter() must be an instance of App\Controller\Event, instance of Cake\Event\Event given, called in C:\xampp\htdocs\ConcurrentSystemPHP\src\Controller\UsersController.php on line 23 and defined in [C:\xampp\htdocs\ConcurrentSystemPHP\src\Controller\AppController.php, line 54]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+App\Controller\AppController::beforeFilter() - APP/Controller\AppController.php, line 54
+App\Controller\UsersController::beforeFilter() - APP/Controller\UsersController.php, line 23
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 381
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 351
+Cake\Controller\Controller::dispatchEvent() - CORE\src\Event\EventManagerTrait.php, line 78
+Cake\Controller\Controller::startupProcess() - CORE\src\Controller\Controller.php, line 466
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 109
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-04-22 08:19:02 Warning: Warning (4096): Argument 1 passed to App\Controller\UsersController::beforeFilter() must be an instance of App\Controller\Event, instance of Cake\Event\Event given, called in C:\xampp\htdocs\ConcurrentSystemPHP\vendor\cakephp\cakephp\src\Event\EventManager.php on line 381 and defined in [C:\xampp\htdocs\ConcurrentSystemPHP\src\Controller\UsersController.php, line 21]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+App\Controller\UsersController::beforeFilter() - APP/Controller\UsersController.php, line 21
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 381
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 351
+Cake\Controller\Controller::dispatchEvent() - CORE\src\Event\EventManagerTrait.php, line 78
+Cake\Controller\Controller::startupProcess() - CORE\src\Controller\Controller.php, line 466
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 109
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-04-22 08:19:02 Warning: Warning (4096): Argument 1 passed to App\Controller\AppController::beforeFilter() must be an instance of App\Controller\Event, instance of Cake\Event\Event given, called in C:\xampp\htdocs\ConcurrentSystemPHP\src\Controller\UsersController.php on line 23 and defined in [C:\xampp\htdocs\ConcurrentSystemPHP\src\Controller\AppController.php, line 54]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+App\Controller\AppController::beforeFilter() - APP/Controller\AppController.php, line 54
+App\Controller\UsersController::beforeFilter() - APP/Controller\UsersController.php, line 23
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 381
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 351
+Cake\Controller\Controller::dispatchEvent() - CORE\src\Event\EventManagerTrait.php, line 78
+Cake\Controller\Controller::startupProcess() - CORE\src\Controller\Controller.php, line 466
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 109
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-04-22 08:19:31 Warning: Warning (4096): Argument 1 passed to App\Controller\UsersController::beforeFilter() must be an instance of App\Controller\Event, instance of Cake\Event\Event given, called in C:\xampp\htdocs\ConcurrentSystemPHP\vendor\cakephp\cakephp\src\Event\EventManager.php on line 381 and defined in [C:\xampp\htdocs\ConcurrentSystemPHP\src\Controller\UsersController.php, line 21]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+App\Controller\UsersController::beforeFilter() - APP/Controller\UsersController.php, line 21
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 381
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 351
+Cake\Controller\Controller::dispatchEvent() - CORE\src\Event\EventManagerTrait.php, line 78
+Cake\Controller\Controller::startupProcess() - CORE\src\Controller\Controller.php, line 466
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 109
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-04-22 08:19:31 Warning: Warning (4096): Argument 1 passed to App\Controller\AppController::beforeFilter() must be an instance of App\Controller\Event, instance of Cake\Event\Event given, called in C:\xampp\htdocs\ConcurrentSystemPHP\src\Controller\UsersController.php on line 23 and defined in [C:\xampp\htdocs\ConcurrentSystemPHP\src\Controller\AppController.php, line 54]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+App\Controller\AppController::beforeFilter() - APP/Controller\AppController.php, line 54
+App\Controller\UsersController::beforeFilter() - APP/Controller\UsersController.php, line 23
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 381
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 351
+Cake\Controller\Controller::dispatchEvent() - CORE\src\Event\EventManagerTrait.php, line 78
+Cake\Controller\Controller::startupProcess() - CORE\src\Controller\Controller.php, line 466
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 109
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-04-22 08:19:32 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Users.username' in 'where clause'
+Request URL: /users/login
+Stack Trace:
+#0 C:\xampp\htdocs\ConcurrentSystemPHP\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php(36): PDOStatement->execute(NULL)
+#1 C:\xampp\htdocs\ConcurrentSystemPHP\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php(169): Cake\Database\Statement\MysqlStatement->execute(NULL)
+#2 C:\xampp\htdocs\ConcurrentSystemPHP\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php(55): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#3 C:\xampp\htdocs\ConcurrentSystemPHP\vendor\cakephp\cakephp\src\Database\Connection.php(274): Cake\Database\Log\LoggingStatement->execute()
+#4 C:\xampp\htdocs\ConcurrentSystemPHP\vendor\cakephp\cakephp\src\Database\Query.php(175): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#5 C:\xampp\htdocs\ConcurrentSystemPHP\vendor\cakephp\cakephp\src\ORM\Query.php(645): Cake\Database\Query->execute()
+#6 C:\xampp\htdocs\ConcurrentSystemPHP\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(218): Cake\ORM\Query->_execute()
+#7 C:\xampp\htdocs\ConcurrentSystemPHP\vendor\cakephp\cakephp\src\ORM\Query.php(596): Cake\ORM\Query->_all()
+#8 C:\xampp\htdocs\ConcurrentSystemPHP\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(340): Cake\ORM\Query->all()
+#9 C:\xampp\htdocs\ConcurrentSystemPHP\vendor\cakephp\cakephp\src\Auth\BaseAuthenticate.php(125): Cake\ORM\Query->first()
+#10 C:\xampp\htdocs\ConcurrentSystemPHP\vendor\cakephp\cakephp\src\Auth\FormAuthenticate.php(77): Cake\Auth\BaseAuthenticate->_findUser('kamilsherco@gma...', 'aaa')
+#11 C:\xampp\htdocs\ConcurrentSystemPHP\vendor\cakephp\cakephp\src\Controller\Component\AuthComponent.php(741): Cake\Auth\FormAuthenticate->authenticate(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#12 C:\xampp\htdocs\ConcurrentSystemPHP\src\Controller\UsersController.php(126): Cake\Controller\Component\AuthComponent->identify()
+#13 [internal function]: App\Controller\UsersController->login()
+#14 C:\xampp\htdocs\ConcurrentSystemPHP\vendor\cakephp\cakephp\src\Controller\Controller.php(404): call_user_func_array(Array, Array)
+#15 C:\xampp\htdocs\ConcurrentSystemPHP\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#16 C:\xampp\htdocs\ConcurrentSystemPHP\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#17 C:\xampp\htdocs\ConcurrentSystemPHP\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#18 {main}
+
+
+2015-04-22 08:19:57 Warning: Warning (4096): Argument 1 passed to App\Controller\UsersController::beforeFilter() must be an instance of App\Controller\Event, instance of Cake\Event\Event given, called in C:\xampp\htdocs\ConcurrentSystemPHP\vendor\cakephp\cakephp\src\Event\EventManager.php on line 381 and defined in [C:\xampp\htdocs\ConcurrentSystemPHP\src\Controller\UsersController.php, line 21]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+App\Controller\UsersController::beforeFilter() - APP/Controller\UsersController.php, line 21
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 381
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 351
+Cake\Controller\Controller::dispatchEvent() - CORE\src\Event\EventManagerTrait.php, line 78
+Cake\Controller\Controller::startupProcess() - CORE\src\Controller\Controller.php, line 466
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 109
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-04-22 08:19:57 Warning: Warning (4096): Argument 1 passed to App\Controller\AppController::beforeFilter() must be an instance of App\Controller\Event, instance of Cake\Event\Event given, called in C:\xampp\htdocs\ConcurrentSystemPHP\src\Controller\UsersController.php on line 23 and defined in [C:\xampp\htdocs\ConcurrentSystemPHP\src\Controller\AppController.php, line 54]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+App\Controller\AppController::beforeFilter() - APP/Controller\AppController.php, line 54
+App\Controller\UsersController::beforeFilter() - APP/Controller\UsersController.php, line 23
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 381
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 351
+Cake\Controller\Controller::dispatchEvent() - CORE\src\Event\EventManagerTrait.php, line 78
+Cake\Controller\Controller::startupProcess() - CORE\src\Controller\Controller.php, line 466
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 109
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-04-22 08:20:57 Warning: Warning (4096): Argument 1 passed to App\Controller\UsersController::beforeFilter() must be an instance of App\Controller\Event, instance of Cake\Event\Event given, called in C:\xampp\htdocs\ConcurrentSystemPHP\vendor\cakephp\cakephp\src\Event\EventManager.php on line 381 and defined in [C:\xampp\htdocs\ConcurrentSystemPHP\src\Controller\UsersController.php, line 21]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+App\Controller\UsersController::beforeFilter() - APP/Controller\UsersController.php, line 21
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 381
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 351
+Cake\Controller\Controller::dispatchEvent() - CORE\src\Event\EventManagerTrait.php, line 78
+Cake\Controller\Controller::startupProcess() - CORE\src\Controller\Controller.php, line 466
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 109
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-04-22 08:20:57 Warning: Warning (4096): Argument 1 passed to App\Controller\AppController::beforeFilter() must be an instance of App\Controller\Event, instance of Cake\Event\Event given, called in C:\xampp\htdocs\ConcurrentSystemPHP\src\Controller\UsersController.php on line 23 and defined in [C:\xampp\htdocs\ConcurrentSystemPHP\src\Controller\AppController.php, line 54]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+App\Controller\AppController::beforeFilter() - APP/Controller\AppController.php, line 54
+App\Controller\UsersController::beforeFilter() - APP/Controller\UsersController.php, line 23
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 381
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 351
+Cake\Controller\Controller::dispatchEvent() - CORE\src\Event\EventManagerTrait.php, line 78
+Cake\Controller\Controller::startupProcess() - CORE\src\Controller\Controller.php, line 466
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 109
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-04-22 08:22:52 Warning: Warning (4096): Argument 1 passed to App\Controller\UsersController::beforeFilter() must be an instance of App\Controller\Event, instance of Cake\Event\Event given, called in C:\xampp\htdocs\ConcurrentSystemPHP\vendor\cakephp\cakephp\src\Event\EventManager.php on line 381 and defined in [C:\xampp\htdocs\ConcurrentSystemPHP\src\Controller\UsersController.php, line 21]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+App\Controller\UsersController::beforeFilter() - APP/Controller\UsersController.php, line 21
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 381
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 351
+Cake\Controller\Controller::dispatchEvent() - CORE\src\Event\EventManagerTrait.php, line 78
+Cake\Controller\Controller::startupProcess() - CORE\src\Controller\Controller.php, line 466
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 109
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-04-22 08:22:52 Warning: Warning (4096): Argument 1 passed to App\Controller\AppController::beforeFilter() must be an instance of App\Controller\Event, instance of Cake\Event\Event given, called in C:\xampp\htdocs\ConcurrentSystemPHP\src\Controller\UsersController.php on line 23 and defined in [C:\xampp\htdocs\ConcurrentSystemPHP\src\Controller\AppController.php, line 48]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+App\Controller\AppController::beforeFilter() - APP/Controller\AppController.php, line 48
+App\Controller\UsersController::beforeFilter() - APP/Controller\UsersController.php, line 23
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 381
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 351
+Cake\Controller\Controller::dispatchEvent() - CORE\src\Event\EventManagerTrait.php, line 78
+Cake\Controller\Controller::startupProcess() - CORE\src\Controller\Controller.php, line 466
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 109
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-04-22 08:22:54 Warning: Warning (4096): Argument 1 passed to App\Controller\UsersController::beforeFilter() must be an instance of App\Controller\Event, instance of Cake\Event\Event given, called in C:\xampp\htdocs\ConcurrentSystemPHP\vendor\cakephp\cakephp\src\Event\EventManager.php on line 381 and defined in [C:\xampp\htdocs\ConcurrentSystemPHP\src\Controller\UsersController.php, line 21]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+App\Controller\UsersController::beforeFilter() - APP/Controller\UsersController.php, line 21
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 381
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 351
+Cake\Controller\Controller::dispatchEvent() - CORE\src\Event\EventManagerTrait.php, line 78
+Cake\Controller\Controller::startupProcess() - CORE\src\Controller\Controller.php, line 466
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 109
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-04-22 08:22:54 Warning: Warning (4096): Argument 1 passed to App\Controller\AppController::beforeFilter() must be an instance of App\Controller\Event, instance of Cake\Event\Event given, called in C:\xampp\htdocs\ConcurrentSystemPHP\src\Controller\UsersController.php on line 23 and defined in [C:\xampp\htdocs\ConcurrentSystemPHP\src\Controller\AppController.php, line 48]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+App\Controller\AppController::beforeFilter() - APP/Controller\AppController.php, line 48
+App\Controller\UsersController::beforeFilter() - APP/Controller\UsersController.php, line 23
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 381
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 351
+Cake\Controller\Controller::dispatchEvent() - CORE\src\Event\EventManagerTrait.php, line 78
+Cake\Controller\Controller::startupProcess() - CORE\src\Controller\Controller.php, line 466
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 109
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-04-22 08:23:55 Warning: Warning (4096): Argument 1 passed to App\Controller\UsersController::beforeFilter() must be an instance of App\Controller\Event, instance of Cake\Event\Event given, called in C:\xampp\htdocs\ConcurrentSystemPHP\vendor\cakephp\cakephp\src\Event\EventManager.php on line 381 and defined in [C:\xampp\htdocs\ConcurrentSystemPHP\src\Controller\UsersController.php, line 21]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+App\Controller\UsersController::beforeFilter() - APP/Controller\UsersController.php, line 21
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 381
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 351
+Cake\Controller\Controller::dispatchEvent() - CORE\src\Event\EventManagerTrait.php, line 78
+Cake\Controller\Controller::startupProcess() - CORE\src\Controller\Controller.php, line 466
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 109
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-04-22 08:23:55 Warning: Warning (4096): Argument 1 passed to App\Controller\AppController::beforeFilter() must be an instance of App\Controller\Event, instance of Cake\Event\Event given, called in C:\xampp\htdocs\ConcurrentSystemPHP\src\Controller\UsersController.php on line 23 and defined in [C:\xampp\htdocs\ConcurrentSystemPHP\src\Controller\AppController.php, line 48]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+App\Controller\AppController::beforeFilter() - APP/Controller\AppController.php, line 48
+App\Controller\UsersController::beforeFilter() - APP/Controller\UsersController.php, line 23
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 381
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 351
+Cake\Controller\Controller::dispatchEvent() - CORE\src\Event\EventManagerTrait.php, line 78
+Cake\Controller\Controller::startupProcess() - CORE\src\Controller\Controller.php, line 466
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 109
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-04-22 08:25:28 Warning: Warning (4096): Argument 1 passed to App\Controller\UsersController::beforeFilter() must be an instance of App\Controller\Event, instance of Cake\Event\Event given, called in C:\xampp\htdocs\ConcurrentSystemPHP\vendor\cakephp\cakephp\src\Event\EventManager.php on line 381 and defined in [C:\xampp\htdocs\ConcurrentSystemPHP\src\Controller\UsersController.php, line 21]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+App\Controller\UsersController::beforeFilter() - APP/Controller\UsersController.php, line 21
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 381
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 351
+Cake\Controller\Controller::dispatchEvent() - CORE\src\Event\EventManagerTrait.php, line 78
+Cake\Controller\Controller::startupProcess() - CORE\src\Controller\Controller.php, line 466
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 109
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-04-22 08:25:34 Warning: Warning (4096): Argument 1 passed to App\Controller\UsersController::beforeFilter() must be an instance of App\Controller\Event, instance of Cake\Event\Event given, called in C:\xampp\htdocs\ConcurrentSystemPHP\vendor\cakephp\cakephp\src\Event\EventManager.php on line 381 and defined in [C:\xampp\htdocs\ConcurrentSystemPHP\src\Controller\UsersController.php, line 21]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+App\Controller\UsersController::beforeFilter() - APP/Controller\UsersController.php, line 21
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 381
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 351
+Cake\Controller\Controller::dispatchEvent() - CORE\src\Event\EventManagerTrait.php, line 78
+Cake\Controller\Controller::startupProcess() - CORE\src\Controller\Controller.php, line 466
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 109
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-04-22 08:25:54 Warning: Warning (4096): Argument 1 passed to App\Controller\UsersController::beforeFilter() must be an instance of App\Controller\Event, instance of Cake\Event\Event given, called in C:\xampp\htdocs\ConcurrentSystemPHP\vendor\cakephp\cakephp\src\Event\EventManager.php on line 381 and defined in [C:\xampp\htdocs\ConcurrentSystemPHP\src\Controller\UsersController.php, line 21]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+App\Controller\UsersController::beforeFilter() - APP/Controller\UsersController.php, line 21
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 381
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 351
+Cake\Controller\Controller::dispatchEvent() - CORE\src\Event\EventManagerTrait.php, line 78
+Cake\Controller\Controller::startupProcess() - CORE\src\Controller\Controller.php, line 466
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 109
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-04-22 08:25:54 Warning: Warning (4096): Argument 1 passed to App\Controller\AppController::beforeFilter() must be an instance of App\Controller\Event, instance of Cake\Event\Event given, called in C:\xampp\htdocs\ConcurrentSystemPHP\src\Controller\UsersController.php on line 23 and defined in [C:\xampp\htdocs\ConcurrentSystemPHP\src\Controller\AppController.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+App\Controller\AppController::beforeFilter() - APP/Controller\AppController.php, line 30
+App\Controller\UsersController::beforeFilter() - APP/Controller\UsersController.php, line 23
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 381
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 351
+Cake\Controller\Controller::dispatchEvent() - CORE\src\Event\EventManagerTrait.php, line 78
+Cake\Controller\Controller::startupProcess() - CORE\src\Controller\Controller.php, line 466
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 109
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-04-22 08:29:00 Warning: Warning (4096): Argument 1 passed to App\Controller\UsersController::beforeFilter() must be an instance of App\Controller\Event, instance of Cake\Event\Event given, called in C:\xampp\htdocs\ConcurrentSystemPHP\vendor\cakephp\cakephp\src\Event\EventManager.php on line 381 and defined in [C:\xampp\htdocs\ConcurrentSystemPHP\src\Controller\UsersController.php, line 21]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+App\Controller\UsersController::beforeFilter() - APP/Controller\UsersController.php, line 21
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 381
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 351
+Cake\Controller\Controller::dispatchEvent() - CORE\src\Event\EventManagerTrait.php, line 78
+Cake\Controller\Controller::startupProcess() - CORE\src\Controller\Controller.php, line 466
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 109
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-04-22 08:29:51 Warning: Warning (4096): Argument 1 passed to App\Controller\UsersController::beforeFilter() must be an instance of App\Controller\Cake\Event\Event, instance of Cake\Event\Event given, called in C:\xampp\htdocs\ConcurrentSystemPHP\vendor\cakephp\cakephp\src\Event\EventManager.php on line 381 and defined in [C:\xampp\htdocs\ConcurrentSystemPHP\src\Controller\UsersController.php, line 21]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+App\Controller\UsersController::beforeFilter() - APP/Controller\UsersController.php, line 21
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 381
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 351
+Cake\Controller\Controller::dispatchEvent() - CORE\src\Event\EventManagerTrait.php, line 78
+Cake\Controller\Controller::startupProcess() - CORE\src\Controller\Controller.php, line 466
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 109
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-04-22 08:30:55 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Users.username' in 'where clause'
+Request URL: /users/login
+Stack Trace:
+#0 C:\xampp\htdocs\ConcurrentSystemPHP\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php(36): PDOStatement->execute(NULL)
+#1 C:\xampp\htdocs\ConcurrentSystemPHP\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php(169): Cake\Database\Statement\MysqlStatement->execute(NULL)
+#2 C:\xampp\htdocs\ConcurrentSystemPHP\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php(55): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#3 C:\xampp\htdocs\ConcurrentSystemPHP\vendor\cakephp\cakephp\src\Database\Connection.php(274): Cake\Database\Log\LoggingStatement->execute()
+#4 C:\xampp\htdocs\ConcurrentSystemPHP\vendor\cakephp\cakephp\src\Database\Query.php(175): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#5 C:\xampp\htdocs\ConcurrentSystemPHP\vendor\cakephp\cakephp\src\ORM\Query.php(645): Cake\Database\Query->execute()
+#6 C:\xampp\htdocs\ConcurrentSystemPHP\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(218): Cake\ORM\Query->_execute()
+#7 C:\xampp\htdocs\ConcurrentSystemPHP\vendor\cakephp\cakephp\src\ORM\Query.php(596): Cake\ORM\Query->_all()
+#8 C:\xampp\htdocs\ConcurrentSystemPHP\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(340): Cake\ORM\Query->all()
+#9 C:\xampp\htdocs\ConcurrentSystemPHP\vendor\cakephp\cakephp\src\Auth\BaseAuthenticate.php(125): Cake\ORM\Query->first()
+#10 C:\xampp\htdocs\ConcurrentSystemPHP\vendor\cakephp\cakephp\src\Auth\FormAuthenticate.php(77): Cake\Auth\BaseAuthenticate->_findUser('kamilsherco@gma...', 'aaa')
+#11 C:\xampp\htdocs\ConcurrentSystemPHP\vendor\cakephp\cakephp\src\Controller\Component\AuthComponent.php(741): Cake\Auth\FormAuthenticate->authenticate(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#12 C:\xampp\htdocs\ConcurrentSystemPHP\src\Controller\UsersController.php(126): Cake\Controller\Component\AuthComponent->identify()
+#13 [internal function]: App\Controller\UsersController->login()
+#14 C:\xampp\htdocs\ConcurrentSystemPHP\vendor\cakephp\cakephp\src\Controller\Controller.php(404): call_user_func_array(Array, Array)
+#15 C:\xampp\htdocs\ConcurrentSystemPHP\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#16 C:\xampp\htdocs\ConcurrentSystemPHP\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#17 C:\xampp\htdocs\ConcurrentSystemPHP\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#18 {main}
+
+
+2015-04-22 08:43:05 Error: Fatal Error (1): Class 'App\Model\Entity\DefaultPasswordHasher' not found in [C:\xampp\htdocs\ConcurrentSystemPHP\src\Model\Entity\User.php, line 21]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-04-22 08:43:05 Error: [Cake\Error\FatalErrorException] Class 'App\Model\Entity\DefaultPasswordHasher' not found
+Request URL: /users/add
+Stack Trace:
+#0 C:\xampp\htdocs\ConcurrentSystemPHP\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'App\\Mode...', 'C:\\xampp\\htdocs...', 21)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-04-22 12:10:06 Error: Fatal Error (1): Class 'App\Model\Entity\DefaultPasswordHasher' not found in [C:\xampp\htdocs\ConcurrentSystemPHP\src\Model\Entity\User.php, line 20]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-04-22 12:10:07 Error: [Cake\Error\FatalErrorException] Class 'App\Model\Entity\DefaultPasswordHasher' not found
+Request URL: /users/add
+Stack Trace:
+#0 C:\xampp\htdocs\ConcurrentSystemPHP\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'App\\Mode...', 'C:\\xampp\\htdocs...', 20)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-04-22 12:13:47 Error: Fatal Error (1): Class 'App\Model\Entity\DefaultPasswordHasher' not found in [C:\xampp\htdocs\ConcurrentSystemPHP\src\Model\Entity\User.php, line 25]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-04-22 12:13:47 Error: [Cake\Error\FatalErrorException] Class 'App\Model\Entity\DefaultPasswordHasher' not found
+Request URL: /users/add
+Stack Trace:
+#0 C:\xampp\htdocs\ConcurrentSystemPHP\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'App\\Mode...', 'C:\\xampp\\htdocs...', 25)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-04-22 12:24:54 Error: Fatal Error (1): Class 'App\Model\Entity\DefaultPasswordHasher' not found in [C:\xampp\htdocs\ConcurrentSystemPHP\src\Model\Entity\User.php, line 21]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-04-22 12:24:55 Error: [Cake\Error\FatalErrorException] Class 'App\Model\Entity\DefaultPasswordHasher' not found
+Request URL: /users/add
+Stack Trace:
+#0 C:\xampp\htdocs\ConcurrentSystemPHP\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'App\\Mode...', 'C:\\xampp\\htdocs...', 21)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-04-22 12:25:02 Error: Fatal Error (1): Class 'App\Model\Entity\DefaultPasswordHasher' not found in [C:\xampp\htdocs\ConcurrentSystemPHP\src\Model\Entity\User.php, line 21]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-04-22 12:25:02 Error: [Cake\Error\FatalErrorException] Class 'App\Model\Entity\DefaultPasswordHasher' not found
+Request URL: /users/add
+Stack Trace:
+#0 C:\xampp\htdocs\ConcurrentSystemPHP\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'App\\Mode...', 'C:\\xampp\\htdocs...', 21)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-04-22 13:24:34 Warning: Warning (4096): Argument 1 passed to Cake\Controller\Component\AuthComponent::setUser() must be of the type array, object given, called in C:\xampp\htdocs\ConcurrentSystemPHP\src\Controller\UsersController.php on line 135 and defined in [C:\xampp\htdocs\ConcurrentSystemPHP\vendor\cakephp\cakephp\src\Controller\Component\AuthComponent.php, line 597]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+Cake\Controller\Component\AuthComponent::setUser() - CORE\src\Controller\Component\AuthComponent.php, line 597
+App\Controller\UsersController::login() - APP/Controller\UsersController.php, line 135
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 404
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-04-22 13:25:43 Warning: Warning (4096): Argument 1 passed to Cake\Controller\Component\AuthComponent::setUser() must be of the type array, object given, called in C:\xampp\htdocs\ConcurrentSystemPHP\src\Controller\UsersController.php on line 135 and defined in [C:\xampp\htdocs\ConcurrentSystemPHP\vendor\cakephp\cakephp\src\Controller\Component\AuthComponent.php, line 597]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+Cake\Controller\Component\AuthComponent::setUser() - CORE\src\Controller\Component\AuthComponent.php, line 597
+App\Controller\UsersController::login() - APP/Controller\UsersController.php, line 135
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 404
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+

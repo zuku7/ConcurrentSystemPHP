@@ -18,6 +18,12 @@ class UsersController extends AppController
      */
      
   
+    public function beforeFilter(\Cake\Event\Event $event)
+    {
+     parent::beforeFilter($event);
+     $this->Auth->allow(['add', 'logout']);
+    }
+	
     public function index()
     {
    		
@@ -68,6 +74,8 @@ class UsersController extends AppController
         $this->set(compact('user', 'groups'));
         $this->set('_serialize', ['user']);
     }
+	
+
 
     /**
      * Edit method
@@ -113,4 +121,25 @@ class UsersController extends AppController
         }
         return $this->redirect(['action' => 'index']);
     }
+	
+public function login()
+{
+    if ($this->request->is('post')) {
+    	debug($this->request->data);
+		
+      	$user = $this->Auth->identify();
+
+        if ($user) {
+            $this->Auth->setUser($user);
+            return $this->redirect($this->Auth->redirectUrl());
+        }
+        $this->Flash->error(__('Złe hasło lub email.') 
+            );
+    }
+}
+
+public function logout()
+{
+    return $this->redirect($this->Auth->logout());
+}
 }
