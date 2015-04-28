@@ -1814,3 +1814,250 @@ Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
 
 
 
+2015-04-28 13:31:18 Error: [PDOException] SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+Request URL: /
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Driver\PDODriverTrait.php(48): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php(86): Cake\Database\Driver\Mysql->_connect('mysql:host=loca...', Array)
+#2 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Schema\BaseSchema.php(46): Cake\Database\Driver\Mysql->connect()
+#3 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Dialect\MysqlDialectTrait.php(62): Cake\Database\Schema\BaseSchema->__construct(Object(Cake\Database\Driver\Mysql))
+#4 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(52): Cake\Database\Driver\Mysql->schemaDialect()
+#5 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(44): Cake\Database\Schema\Collection->__construct(Object(Cake\Database\Connection))
+#6 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Connection.php(319): Cake\Database\Schema\CachedCollection->__construct(Object(Cake\Database\Connection), true)
+#7 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Table.php(424): Cake\Database\Connection->schemaCollection()
+#8 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Query.php(141): Cake\ORM\Table->schema()
+#9 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Query.php(123): Cake\ORM\Query->addDefaultTypes(Object(App\Model\Table\UsersTable))
+#10 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Table.php(1147): Cake\ORM\Query->__construct(Object(Cake\Database\Connection), Object(App\Model\Table\UsersTable))
+#11 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Table.php(882): Cake\ORM\Table->query()
+#12 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Controller\Component\PaginatorComponent.php(164): Cake\ORM\Table->find('all', Array)
+#13 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Controller\Controller.php(634): Cake\Controller\Component\PaginatorComponent->paginate(Object(App\Model\Table\UsersTable), Array)
+#14 C:\xampp\htdocs\concurrentSystem\src\Controller\UsersController.php(34): Cake\Controller\Controller->paginate(Object(App\Model\Table\UsersTable))
+#15 [internal function]: App\Controller\UsersController->index('home')
+#16 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Controller\Controller.php(404): call_user_func_array(Array, Array)
+#17 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#18 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#19 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#20 {main}
+
+
+2015-04-28 13:31:28 Error: [PDOException] SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+Request URL: /users
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Driver\PDODriverTrait.php(48): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php(86): Cake\Database\Driver\Mysql->_connect('mysql:host=loca...', Array)
+#2 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Schema\BaseSchema.php(46): Cake\Database\Driver\Mysql->connect()
+#3 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Dialect\MysqlDialectTrait.php(62): Cake\Database\Schema\BaseSchema->__construct(Object(Cake\Database\Driver\Mysql))
+#4 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(52): Cake\Database\Driver\Mysql->schemaDialect()
+#5 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(44): Cake\Database\Schema\Collection->__construct(Object(Cake\Database\Connection))
+#6 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Connection.php(319): Cake\Database\Schema\CachedCollection->__construct(Object(Cake\Database\Connection), true)
+#7 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Table.php(424): Cake\Database\Connection->schemaCollection()
+#8 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Query.php(141): Cake\ORM\Table->schema()
+#9 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Query.php(123): Cake\ORM\Query->addDefaultTypes(Object(App\Model\Table\UsersTable))
+#10 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Table.php(1147): Cake\ORM\Query->__construct(Object(Cake\Database\Connection), Object(App\Model\Table\UsersTable))
+#11 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Table.php(882): Cake\ORM\Table->query()
+#12 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Controller\Component\PaginatorComponent.php(164): Cake\ORM\Table->find('all', Array)
+#13 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Controller\Controller.php(634): Cake\Controller\Component\PaginatorComponent->paginate(Object(App\Model\Table\UsersTable), Array)
+#14 C:\xampp\htdocs\concurrentSystem\src\Controller\UsersController.php(34): Cake\Controller\Controller->paginate(Object(App\Model\Table\UsersTable))
+#15 [internal function]: App\Controller\UsersController->index()
+#16 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Controller\Controller.php(404): call_user_func_array(Array, Array)
+#17 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#18 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#19 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#20 {main}
+
+
+2015-04-28 13:31:41 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Login could not be found.
+Exception Attributes: array (
+  'class' => 'Login',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /login
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-04-28 13:31:47 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Index could not be found.
+Exception Attributes: array (
+  'class' => 'Index',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /index
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-04-28 13:31:56 Error: [PDOException] SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+Request URL: /
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Driver\PDODriverTrait.php(48): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php(86): Cake\Database\Driver\Mysql->_connect('mysql:host=loca...', Array)
+#2 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Schema\BaseSchema.php(46): Cake\Database\Driver\Mysql->connect()
+#3 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Dialect\MysqlDialectTrait.php(62): Cake\Database\Schema\BaseSchema->__construct(Object(Cake\Database\Driver\Mysql))
+#4 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(52): Cake\Database\Driver\Mysql->schemaDialect()
+#5 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(44): Cake\Database\Schema\Collection->__construct(Object(Cake\Database\Connection))
+#6 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Connection.php(319): Cake\Database\Schema\CachedCollection->__construct(Object(Cake\Database\Connection), true)
+#7 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Table.php(424): Cake\Database\Connection->schemaCollection()
+#8 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Query.php(141): Cake\ORM\Table->schema()
+#9 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Query.php(123): Cake\ORM\Query->addDefaultTypes(Object(App\Model\Table\UsersTable))
+#10 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Table.php(1147): Cake\ORM\Query->__construct(Object(Cake\Database\Connection), Object(App\Model\Table\UsersTable))
+#11 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Table.php(882): Cake\ORM\Table->query()
+#12 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Controller\Component\PaginatorComponent.php(164): Cake\ORM\Table->find('all', Array)
+#13 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Controller\Controller.php(634): Cake\Controller\Component\PaginatorComponent->paginate(Object(App\Model\Table\UsersTable), Array)
+#14 C:\xampp\htdocs\concurrentSystem\src\Controller\UsersController.php(34): Cake\Controller\Controller->paginate(Object(App\Model\Table\UsersTable))
+#15 [internal function]: App\Controller\UsersController->index('home')
+#16 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Controller\Controller.php(404): call_user_func_array(Array, Array)
+#17 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#18 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#19 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#20 {main}
+
+
+2015-04-28 13:34:25 Error: [PDOException] SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+Request URL: /users
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Driver\PDODriverTrait.php(48): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php(86): Cake\Database\Driver\Mysql->_connect('mysql:host=loca...', Array)
+#2 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Schema\BaseSchema.php(46): Cake\Database\Driver\Mysql->connect()
+#3 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Dialect\MysqlDialectTrait.php(62): Cake\Database\Schema\BaseSchema->__construct(Object(Cake\Database\Driver\Mysql))
+#4 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(52): Cake\Database\Driver\Mysql->schemaDialect()
+#5 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(44): Cake\Database\Schema\Collection->__construct(Object(Cake\Database\Connection))
+#6 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Connection.php(319): Cake\Database\Schema\CachedCollection->__construct(Object(Cake\Database\Connection), true)
+#7 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Table.php(424): Cake\Database\Connection->schemaCollection()
+#8 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Query.php(141): Cake\ORM\Table->schema()
+#9 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Query.php(123): Cake\ORM\Query->addDefaultTypes(Object(App\Model\Table\UsersTable))
+#10 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Table.php(1147): Cake\ORM\Query->__construct(Object(Cake\Database\Connection), Object(App\Model\Table\UsersTable))
+#11 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Table.php(882): Cake\ORM\Table->query()
+#12 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Controller\Component\PaginatorComponent.php(164): Cake\ORM\Table->find('all', Array)
+#13 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Controller\Controller.php(634): Cake\Controller\Component\PaginatorComponent->paginate(Object(App\Model\Table\UsersTable), Array)
+#14 C:\xampp\htdocs\concurrentSystem\src\Controller\UsersController.php(34): Cake\Controller\Controller->paginate(Object(App\Model\Table\UsersTable))
+#15 [internal function]: App\Controller\UsersController->index()
+#16 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Controller\Controller.php(404): call_user_func_array(Array, Array)
+#17 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#18 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#19 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#20 {main}
+
+
+2015-04-28 13:34:39 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Tas could not be found.
+Exception Attributes: array (
+  'class' => 'Tas',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /tas
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-04-28 13:34:42 Error: [PDOException] SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+Request URL: /tasks
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Driver\PDODriverTrait.php(48): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php(86): Cake\Database\Driver\Mysql->_connect('mysql:host=loca...', Array)
+#2 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Schema\BaseSchema.php(46): Cake\Database\Driver\Mysql->connect()
+#3 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Dialect\MysqlDialectTrait.php(62): Cake\Database\Schema\BaseSchema->__construct(Object(Cake\Database\Driver\Mysql))
+#4 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(52): Cake\Database\Driver\Mysql->schemaDialect()
+#5 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(44): Cake\Database\Schema\Collection->__construct(Object(Cake\Database\Connection))
+#6 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Connection.php(319): Cake\Database\Schema\CachedCollection->__construct(Object(Cake\Database\Connection), true)
+#7 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Table.php(424): Cake\Database\Connection->schemaCollection()
+#8 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Query.php(141): Cake\ORM\Table->schema()
+#9 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Query.php(123): Cake\ORM\Query->addDefaultTypes(Object(App\Model\Table\TasksTable))
+#10 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Table.php(1147): Cake\ORM\Query->__construct(Object(Cake\Database\Connection), Object(App\Model\Table\TasksTable))
+#11 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Table.php(882): Cake\ORM\Table->query()
+#12 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Controller\Component\PaginatorComponent.php(164): Cake\ORM\Table->find('all', Array)
+#13 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Controller\Controller.php(634): Cake\Controller\Component\PaginatorComponent->paginate(Object(App\Model\Table\TasksTable), Array)
+#14 C:\xampp\htdocs\concurrentSystem\src\Controller\TasksController.php(24): Cake\Controller\Controller->paginate(Object(App\Model\Table\TasksTable))
+#15 [internal function]: App\Controller\TasksController->index()
+#16 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Controller\Controller.php(404): call_user_func_array(Array, Array)
+#17 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#18 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\TasksController))
+#19 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#20 {main}
+
+
+2015-04-28 13:37:00 Error: [PDOException] SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+Request URL: /
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Driver\PDODriverTrait.php(48): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php(86): Cake\Database\Driver\Mysql->_connect('mysql:host=loca...', Array)
+#2 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Schema\BaseSchema.php(46): Cake\Database\Driver\Mysql->connect()
+#3 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Dialect\MysqlDialectTrait.php(62): Cake\Database\Schema\BaseSchema->__construct(Object(Cake\Database\Driver\Mysql))
+#4 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(52): Cake\Database\Driver\Mysql->schemaDialect()
+#5 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(44): Cake\Database\Schema\Collection->__construct(Object(Cake\Database\Connection))
+#6 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Connection.php(319): Cake\Database\Schema\CachedCollection->__construct(Object(Cake\Database\Connection), true)
+#7 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Table.php(424): Cake\Database\Connection->schemaCollection()
+#8 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Query.php(141): Cake\ORM\Table->schema()
+#9 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Query.php(123): Cake\ORM\Query->addDefaultTypes(Object(App\Model\Table\UsersTable))
+#10 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Table.php(1147): Cake\ORM\Query->__construct(Object(Cake\Database\Connection), Object(App\Model\Table\UsersTable))
+#11 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Table.php(882): Cake\ORM\Table->query()
+#12 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Controller\Component\PaginatorComponent.php(164): Cake\ORM\Table->find('all', Array)
+#13 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Controller\Controller.php(634): Cake\Controller\Component\PaginatorComponent->paginate(Object(App\Model\Table\UsersTable), Array)
+#14 C:\xampp\htdocs\concurrentSystem\src\Controller\UsersController.php(34): Cake\Controller\Controller->paginate(Object(App\Model\Table\UsersTable))
+#15 [internal function]: App\Controller\UsersController->index('home')
+#16 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Controller\Controller.php(404): call_user_func_array(Array, Array)
+#17 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#18 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#19 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#20 {main}
+
+
+2015-04-28 13:40:46 Error: [PDOException] SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+Request URL: /
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Driver\PDODriverTrait.php(48): PDO->__construct('mysql:host=loca...', 'root', 'admin', Array)
+#1 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php(86): Cake\Database\Driver\Mysql->_connect('mysql:host=loca...', Array)
+#2 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Schema\BaseSchema.php(46): Cake\Database\Driver\Mysql->connect()
+#3 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Dialect\MysqlDialectTrait.php(62): Cake\Database\Schema\BaseSchema->__construct(Object(Cake\Database\Driver\Mysql))
+#4 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(52): Cake\Database\Driver\Mysql->schemaDialect()
+#5 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(44): Cake\Database\Schema\Collection->__construct(Object(Cake\Database\Connection))
+#6 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Connection.php(319): Cake\Database\Schema\CachedCollection->__construct(Object(Cake\Database\Connection), true)
+#7 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Table.php(424): Cake\Database\Connection->schemaCollection()
+#8 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Query.php(141): Cake\ORM\Table->schema()
+#9 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Query.php(123): Cake\ORM\Query->addDefaultTypes(Object(App\Model\Table\UsersTable))
+#10 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Table.php(1147): Cake\ORM\Query->__construct(Object(Cake\Database\Connection), Object(App\Model\Table\UsersTable))
+#11 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Table.php(882): Cake\ORM\Table->query()
+#12 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Controller\Component\PaginatorComponent.php(164): Cake\ORM\Table->find('all', Array)
+#13 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Controller\Controller.php(634): Cake\Controller\Component\PaginatorComponent->paginate(Object(App\Model\Table\UsersTable), Array)
+#14 C:\xampp\htdocs\concurrentSystem\src\Controller\UsersController.php(34): Cake\Controller\Controller->paginate(Object(App\Model\Table\UsersTable))
+#15 [internal function]: App\Controller\UsersController->index('home')
+#16 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Controller\Controller.php(404): call_user_func_array(Array, Array)
+#17 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#18 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#19 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#20 {main}
+
+
+2015-04-28 13:41:48 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Login could not be found.
+Exception Attributes: array (
+  'class' => 'Login',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /login
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-04-28 15:07:20 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Group could not be found.
+Exception Attributes: array (
+  'class' => 'Group',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /group
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+

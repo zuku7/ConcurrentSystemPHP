@@ -9,7 +9,7 @@
         <li><?= $this->Html->link(__('Nowe zadanie'), ['controller' => 'Tasks', 'action' => 'add']) ?> </li>
         <li><?= $this->Html->link(__('Lista projektów'), ['controller' => 'Projects', 'action' => 'index']) ?> </li>
         <li><?= $this->Html->link(__('Nowy projekt'), ['controller' => 'Projects', 'action' => 'add']) ?> </li>
-        <li><?= $this->Html->link(__('Wyloguj'), ['controller' => '', 'action' => '']) ?> </li>
+        <li><?= $this->Html->link(__('Wyloguj'), ['controller' => 'Users', 'action' => 'logout']) ?> </li>
     </ul>
 </div>
 <div class="users index large-10 medium-9 columns">
