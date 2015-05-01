@@ -63,7 +63,7 @@ class TasksController extends AppController
 ]);
         $projects = $this->Tasks->Projects->find('list', ['limit' => 200]);
         $tasks = $this->Tasks->find('list', ['limit' => 200]);
-        $this->set(compact('task', 'users', 'projects'));
+        $this->set(compact('task', 'users', 'projects', 'tasks'));
         $this->set('_serialize', ['task']);
     }
 

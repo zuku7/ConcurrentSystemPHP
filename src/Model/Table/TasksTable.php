@@ -30,7 +30,7 @@ class TasksTable extends Table
         $this->belongsTo('Projects', [
             'foreignKey' => 'project_id'
         ]);
-        $this->belongsTo('ParentTasks', [
+        $this->belongsTo('Tasks', [
             'foreignKey' => 'parent_task_id'
         ]);
     }
@@ -69,7 +69,7 @@ class TasksTable extends Table
     {
         $rules->add($rules->existsIn(['user_id'], 'Users'));
         $rules->add($rules->existsIn(['project_id'], 'Projects'));
-        $rules->add($rules->existsIn(['parent_task_id'], 'ParentTasks'));
+        //$rules->add($rules->existsIn(['parent_task_id'], 'Tasks'));
         return $rules;
     }
 }

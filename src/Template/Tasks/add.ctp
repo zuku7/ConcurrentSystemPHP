@@ -18,7 +18,7 @@
             echo $this->Form->input('end');
             echo $this->Form->input('user_id', ['options' => $users]);
             echo $this->Form->input('project_id', ['options' => $projects]);
-            echo $this->Form->input('parent_task_id');
+            echo $this->Form->input('parent_task_id', array('options' => $tasks, 'empty' => array(0 => '')));
         ?>
     </fieldset>
     <?= $this->Form->button(__('Submit')) ?>

@@ -13,6 +13,7 @@
     <thead>
         <tr>
             <th><?= $this->Paginator->sort('id') ?></th>
+			<th><?= $this->Paginator->sort('name') ?></th>
             <th><?= $this->Paginator->sort('start') ?></th>
             <th><?= $this->Paginator->sort('end') ?></th>
             <th><?= $this->Paginator->sort('user_id') ?></th>
@@ -25,6 +26,7 @@
     <?php foreach ($tasks as $task): ?>
         <tr>
             <td><?= $this->Number->format($task->id) ?></td>
+			<td><?= h($task->name) ?></td>
             <td><?= h($task->start) ?></td>
             <td><?= h($task->end) ?></td>
             <td>

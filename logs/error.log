@@ -2466,3 +2466,174 @@ Stack Trace:
 #2 {main}
 
 
+2015-05-01 11:57:24 Error: Fatal Error (1): Cannot use object of type Cake\ORM\Query as array in [C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\View\Widget\SelectBoxWidget.php, line 196]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-05-01 11:57:24 Error: [Cake\Error\FatalErrorException] Cannot use object of type Cake\ORM\Query as array
+Request URL: /tasks/add
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Cannot use obje...', 'C:\\xampp\\htdocs...', 196)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-05-01 12:01:37 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'zuku7_concurrent.parent_tasks' doesn't exist
+Request URL: /tasks/add
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(96): Cake\Database\Schema\Collection->_reflect('Column', 'parent_tasks', Array, Object(Cake\Database\Schema\Table))
+#1 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(65): Cake\Database\Schema\Collection->describe('parent_tasks', Array)
+#2 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Table.php(425): Cake\Database\Schema\CachedCollection->describe('parent_tasks')
+#3 [internal function]: Cake\ORM\Table->schema()
+#4 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Association.php(837): call_user_func_array(Array, Array)
+#5 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Rule\ExistsIn.php(82): Cake\ORM\Association->__call('schema', Array)
+#6 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Rule\ExistsIn.php(82): Cake\ORM\Association\BelongsTo->schema()
+#7 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\RulesChecker.php(378): Cake\ORM\Rule\ExistsIn->__invoke(Object(App\Model\Entity\Task), Array)
+#8 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\RulesChecker.php(378): Cake\ORM\RulesChecker->Cake\ORM\{closure}(Object(App\Model\Entity\Task), Array)
+#9 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\RulesChecker.php(258): Cake\ORM\RulesChecker->Cake\ORM\{closure}(Object(App\Model\Entity\Task), Array)
+#10 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\RulesChecker.php(231): Cake\ORM\RulesChecker->checkCreate(Object(App\Model\Entity\Task), Array)
+#11 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Table.php(2148): Cake\ORM\RulesChecker->check(Object(App\Model\Entity\Task), 'create', Array)
+#12 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Table.php(1410): Cake\ORM\Table->checkRules(Object(App\Model\Entity\Task), 'create', Object(ArrayObject))
+#13 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Table.php(1367): Cake\ORM\Table->_processSave(Object(App\Model\Entity\Task), Object(ArrayObject))
+#14 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Connection.php(561): Cake\ORM\Table->Cake\ORM\{closure}(Object(Cake\Database\Connection))
+#15 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Table.php(1368): Cake\Database\Connection->transactional(Object(Closure))
+#16 C:\xampp\htdocs\concurrentSystem\src\Controller\TasksController.php(54): Cake\ORM\Table->save(Object(App\Model\Entity\Task))
+#17 [internal function]: App\Controller\TasksController->add()
+#18 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Controller\Controller.php(404): call_user_func_array(Array, Array)
+#19 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#20 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\TasksController))
+#21 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#22 {main}
+
+
+2015-05-01 12:16:52 Error: Fatal Error (1): Cannot use object of type Cake\ORM\Query as array in [C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\View\Widget\SelectBoxWidget.php, line 228]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-05-01 12:16:53 Error: [Cake\Error\FatalErrorException] Cannot use object of type Cake\ORM\Query as array
+Request URL: /tasks/add
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Cannot use obje...', 'C:\\xampp\\htdocs...', 228)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-05-01 12:26:29 Error: Fatal Error (4): syntax error, unexpected ';' in [C:\xampp\htdocs\concurrentSystem\src\Template\Tasks\add.ctp, line 21]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-05-01 12:26:29 Error: [Cake\Error\FatalErrorException] syntax error, unexpected ';'
+Request URL: /tasks/add
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 21)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-05-01 12:50:51 Error: [Cake\Datasource\Exception\RecordNotFoundException] Record not found in table "projects"
+Request URL: /projects/view/0
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Table.php(1110): Cake\ORM\Query->firstOrFail()
+#1 C:\xampp\htdocs\concurrentSystem\src\Controller\ProjectsController.php(36): Cake\ORM\Table->get('0', Array)
+#2 [internal function]: App\Controller\ProjectsController->view('0')
+#3 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Controller\Controller.php(404): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#5 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ProjectsController))
+#6 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#7 {main}
+
+
+2015-05-01 12:51:02 Error: [Cake\Datasource\Exception\RecordNotFoundException] Record not found in table "projects"
+Request URL: /projects/view/7
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Table.php(1110): Cake\ORM\Query->firstOrFail()
+#1 C:\xampp\htdocs\concurrentSystem\src\Controller\ProjectsController.php(36): Cake\ORM\Table->get('7', Array)
+#2 [internal function]: App\Controller\ProjectsController->view('7')
+#3 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Controller\Controller.php(404): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#5 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ProjectsController))
+#6 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#7 {main}
+
+
+2015-05-01 12:51:20 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1066 Tabela/alias nie s? unikalne: 'Tasks'
+Request URL: /tasks/view/0
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php(36): PDOStatement->execute(NULL)
+#1 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php(169): Cake\Database\Statement\MysqlStatement->execute(NULL)
+#2 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php(55): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#3 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Connection.php(274): Cake\Database\Log\LoggingStatement->execute()
+#4 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Query.php(175): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#5 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Query.php(645): Cake\Database\Query->execute()
+#6 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(218): Cake\ORM\Query->_execute()
+#7 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Query.php(596): Cake\ORM\Query->_all()
+#8 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(340): Cake\ORM\Query->all()
+#9 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(351): Cake\ORM\Query->first()
+#10 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Table.php(1110): Cake\ORM\Query->firstOrFail()
+#11 C:\xampp\htdocs\concurrentSystem\src\Controller\TasksController.php(39): Cake\ORM\Table->get('0', Array)
+#12 [internal function]: App\Controller\TasksController->view('0')
+#13 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Controller\Controller.php(404): call_user_func_array(Array, Array)
+#14 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#15 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\TasksController))
+#16 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#17 {main}
+
+
+2015-05-01 12:51:27 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1066 Tabela/alias nie s? unikalne: 'Tasks'
+Request URL: /tasks/view/7
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php(36): PDOStatement->execute(NULL)
+#1 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php(169): Cake\Database\Statement\MysqlStatement->execute(NULL)
+#2 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php(55): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#3 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Connection.php(274): Cake\Database\Log\LoggingStatement->execute()
+#4 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Query.php(175): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#5 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Query.php(645): Cake\Database\Query->execute()
+#6 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(218): Cake\ORM\Query->_execute()
+#7 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Query.php(596): Cake\ORM\Query->_all()
+#8 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(340): Cake\ORM\Query->all()
+#9 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(351): Cake\ORM\Query->first()
+#10 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Table.php(1110): Cake\ORM\Query->firstOrFail()
+#11 C:\xampp\htdocs\concurrentSystem\src\Controller\TasksController.php(39): Cake\ORM\Table->get('7', Array)
+#12 [internal function]: App\Controller\TasksController->view('7')
+#13 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Controller\Controller.php(404): call_user_func_array(Array, Array)
+#14 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#15 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\TasksController))
+#16 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#17 {main}
+
+
+2015-05-01 12:51:38 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1066 Tabela/alias nie s? unikalne: 'Tasks'
+Request URL: /tasks/view/7
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php(36): PDOStatement->execute(NULL)
+#1 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php(169): Cake\Database\Statement\MysqlStatement->execute(NULL)
+#2 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php(55): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#3 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Connection.php(274): Cake\Database\Log\LoggingStatement->execute()
+#4 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Query.php(175): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#5 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Query.php(645): Cake\Database\Query->execute()
+#6 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(218): Cake\ORM\Query->_execute()
+#7 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Query.php(596): Cake\ORM\Query->_all()
+#8 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(340): Cake\ORM\Query->all()
+#9 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(351): Cake\ORM\Query->first()
+#10 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Table.php(1110): Cake\ORM\Query->firstOrFail()
+#11 C:\xampp\htdocs\concurrentSystem\src\Controller\TasksController.php(39): Cake\ORM\Table->get('7', Array)
+#12 [internal function]: App\Controller\TasksController->view('7')
+#13 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Controller\Controller.php(404): call_user_func_array(Array, Array)
+#14 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#15 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\TasksController))
+#16 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#17 {main}
+
+
