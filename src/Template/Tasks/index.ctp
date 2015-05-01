@@ -17,14 +17,22 @@
             <th><?= $this->Paginator->sort('start') ?></th>
             <th><?= $this->Paginator->sort('end') ?></th>
             <th><?= $this->Paginator->sort('user_id') ?></th>
-            <th><?= $this->Paginator->sort('project_id') ?></th>
-            
+            <th><?= $this->Paginator->sort('project_id') ?></th>            
             <th><?= $this->Paginator->sort('parent_task_id') ?></th>
             <th class="actions"><?= __('Actions') ?></th>
         </tr>
     </thead>
     <tbody>
-    <?php foreach ($tasks as $task): ?>
+    <?php 
+	$tasks_names;
+
+	foreach ($tasks as $task):
+		$tasks_names[$task->id] = $task->name;
+	endforeach;
+
+	foreach ($tasks as $task): 	
+
+	 ?>
         <tr>
             <td><?= $this->Number->format($task->id) ?></td>
 			<td><?= h($task->name) ?></td>
@@ -36,10 +44,15 @@
             <td>
                 <?= $task->has('project') ? $this->Html->link($task->project->name, ['controller' => 'Projects', 'action' => 'view', $task->project->id]) : '' ?>
             </td>
-            <td><?= $this->Number->format($task->parent_task_id) ?></td>
-                        <td>
-                <?= $task->has('project') ? $this->Html->link($task->project->name, ['controller' => 'Projects', 'action' => 'view', $task->project->id]) : '' ?>
-            </td>
+            <td>
+				
+				<?= 
+				 
+					$task->has('parent_task_id') ? $this->Html->link($tasks_names[$task->parent_task_id], ['controller' => 'Tasks', 'action' => 'view', $task->parent_task_id]) : '' 
+				
+				?>
+				
+			</td>
             <td class="actions">
                 <?= $this->Html->link(__('View'), ['action' => 'view', $task->id]) ?>
                 <?= $this->Html->link(__('Edit'), ['action' => 'edit', $task->id]) ?>

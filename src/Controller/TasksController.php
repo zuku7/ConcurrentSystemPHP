@@ -35,7 +35,7 @@ class TasksController extends AppController
     public function view($id = null)
     {
         $task = $this->Tasks->get($id, [
-            'contain' => ['Users', 'Projects', 'Tasks']
+            'contain' => ['Users', 'Projects']
         ]);
         $this->set('task', $task);
         $this->set('_serialize', ['task']);

@@ -2665,3 +2665,688 @@ Stack Trace:
 #1 {main}
 
 
+2015-05-01 16:30:23 Error: Fatal Error (1): Call to undefined method App\Model\Entity\Task::where() in [C:\xampp\htdocs\concurrentSystem\src\Template\Tasks\index.ctp, line 41]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-05-01 16:30:23 Error: [Cake\Error\FatalErrorException] Call to undefined method App\Model\Entity\Task::where()
+Request URL: /tasks?sort=id&direction=asc
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 41)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-05-01 16:34:31 Error: [Cake\Datasource\Exception\RecordNotFoundException] Record not found in table "projects"
+Request URL: /projects/view/3
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Table.php(1110): Cake\ORM\Query->firstOrFail()
+#1 C:\xampp\htdocs\concurrentSystem\src\Controller\ProjectsController.php(36): Cake\ORM\Table->get('3', Array)
+#2 [internal function]: App\Controller\ProjectsController->view('3')
+#3 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Controller\Controller.php(404): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#5 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ProjectsController))
+#6 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#7 {main}
+
+
+2015-05-01 16:38:42 Error: Fatal Error (1): Call to undefined method App\Model\Entity\Task::where() in [C:\xampp\htdocs\concurrentSystem\src\Template\Tasks\index.ctp, line 38]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-05-01 16:38:42 Error: [Cake\Error\FatalErrorException] Call to undefined method App\Model\Entity\Task::where()
+Request URL: /tasks?sort=id&direction=asc
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 38)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-05-01 16:38:49 Error: Fatal Error (1): Call to undefined method App\Model\Entity\Task::where() in [C:\xampp\htdocs\concurrentSystem\src\Template\Tasks\index.ctp, line 38]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-05-01 16:38:49 Error: [Cake\Error\FatalErrorException] Call to undefined method App\Model\Entity\Task::where()
+Request URL: /tasks
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 38)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-05-01 16:41:55 Error: Fatal Error (1): Call to undefined method App\Model\Entity\Task::find() in [C:\xampp\htdocs\concurrentSystem\src\Template\Tasks\index.ctp, line 38]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-05-01 16:41:55 Error: [Cake\Error\FatalErrorException] Call to undefined method App\Model\Entity\Task::find()
+Request URL: /tasks
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 38)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-05-01 16:42:24 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [C:\xampp\htdocs\concurrentSystem\src\Template\Tasks\index.ctp, line 38]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-05-01 16:42:24 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+Request URL: /tasks
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 38)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-05-01 16:44:10 Error: [Cake\View\Exception\MissingHelperException] Helper class dataHelper could not be found.
+Exception Attributes: array (
+  'class' => 'dataHelper',
+  'plugin' => NULL,
+)
+Request URL: /tasks
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php(86): Cake\View\HelperRegistry->_throwMissingClassError('data', NULL)
+#1 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\View\HelperRegistry.php(66): Cake\Core\ObjectRegistry->load('data')
+#2 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\View\View.php(732): Cake\View\HelperRegistry->__isset('data')
+#3 C:\xampp\htdocs\concurrentSystem\src\Template\Tasks\index.ctp(38): Cake\View\View->__get('data')
+#4 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\View\View.php(815): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\View\View.php(775): Cake\View\View->_evaluate('C:\\xampp\\htdocs...', Array)
+#6 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\View\View.php(463): Cake\View\View->_render('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Controller\Controller.php(575): Cake\View\View->render(NULL, NULL)
+#8 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(120): Cake\Controller\Controller->render()
+#9 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\TasksController))
+#10 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#11 {main}
+
+
+2015-05-01 16:46:31 Error: Fatal Error (1): Cannot use object of type Cake\ORM\ResultSet as array in [C:\xampp\htdocs\concurrentSystem\src\Template\Tasks\index.ctp, line 38]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-05-01 16:46:31 Error: [Cake\Error\FatalErrorException] Cannot use object of type Cake\ORM\ResultSet as array
+Request URL: /tasks
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Cannot use obje...', 'C:\\xampp\\htdocs...', 38)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-05-01 16:46:41 Error: Fatal Error (1): Cannot use object of type Cake\ORM\ResultSet as array in [C:\xampp\htdocs\concurrentSystem\src\Template\Tasks\index.ctp, line 38]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-05-01 16:46:41 Error: [Cake\Error\FatalErrorException] Cannot use object of type Cake\ORM\ResultSet as array
+Request URL: /tasks
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Cannot use obje...', 'C:\\xampp\\htdocs...', 38)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-05-01 16:48:17 Error: Fatal Error (1): Call to undefined method Cake\ORM\ResultSet::get() in [C:\xampp\htdocs\concurrentSystem\src\Template\Tasks\index.ctp, line 38]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-05-01 16:48:17 Error: [Cake\Error\FatalErrorException] Call to undefined method Cake\ORM\ResultSet::get()
+Request URL: /tasks
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 38)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-05-01 16:48:25 Error: Fatal Error (1): Call to undefined method Cake\ORM\ResultSet::find() in [C:\xampp\htdocs\concurrentSystem\src\Template\Tasks\index.ctp, line 38]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-05-01 16:48:25 Error: [Cake\Error\FatalErrorException] Call to undefined method Cake\ORM\ResultSet::find()
+Request URL: /tasks
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 38)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-05-01 16:48:31 Error: Fatal Error (1): Call to undefined method Cake\ORM\ResultSet::where() in [C:\xampp\htdocs\concurrentSystem\src\Template\Tasks\index.ctp, line 38]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-05-01 16:48:31 Error: [Cake\Error\FatalErrorException] Call to undefined method Cake\ORM\ResultSet::where()
+Request URL: /tasks
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 38)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-05-01 16:49:20 Error: Fatal Error (1): Cannot use object of type Cake\ORM\ResultSet as array in [C:\xampp\htdocs\concurrentSystem\src\Template\Tasks\index.ctp, line 38]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-05-01 16:49:20 Error: [Cake\Error\FatalErrorException] Cannot use object of type Cake\ORM\ResultSet as array
+Request URL: /tasks
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Cannot use obje...', 'C:\\xampp\\htdocs...', 38)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-05-01 16:50:22 Error: [Cake\View\Exception\MissingHelperException] Helper class TaskHelper could not be found.
+Exception Attributes: array (
+  'class' => 'TaskHelper',
+  'plugin' => NULL,
+)
+Request URL: /tasks
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php(86): Cake\View\HelperRegistry->_throwMissingClassError('Task', NULL)
+#1 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\View\HelperRegistry.php(66): Cake\Core\ObjectRegistry->load('Task')
+#2 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\View\View.php(732): Cake\View\HelperRegistry->__isset('Task')
+#3 C:\xampp\htdocs\concurrentSystem\src\Template\Tasks\index.ctp(38): Cake\View\View->__get('Task')
+#4 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\View\View.php(815): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\View\View.php(775): Cake\View\View->_evaluate('C:\\xampp\\htdocs...', Array)
+#6 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\View\View.php(463): Cake\View\View->_render('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Controller\Controller.php(575): Cake\View\View->render(NULL, NULL)
+#8 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(120): Cake\Controller\Controller->render()
+#9 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\TasksController))
+#10 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#11 {main}
+
+
+2015-05-01 16:50:39 Error: [Cake\View\Exception\MissingHelperException] Helper class taskHelper could not be found.
+Exception Attributes: array (
+  'class' => 'taskHelper',
+  'plugin' => NULL,
+)
+Request URL: /tasks
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php(86): Cake\View\HelperRegistry->_throwMissingClassError('task', NULL)
+#1 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\View\HelperRegistry.php(66): Cake\Core\ObjectRegistry->load('task')
+#2 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\View\View.php(732): Cake\View\HelperRegistry->__isset('task')
+#3 C:\xampp\htdocs\concurrentSystem\src\Template\Tasks\index.ctp(38): Cake\View\View->__get('task')
+#4 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\View\View.php(815): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\View\View.php(775): Cake\View\View->_evaluate('C:\\xampp\\htdocs...', Array)
+#6 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\View\View.php(463): Cake\View\View->_render('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Controller\Controller.php(575): Cake\View\View->render(NULL, NULL)
+#8 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(120): Cake\Controller\Controller->render()
+#9 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\TasksController))
+#10 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#11 {main}
+
+
+2015-05-01 16:50:44 Error: [Cake\View\Exception\MissingHelperException] Helper class tasksHelper could not be found.
+Exception Attributes: array (
+  'class' => 'tasksHelper',
+  'plugin' => NULL,
+)
+Request URL: /tasks
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php(86): Cake\View\HelperRegistry->_throwMissingClassError('tasks', NULL)
+#1 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\View\HelperRegistry.php(66): Cake\Core\ObjectRegistry->load('tasks')
+#2 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\View\View.php(732): Cake\View\HelperRegistry->__isset('tasks')
+#3 C:\xampp\htdocs\concurrentSystem\src\Template\Tasks\index.ctp(38): Cake\View\View->__get('tasks')
+#4 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\View\View.php(815): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\View\View.php(775): Cake\View\View->_evaluate('C:\\xampp\\htdocs...', Array)
+#6 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\View\View.php(463): Cake\View\View->_render('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Controller\Controller.php(575): Cake\View\View->render(NULL, NULL)
+#8 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(120): Cake\Controller\Controller->render()
+#9 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\TasksController))
+#10 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#11 {main}
+
+
+2015-05-01 16:55:29 Error: Fatal Error (4): syntax error, unexpected 'if' (T_IF) in [C:\xampp\htdocs\concurrentSystem\src\Template\Tasks\index.ctp, line 41]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-05-01 16:55:29 Error: [Cake\Error\FatalErrorException] syntax error, unexpected 'if' (T_IF)
+Request URL: /tasks
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 41)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-05-01 16:56:45 Error: Fatal Error (4): syntax error, unexpected 'if' (T_IF) in [C:\xampp\htdocs\concurrentSystem\src\Template\Tasks\index.ctp, line 41]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-05-01 16:56:46 Error: [Cake\Error\FatalErrorException] syntax error, unexpected 'if' (T_IF)
+Request URL: /tasks
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 41)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-05-01 16:58:11 Error: [Cake\View\Exception\MissingHelperException] Helper class tasksHelper could not be found.
+Exception Attributes: array (
+  'class' => 'tasksHelper',
+  'plugin' => NULL,
+)
+Request URL: /tasks
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php(86): Cake\View\HelperRegistry->_throwMissingClassError('tasks', NULL)
+#1 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\View\HelperRegistry.php(66): Cake\Core\ObjectRegistry->load('tasks')
+#2 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\View\View.php(732): Cake\View\HelperRegistry->__isset('tasks')
+#3 C:\xampp\htdocs\concurrentSystem\src\Template\Tasks\index.ctp(42): Cake\View\View->__get('tasks')
+#4 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\View\View.php(815): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\View\View.php(775): Cake\View\View->_evaluate('C:\\xampp\\htdocs...', Array)
+#6 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\View\View.php(463): Cake\View\View->_render('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Controller\Controller.php(575): Cake\View\View->render(NULL, NULL)
+#8 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(120): Cake\Controller\Controller->render()
+#9 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\TasksController))
+#10 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#11 {main}
+
+
+2015-05-01 16:59:52 Error: Fatal Error (1): Function name must be a string in [C:\xampp\htdocs\concurrentSystem\src\Template\Tasks\index.ctp, line 42]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-05-01 16:59:52 Error: [Cake\Error\FatalErrorException] Function name must be a string
+Request URL: /tasks
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Function name m...', 'C:\\xampp\\htdocs...', 42)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-05-01 17:00:03 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [C:\xampp\htdocs\concurrentSystem\src\Template\Tasks\index.ctp, line 42]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-05-01 17:00:03 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+Request URL: /tasks
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 42)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-05-01 17:00:12 Error: Fatal Error (1): Function name must be a string in [C:\xampp\htdocs\concurrentSystem\src\Template\Tasks\index.ctp, line 42]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-05-01 17:00:12 Error: [Cake\Error\FatalErrorException] Function name must be a string
+Request URL: /tasks
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Function name m...', 'C:\\xampp\\htdocs...', 42)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-05-01 17:00:19 Error: Fatal Error (1): Function name must be a string in [C:\xampp\htdocs\concurrentSystem\src\Template\Tasks\index.ctp, line 42]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-05-01 17:00:19 Error: [Cake\Error\FatalErrorException] Function name must be a string
+Request URL: /tasks
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Function name m...', 'C:\\xampp\\htdocs...', 42)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-05-01 17:01:28 Error: [Cake\View\Exception\MissingHelperException] Helper class TaskHelper could not be found.
+Exception Attributes: array (
+  'class' => 'TaskHelper',
+  'plugin' => NULL,
+)
+Request URL: /tasks
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php(86): Cake\View\HelperRegistry->_throwMissingClassError('Task', NULL)
+#1 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\View\HelperRegistry.php(66): Cake\Core\ObjectRegistry->load('Task')
+#2 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\View\View.php(732): Cake\View\HelperRegistry->__isset('Task')
+#3 C:\xampp\htdocs\concurrentSystem\src\Template\Tasks\index.ctp(42): Cake\View\View->__get('Task')
+#4 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\View\View.php(815): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\View\View.php(775): Cake\View\View->_evaluate('C:\\xampp\\htdocs...', Array)
+#6 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\View\View.php(463): Cake\View\View->_render('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Controller\Controller.php(575): Cake\View\View->render(NULL, NULL)
+#8 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(120): Cake\Controller\Controller->render()
+#9 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\TasksController))
+#10 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#11 {main}
+
+
+2015-05-01 17:04:52 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']' in [C:\xampp\htdocs\concurrentSystem\src\Template\Tasks\index.ctp, line 42]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-05-01 17:04:52 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']'
+Request URL: /tasks
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 42)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-05-01 17:10:03 Error: Fatal Error (1): Cannot use [] for reading in [C:\xampp\htdocs\concurrentSystem\src\Template\Tasks\index.ctp, line 42]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-05-01 17:10:03 Error: [Cake\Error\FatalErrorException] Cannot use [] for reading
+Request URL: /tasks
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Cannot use [] f...', 'C:\\xampp\\htdocs...', 42)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-05-01 17:10:31 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1066 Tabela/alias nie s? unikalne: 'Tasks'
+Request URL: /tasks
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php(36): PDOStatement->execute(NULL)
+#1 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php(169): Cake\Database\Statement\MysqlStatement->execute(NULL)
+#2 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php(55): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#3 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Connection.php(274): Cake\Database\Log\LoggingStatement->execute()
+#4 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Query.php(175): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#5 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Query.php(645): Cake\Database\Query->execute()
+#6 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(218): Cake\ORM\Query->_execute()
+#7 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Query.php(596): Cake\ORM\Query->_all()
+#8 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Controller\Component\PaginatorComponent.php(169): Cake\ORM\Query->all()
+#9 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Controller\Controller.php(634): Cake\Controller\Component\PaginatorComponent->paginate(Object(App\Model\Table\TasksTable), Array)
+#10 C:\xampp\htdocs\concurrentSystem\src\Controller\TasksController.php(24): Cake\Controller\Controller->paginate(Object(App\Model\Table\TasksTable))
+#11 [internal function]: App\Controller\TasksController->index()
+#12 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Controller\Controller.php(404): call_user_func_array(Array, Array)
+#13 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#14 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\TasksController))
+#15 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#16 {main}
+
+
+2015-05-01 17:14:55 Error: Fatal Error (4): syntax error, unexpected '[', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in [C:\xampp\htdocs\concurrentSystem\src\Template\Tasks\index.ctp, line 42]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-05-01 17:14:55 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '[', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+Request URL: /tasks
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 42)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-05-01 17:20:40 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1066 Tabela/alias nie s? unikalne: 'Tasks'
+Request URL: /tasks
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php(36): PDOStatement->execute(NULL)
+#1 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php(169): Cake\Database\Statement\MysqlStatement->execute(NULL)
+#2 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php(55): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#3 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Connection.php(274): Cake\Database\Log\LoggingStatement->execute()
+#4 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Query.php(175): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#5 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Query.php(645): Cake\Database\Query->execute()
+#6 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(218): Cake\ORM\Query->_execute()
+#7 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Query.php(596): Cake\ORM\Query->_all()
+#8 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Controller\Component\PaginatorComponent.php(169): Cake\ORM\Query->all()
+#9 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Controller\Controller.php(634): Cake\Controller\Component\PaginatorComponent->paginate(Object(App\Model\Table\TasksTable), Array)
+#10 C:\xampp\htdocs\concurrentSystem\src\Controller\TasksController.php(24): Cake\Controller\Controller->paginate(Object(App\Model\Table\TasksTable))
+#11 [internal function]: App\Controller\TasksController->index()
+#12 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Controller\Controller.php(404): call_user_func_array(Array, Array)
+#13 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#14 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\TasksController))
+#15 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#16 {main}
+
+
+2015-05-01 17:25:08 Error: Fatal Error (4): syntax error, unexpected '<' in [C:\xampp\htdocs\concurrentSystem\src\Template\Tasks\index.ctp, line 42]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-05-01 17:25:09 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '<'
+Request URL: /tasks
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 42)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-05-01 17:25:31 Error: Fatal Error (4): syntax error, unexpected 'foreach' (T_FOREACH) in [C:\xampp\htdocs\concurrentSystem\src\Template\Tasks\index.ctp, line 42]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-05-01 17:25:31 Error: [Cake\Error\FatalErrorException] syntax error, unexpected 'foreach' (T_FOREACH)
+Request URL: /tasks
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 42)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-05-01 17:26:15 Error: Fatal Error (4): syntax error, unexpected ')' in [C:\xampp\htdocs\concurrentSystem\src\Template\Tasks\index.ctp, line 27]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-05-01 17:26:15 Error: [Cake\Error\FatalErrorException] syntax error, unexpected ')'
+Request URL: /tasks
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 27)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-05-01 17:27:14 Error: Fatal Error (4): syntax error, unexpected 'if' (T_IF) in [C:\xampp\htdocs\concurrentSystem\src\Template\Tasks\index.ctp, line 29]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-05-01 17:27:14 Error: [Cake\Error\FatalErrorException] syntax error, unexpected 'if' (T_IF)
+Request URL: /tasks
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 29)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-05-01 17:28:31 Error: Fatal Error (4): syntax error, unexpected 'endforeach' (T_ENDFOREACH) in [C:\xampp\htdocs\concurrentSystem\src\Template\Tasks\index.ctp, line 59]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-05-01 17:28:31 Error: [Cake\Error\FatalErrorException] syntax error, unexpected 'endforeach' (T_ENDFOREACH)
+Request URL: /tasks
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 59)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-05-01 17:29:21 Error: Fatal Error (4): syntax error, unexpected 'foreach' (T_FOREACH) in [C:\xampp\htdocs\concurrentSystem\src\Template\Tasks\index.ctp, line 44]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-05-01 17:29:21 Error: [Cake\Error\FatalErrorException] syntax error, unexpected 'foreach' (T_FOREACH)
+Request URL: /tasks
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 44)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-05-01 17:29:37 Error: Fatal Error (4): syntax error, unexpected '<' in [C:\xampp\htdocs\concurrentSystem\src\Template\Tasks\index.ctp, line 44]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-05-01 17:29:37 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '<'
+Request URL: /tasks
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 44)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-05-01 17:30:16 Error: Fatal Error (4): syntax error, unexpected end of file in [C:\xampp\htdocs\concurrentSystem\src\Template\Tasks\index.ctp, line 71]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-05-01 17:30:16 Error: [Cake\Error\FatalErrorException] syntax error, unexpected end of file
+Request URL: /tasks
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 71)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-05-01 17:41:53 Warning: Warning (2): array_map() expects at least 2 parameters, 0 given in [C:\xampp\htdocs\concurrentSystem\src\Template\Tasks\index.ctp, line 27]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+array_map - [internal], line ??
+include - APP/Template\Tasks\index.ctp, line 27
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 575
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-05-01 17:44:35 Error: Fatal Error (4): syntax error, unexpected 'endforeach' (T_ENDFOREACH) in [C:\xampp\htdocs\concurrentSystem\src\Template\Tasks\index.ctp, line 31]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-05-01 17:44:35 Error: [Cake\Error\FatalErrorException] syntax error, unexpected 'endforeach' (T_ENDFOREACH)
+Request URL: /tasks
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 31)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-05-01 17:56:48 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1066 Tabela/alias nie s? unikalne: 'Tasks'
+Request URL: /tasks/view/7
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php(36): PDOStatement->execute(NULL)
+#1 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php(169): Cake\Database\Statement\MysqlStatement->execute(NULL)
+#2 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php(55): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#3 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Connection.php(274): Cake\Database\Log\LoggingStatement->execute()
+#4 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Database\Query.php(175): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#5 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Query.php(645): Cake\Database\Query->execute()
+#6 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(218): Cake\ORM\Query->_execute()
+#7 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Query.php(596): Cake\ORM\Query->_all()
+#8 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(340): Cake\ORM\Query->all()
+#9 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(351): Cake\ORM\Query->first()
+#10 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Table.php(1110): Cake\ORM\Query->firstOrFail()
+#11 C:\xampp\htdocs\concurrentSystem\src\Controller\TasksController.php(39): Cake\ORM\Table->get('7', Array)
+#12 [internal function]: App\Controller\TasksController->view('7')
+#13 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Controller\Controller.php(404): call_user_func_array(Array, Array)
+#14 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#15 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\TasksController))
+#16 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#17 {main}
+
+
