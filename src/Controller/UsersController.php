@@ -15,22 +15,22 @@ class UsersController extends AppController
      * Index method
      *
      * @return void
-     */
-     
-  
+     */ 
     public function beforeFilter(\Cake\Event\Event $event)
-    {
-     parent::beforeFilter($event);
-     $this->Auth->allow(['add', 'logout']);
-    }
-	
-    public function index()
-    {
-   		
-   		    $this->paginate = [
+	{
+	parent::beforeFilter($event);
+	$this->Auth->allow([ 'logout' ]);
+	}
+
+	public function index()
+	{
+	$name = $this->request->session()->read('User.login');
+		
+		
+		$this->paginate = [
         'contain' => [ 'Groups']
     ];
-
+ 	$this->set('name', $name);
     $this->set('users', $this->paginate($this->Users));
 		 
 	}
@@ -125,7 +125,7 @@ class UsersController extends AppController
 	public function login()
 	{
 		if ($this->request->is('post')) {
-			debug($this->request->data);
+		//	debug($this->request->data);
 			
 			$user = $this->Auth->identify();
 
@@ -133,12 +133,13 @@ class UsersController extends AppController
 				$this->Auth->setUser($user);
 				return $this->redirect($this->Auth->redirectUrl());
 			}
-			$this->Flash->error(__('Złe hasło lub email.'));
+			$this->Flash->error(__('Incorrect password or email.'));
 		}
 	}
 
 	public function logout()
 	{
+		$this->Flash->success('You logged out successfully.');
 		return $this->redirect($this->Auth->logout());
 	}
 }

@@ -2373,3 +2373,96 @@ Stack Trace:
 #20 {main}
 
 
+2015-05-01 10:00:29 Error: [Cake\Controller\Exception\MissingActionException] Action PagesController::home() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'home',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /
+Stack Trace:
+#0 C:\xampp\htdocs\ConcurrentSystemPHP\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 C:\xampp\htdocs\ConcurrentSystemPHP\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\PagesController))
+#2 C:\xampp\htdocs\ConcurrentSystemPHP\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2015-05-01 10:01:42 Error: [Cake\Controller\Exception\MissingActionException] Action PagesController::home() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'home',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /
+Stack Trace:
+#0 C:\xampp\htdocs\ConcurrentSystemPHP\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 C:\xampp\htdocs\ConcurrentSystemPHP\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\PagesController))
+#2 C:\xampp\htdocs\ConcurrentSystemPHP\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2015-05-01 10:02:16 Error: [Cake\Controller\Exception\MissingActionException] Action PagesController::home() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'home',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /
+Stack Trace:
+#0 C:\xampp\htdocs\ConcurrentSystemPHP\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 C:\xampp\htdocs\ConcurrentSystemPHP\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\PagesController))
+#2 C:\xampp\htdocs\ConcurrentSystemPHP\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2015-05-01 10:57:43 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [C:\xampp\htdocs\ConcurrentSystemPHP\src\Controller\UsersController.php, line 56]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-05-01 10:57:43 Error: [Cake\Error\FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /users/
+Stack Trace:
+#0 C:\xampp\htdocs\ConcurrentSystemPHP\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 56)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-05-01 11:02:12 Error: Fatal Error (1): Call to a member function read() on boolean in [C:\xampp\htdocs\ConcurrentSystemPHP\src\Controller\UsersController.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-05-01 11:02:12 Error: [Cake\Error\FatalErrorException] Call to a member function read() on boolean
+Request URL: /users/
+Stack Trace:
+#0 C:\xampp\htdocs\ConcurrentSystemPHP\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 30)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-05-01 11:03:07 Error: Fatal Error (1): Call to a member function read() on boolean in [C:\xampp\htdocs\ConcurrentSystemPHP\src\Controller\UsersController.php, line 27]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-05-01 11:03:07 Error: [Cake\Error\FatalErrorException] Call to a member function read() on boolean
+Request URL: /users/
+Stack Trace:
+#0 C:\xampp\htdocs\ConcurrentSystemPHP\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 27)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+

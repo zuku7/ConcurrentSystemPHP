@@ -1,15 +1,16 @@
 <div class="actions columns large-2 medium-3">
     <h3><?= __('Panel') ?></h3>
     <ul class="side-nav">
-        <li><?= $this->Html->link(__('Nowy Użytkownik'), ['action' => 'add']) ?></li>
-        <li><?= $this->Html->link(__('Lista Użytkowników'), ['controller' => 'Users', 'action' => 'index']) ?> </li>
-        <li><?= $this->Html->link(__('Lista Grup'), ['controller' => 'Groups', 'action' => 'index']) ?> </li>
-        <li><?= $this->Html->link(__('Nowa Grupa'), ['controller' => 'Groups', 'action' => 'add']) ?> </li>
-        <li><?= $this->Html->link(__('Lista zadań'), ['controller' => 'Tasks', 'action' => 'index']) ?> </li>
-        <li><?= $this->Html->link(__('Nowe zadanie'), ['controller' => 'Tasks', 'action' => 'add']) ?> </li>
-        <li><?= $this->Html->link(__('Lista projektów'), ['controller' => 'Projects', 'action' => 'index']) ?> </li>
-        <li><?= $this->Html->link(__('Nowy projekt'), ['controller' => 'Projects', 'action' => 'add']) ?> </li>
-        <li><?= $this->Html->link(__('Wyloguj'), ['controller' => 'Users', 'action' => 'logout']) ?> </li>
+    	<li><?php $name?></li>
+        <li><?= $this->Html->link(__('New user'), ['action' => 'add']) ?></li>
+        <li><?= $this->Html->link(__('List users'), ['controller' => 'Users', 'action' => 'index']) ?> </li>
+        <li><?= $this->Html->link(__('List groups'), ['controller' => 'Groups', 'action' => 'index']) ?> </li>
+        <li><?= $this->Html->link(__('New group'), ['controller' => 'Groups', 'action' => 'add']) ?> </li>
+        <li><?= $this->Html->link(__('List tasks'), ['controller' => 'Tasks', 'action' => 'index']) ?> </li>
+        <li><?= $this->Html->link(__('New task'), ['controller' => 'Tasks', 'action' => 'add']) ?> </li>
+        <li><?= $this->Html->link(__('List projects'), ['controller' => 'Projects', 'action' => 'index']) ?> </li>
+        <li><?= $this->Html->link(__('New project'), ['controller' => 'Projects', 'action' => 'add']) ?> </li>
+        <li><?= $this->Html->link(__('Log out'), ['controller' => 'Users', 'action' => 'logout']) ?> </li>
     </ul>
 </div>
 <div class="users index large-10 medium-9 columns">

@@ -46,18 +46,18 @@ class AppController extends Controller
                 'action' => 'index'
             ],
             'logoutRedirect' => [
-                'controller' => 'Pages',
-                'action' => 'display',
-                'home' ]
+                'controller' => 'Users',
+                'action' => 'login',
+                 ]
 					]);
 
 	}
 	
 	public function beforeFilter(\Cake\Event\Event $event)
 	{
-	$this->Auth->allow(['index', 'view', 'display']);
+	$this->Auth->allow(['display']);
 	}
 	
 
 }
-			
+
