@@ -1,3 +1,4 @@
+<?php if ($role=='1'): ?>
 <div class="actions columns large-2 medium-3">
     <h3><?= __('Actions') ?></h3>
     <ul class="side-nav">
@@ -14,6 +15,7 @@
         <li><?= $this->Html->link(__('New Task'), ['controller' => 'Tasks', 'action' => 'add']) ?> </li>
     </ul>
 </div>
+ <?php endif; ?>
 <div class="users form large-10 medium-9 columns">
     <?= $this->Form->create($user); ?>
     <fieldset>
@@ -22,7 +24,9 @@
             echo $this->Form->input('login');
             echo $this->Form->input('password');
             echo $this->Form->input('email');
+			if ($role=='1'):
             echo $this->Form->input('group_id', ['options' => $groups]);
+				endif;
         ?>
     </fieldset>
     <?= $this->Form->button(__('Submit')) ?>

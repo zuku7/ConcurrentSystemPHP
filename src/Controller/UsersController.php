@@ -20,23 +20,39 @@ class UsersController extends AppController
 	{
 	parent::beforeFilter($event);
 	$this->Auth->allow([ 'logout' ]);
-	}
+		}
 
-	public function index()
-	{
-	$name = $this->request->session()->read('User.login');
-		
-		
+		public function myprofile()
+		{
+
 		$this->paginate = [
-        'contain' => [ 'Groups']
-    ];
- 	$this->set('name', $name);
-    $this->set('users', $this->paginate($this->Users));
-		 
-	}
+		'contain' => [ 'Groups']
+		];
+		$role=$this->Auth->user('group_id');
+		//debug($this->Auth->user());
+		$name = $this->Auth->user('login');
+		$this->set('id',$this->Auth->user('id'));
+		$this->set('role', $this->Auth->user('group_id') );
+		$this->set('name', $name );
+
+		}
+
+		public function index()
+		{
+
+		$this->paginate = [
+		'contain' => [ 'Groups']
+		];
+		$role=$this->Auth->user('group_id');
+		//debug($this->Auth->user('group_id'));
+		$name = $this->Auth->user('login');
+		$this->set('role', $role );
+		$this->set('name', $name );
+		$this->set('users' , $this->paginate($this->Users));
+
+		}
 
 
-  
     /**
      * View method
      *
@@ -93,7 +109,7 @@ class UsersController extends AppController
             $user = $this->Users->patchEntity($user, $this->request->data);
             if ($this->Users->save($user)) {
                 $this->Flash->success('The user has been saved.');
-                return $this->redirect(['action' => 'index']);
+                return $this->redirect(['action' => 'myprofile']);
             } else {
                 $this->Flash->error('The user could not be saved. Please, try again.');
             }
@@ -101,6 +117,7 @@ class UsersController extends AppController
         $groups = $this->Users->Groups->find('list', ['limit' => 200]);
         $this->set(compact('user', 'groups'));
         $this->set('_serialize', ['user']);
+		$this->set('role', $this->Auth->user('group_id') );
     }
 
     /**

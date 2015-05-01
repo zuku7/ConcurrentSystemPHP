@@ -43,7 +43,7 @@ class AppController extends Controller
             ],
             'loginRedirect' => [
                 'controller' => 'Users',
-                'action' => 'index'
+                'action' => 'myprofile'
             ],
             'logoutRedirect' => [
                 'controller' => 'Users',
@@ -58,6 +58,15 @@ class AppController extends Controller
 	$this->Auth->allow(['display']);
 	}
 	
+public function isAuthorized($user)
+{
+    // Admin can access every action
+    if (isset($user['id'])) {
+        return true;
+    }
 
+    // Default deny
+    return false;
+}
 }
 
