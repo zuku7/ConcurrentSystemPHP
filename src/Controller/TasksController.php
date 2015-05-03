@@ -16,6 +16,8 @@ class TasksController extends AppController
      *
      * @return void
      */
+    public $components=array('Upload');
+	
     public function index()
     {
         $this->paginate = [
@@ -45,28 +47,48 @@ class TasksController extends AppController
      * Add method
      *
      * @return void Redirects on successful add, renders view otherwise.
-     */
-    public function add()
-    {
-        $task = $this->Tasks->newEntity();
-        if ($this->request->is('post')) {
-            $task = $this->Tasks->patchEntity($task, $this->request->data);
-            if ($this->Tasks->save($task)) {
-                $this->Flash->success('The task has been saved.');
-                return $this->redirect(['action' => 'index']);
-            } else {
-                $this->Flash->error('The task could not be saved. Please, try again.');
-            }
-        }
-        $users = $this->Tasks->Users->find('list', [
-    'keyField' => 'id', 'valueField' => 'login'
-]);
-        $projects = $this->Tasks->Projects->find('list', ['limit' => 200]);
-        $tasks = $this->Tasks->find('list', ['limit' => 200]);
-        $this->set(compact('task', 'users', 'projects', 'tasks'));
-        $this->set('_serialize', ['task']);
-    }
+     */ public function add()
+	{
+	$task = $this->Tasks->newEntity();
+	if ($this->request->is('post')) {
+	$task = $this->Tasks->patchEntity($task, $this->request->data);
+	if ($this->Tasks->save($task)) {
+	$this->Flash->success('The task has been saved.');
+	return $this->redirect(['action' => 'index']);
+	} else {
+	$this->Flash->error('The task could not be saved. Please, try again.');
+	}
+	}
+	$users = $this->Tasks->Users->find('list', [
+	'keyField' => 'id', 'valueField' => 'login'
+	]);
+	$projects = $this->Tasks->Projects->find('list', ['limit' => 200]);
+	$tasks = $this->Tasks->find('list', ['limit' => 200]);
+	$this->set(compact('task', 'users', 'projects', 'tasks'));
+	$this->set('_serialize', ['task' ]);
+		}
 
+		public function upload($id = null)
+		{
+		//debug($this->request->data);
+
+		$task = $this->Tasks->get($id, [
+		'contain' => []
+		]);
+
+		if(!empty($this->request->data))
+		{
+		$path=$this->Upload->upload($this->request->data,$id);
+		$task->file= $path;
+		if ($this->Tasks->save($task)) {
+		$this->Flash->success('The task has been saved.And file has been added');
+		return $this->redirect(['action' => 'index']);
+		} else {
+		$this->Flash->error('The task could not be saved. Please, try again.');
+		}
+
+		}
+		}
     /**
      * Edit method
      *

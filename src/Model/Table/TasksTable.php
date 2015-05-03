@@ -33,6 +33,7 @@ class TasksTable extends Table
         $this->belongsTo('Tasks', [
             'foreignKey' => 'parent_task_id'
         ]);
+
     }
 
     /**

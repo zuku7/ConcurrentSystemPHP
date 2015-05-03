@@ -9,7 +9,7 @@
     </ul>
 </div>
 <div class="tasks form large-10 medium-9 columns">
-    <?= $this->Form->create($task); ?>
+    <?= $this->Form->create($task, array('type' => 'file')); ?>
     <fieldset>
         <legend><?= __('Add Task') ?></legend>
         <?php
@@ -19,6 +19,9 @@
             echo $this->Form->input('user_id', ['options' => $users]);
             echo $this->Form->input('project_id', ['options' => $projects]);
             echo $this->Form->input('parent_task_id', array('options' => $tasks, 'empty' => array(0 => '')));
+			echo $this->Form->input('Task.file', array('type' => 'file')); 
+			
+			echo $this->Form->file('submittedfile');
         ?>
     </fieldset>
     <?= $this->Form->button(__('Submit')) ?>

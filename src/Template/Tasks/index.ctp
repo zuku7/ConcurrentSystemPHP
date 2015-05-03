@@ -56,6 +56,7 @@
             <td class="actions">
                 <?= $this->Html->link(__('View'), ['action' => 'view', $task->id]) ?>
                 <?= $this->Html->link(__('Edit'), ['action' => 'edit', $task->id]) ?>
+                <?= $this->Html->link(__('Add file'), ['action' => 'upload', $task->id]) ?>
                 <?= $this->Form->postLink(__('Delete'), ['action' => 'delete', $task->id], ['confirm' => __('Are you sure you want to delete # {0}?', $task->id)]) ?>
             </td>
         </tr>

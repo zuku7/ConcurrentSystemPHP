@@ -21,8 +21,17 @@ class Task extends Entity
         'user_id' => true,
         'project_id' => true,
         'parent_task_id' => true,
+        'is_finished' => true,
+        'file' => true,
+        'filedir' => true,
         'user' => true,
         'project' => true,
         'task' => true,
     ];
+	
+    public $actsAs = array(
+        'Upload.Upload' => array(
+            'file'
+        )
+    );
 }
