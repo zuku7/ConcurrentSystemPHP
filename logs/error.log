@@ -3994,3 +3994,19 @@ Stack Trace:
 #9 {main}
 
 
+2015-05-04 11:12:49 Error: Fatal Error (4): syntax error, unexpected '' ?></td>' (T_CONSTANT_ENCAPSED_STRING) in [C:\xampp\htdocs\concurrentSystem\src\Template\Tasks\index.ctp, line 59]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-05-04 11:12:50 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '' ?></td>' (T_CONSTANT_ENCAPSED_STRING)
+Request URL: /tasks
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 59)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+

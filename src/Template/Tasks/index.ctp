@@ -19,13 +19,14 @@
             <th><?= $this->Paginator->sort('user_id') ?></th>
             <th><?= $this->Paginator->sort('project_id') ?></th>            
             <th><?= $this->Paginator->sort('parent_task_id') ?></th>
+			<th><?= $this->Paginator->sort('is_finished') ?></th>
             <th class="actions"><?= __('Actions') ?></th>
         </tr>
     </thead>
     <tbody>
     <?php 
 	$tasks_names;
-
+	$tasks_names[0] = '';
 	foreach ($tasks as $task):
 		$tasks_names[$task->id] = $task->name;
 	endforeach;
@@ -53,12 +54,14 @@
 				?>
 				
 			</td>
+			<td><?= $task->is_finished ? 'Finished' : '' ?></td>
             <td class="actions">
                 <?= $this->Html->link(__('View'), ['action' => 'view', $task->id]) ?>
                 <?= $this->Html->link(__('Edit'), ['action' => 'edit', $task->id]) ?>
                 <?= $this->Html->link(__('Add file'), ['action' => 'upload', $task->id]) ?>
                 <?= $this->Form->postLink(__('Delete'), ['action' => 'delete', $task->id], ['confirm' => __('Are you sure you want to delete # {0}?', $task->id)]) ?>
             </td>
+			
         </tr>
 
     <?php endforeach; ?>

@@ -19,6 +19,8 @@
             <p><?= $task->has('user') ? $this->Html->link($task->user->id, ['controller' => 'Users', 'action' => 'view', $task->user->id]) : '' ?></p>
             <h6 class="subheader"><?= __('Project') ?></h6>
             <p><?= $task->has('project') ? $this->Html->link($task->project->name, ['controller' => 'Projects', 'action' => 'view', $task->project->id]) : '' ?></p>
+			<h6 class="subheader"><?= __('Is Finished') ?></h6>
+            <p><?= $task->is_finished ? 'Yes' : 'No' ?></p>
         </div>
         <div class="large-2 columns numbers end">
             <h6 class="subheader"><?= __('Id') ?></h6>
