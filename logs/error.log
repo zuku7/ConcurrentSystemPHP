@@ -4010,3 +4010,122 @@ Stack Trace:
 #2 {main}
 
 
+2015-05-04 12:06:23 Error: [Cake\Routing\Exception\MissingControllerException] Controller class FusionCharts could not be found.
+Exception Attributes: array (
+  'class' => 'FusionCharts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fusion_charts/fusion_charts_demo
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-05-04 12:29:11 Error: [Cake\Routing\Exception\MissingControllerException] Controller class FusionCharts could not be found.
+Exception Attributes: array (
+  'class' => 'FusionCharts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /fusion_charts/fusion_charts_demo
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-05-04 15:39:50 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Jquery-ganett could not be found.
+Exception Attributes: array (
+  'class' => 'Jquery-ganett',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /jquery-ganett/whatever.js
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-05-04 15:40:13 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Jquery-ganett could not be found.
+Exception Attributes: array (
+  'class' => 'Jquery-ganett',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /jquery-ganett/whatever.js
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-05-04 15:40:59 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Jquery-ganett could not be found.
+Exception Attributes: array (
+  'class' => 'Jquery-ganett',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /jquery-ganett/dataDays.js
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-05-04 15:46:19 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Jquery-ganett could not be found.
+Exception Attributes: array (
+  'class' => 'Jquery-ganett',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /jquery-ganett/dataDays.js
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-05-05 10:49:22 Error: [Cake\Controller\Exception\MissingActionException] Action TasksController::chart() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'TasksController',
+  'action' => 'chart',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /tasks/chart
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\TasksController))
+#2 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2015-05-05 13:52:08 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/%5Cjquery-gantt%5Cjs%5Ctest.js
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-05-05 14:03:26 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Jquery-gantt could not be found.
+Exception Attributes: array (
+  'class' => 'Jquery-gantt',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /jquery-gantt/test.js
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+

@@ -135,4 +135,13 @@ class TasksController extends AppController
         }
         return $this->redirect(['action' => 'index']);
     }
+	
+	public function chart()
+    {
+        $this->paginate = [
+            'contain' => ['Users', 'Projects']
+        ];
+        $this->set('tasks', $this->paginate($this->Tasks));
+        $this->set('_serialize', ['tasks']);
+    }
 }

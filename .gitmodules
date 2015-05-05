@@ -1,0 +1,6 @@
+[submodule "Plugin/FusionCharts"]
+	path = Plugin/FusionCharts
+	url = git://github.com/lecterror/cakephp-fusion-charts-plugin.git
+[submodule "Plugin/Highcharts"]
+	path = Plugin/Highcharts
+	url = git://github.com/destinydriven/cakephp-highcharts-plugin.git

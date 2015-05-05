@@ -138,3 +138,63 @@ Stack Trace:
 #15 {main}
 
 
+2015-05-04 12:07:52 Error: [Cake\Core\Exception\MissingPluginException] Plugin FusionCharts could not be found.
+Exception Attributes: array (
+  'plugin' => 'FusionCharts',
+)
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\config\bootstrap.php(194): Cake\Core\Plugin::load('FusionCharts')
+#1 C:\xampp\htdocs\concurrentSystem\bin\cake.php(31): include('C:\\xampp\\htdocs...')
+#2 {main}
+
+
+2015-05-04 12:29:33 Error: [Cake\Core\Exception\MissingPluginException] Plugin FusionCharts could not be found.
+Exception Attributes: array (
+  'plugin' => 'FusionCharts',
+)
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\config\bootstrap.php(182): Cake\Core\Plugin::load('FusionCharts')
+#1 C:\xampp\htdocs\concurrentSystem\bin\cake.php(31): include('C:\\xampp\\htdocs...')
+#2 {main}
+
+
+2015-05-04 12:39:50 Error: [Cake\Core\Exception\MissingPluginException] Plugin FusionCharts could not be found.
+Exception Attributes: array (
+  'plugin' => 'FusionCharts',
+)
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\config\bootstrap.php(182): Cake\Core\Plugin::load('FusionCharts')
+#1 C:\xampp\htdocs\concurrentSystem\bin\cake.php(31): include('C:\\xampp\\htdocs...')
+#2 {main}
+
+
+2015-05-04 12:50:07 Error: [Cake\Core\Exception\MissingPluginException] Plugin FusionCharts could not be found.
+Exception Attributes: array (
+  'plugin' => 'FusionCharts',
+)
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\config\bootstrap.php(182): Cake\Core\Plugin::load('FusionCharts')
+#1 C:\xampp\htdocs\concurrentSystem\bin\cake.php(31): include('C:\\xampp\\htdocs...')
+#2 {main}
+
+
+2015-05-04 12:53:55 Error: [Cake\Core\Exception\MissingPluginException] Plugin Highcharts could not be found.
+Exception Attributes: array (
+  'plugin' => 'Highcharts',
+)
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\config\bootstrap.php(182): Cake\Core\Plugin::load('Highcharts')
+#1 C:\xampp\htdocs\concurrentSystem\bin\cake.php(31): include('C:\\xampp\\htdocs...')
+#2 {main}
+
+
+2015-05-04 12:55:30 Error: [Cake\Core\Exception\MissingPluginException] Plugin Highcharts could not be found.
+Exception Attributes: array (
+  'plugin' => 'Highcharts',
+)
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\config\bootstrap.php(182): Cake\Core\Plugin::load('Highcharts')
+#1 C:\xampp\htdocs\concurrentSystem\bin\cake.php(31): include('C:\\xampp\\htdocs...')
+#2 {main}
+
+
