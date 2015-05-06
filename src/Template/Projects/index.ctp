@@ -1,9 +1,13 @@
 <div class="actions columns large-2 medium-3">
     <h3><?= __('Actions') ?></h3>
     <ul class="side-nav">
-        <li><?= $this->Html->link(__('New Project'), ['action' => 'add']) ?></li>
+     
         <li><?= $this->Html->link(__('List Tasks'), ['controller' => 'Tasks', 'action' => 'index']) ?> </li>
-        <li><?= $this->Html->link(__('New Task'), ['controller' => 'Tasks', 'action' => 'add']) ?> </li>
+        <?php if ($role=='1'): ?>
+        	   <li><?= $this->Html->link(__('New Project'), ['action' => 'add']) ?></li>
+        	   <li><?= $this->Html->link(__('New Task'), ['controller' => 'Tasks', 'action' => 'add']) ?> </li>
+         <?php endif; ?>
+        
     </ul>
 </div>
 <div class="projects index large-10 medium-9 columns">
@@ -24,8 +28,10 @@
             <td><?= h($project->end) ?></td>
             <td class="actions">
                 <?= $this->Html->link(__('View'), ['action' => 'view', $project->id]) ?>
+                 <?php if ($role=='1'): ?>
                 <?= $this->Html->link(__('Edit'), ['action' => 'edit', $project->id]) ?>
                 <?= $this->Form->postLink(__('Delete'), ['action' => 'delete', $project->id], ['confirm' => __('Are you sure you want to delete # {0}?', $project->id)]) ?>
+                 <?php endif; ?>
             </td>
         </tr>
 

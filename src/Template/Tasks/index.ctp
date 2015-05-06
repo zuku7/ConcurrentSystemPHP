@@ -1,11 +1,15 @@
 <div class="actions columns large-2 medium-3">
     <h3><?= __('Actions') ?></h3>
     <ul class="side-nav">
+    	 <?php if ($role=='1'): ?>
         <li><?= $this->Html->link(__('New Task'), ['action' => 'add']) ?></li>
-        <li><?= $this->Html->link(__('List Users'), ['controller' => 'Users', 'action' => 'index']) ?> </li>
-        <li><?= $this->Html->link(__('New User'), ['controller' => 'Users', 'action' => 'add']) ?> </li>
+         <?php endif; ?>
         <li><?= $this->Html->link(__('List Projects'), ['controller' => 'Projects', 'action' => 'index']) ?> </li>
+        <li><?= $this->Html->link(__('Gantt chart'), ['action' => 'chart']) ?> </li>
+        <?php if ($role=='1'): ?>
         <li><?= $this->Html->link(__('New Project'), ['controller' => 'Projects', 'action' => 'add']) ?> </li>
+        <?php endif; ?>
+        
     </ul>
 </div>
 <div class="tasks index large-10 medium-9 columns">
@@ -56,10 +60,14 @@
 			</td>
 			<td><?= $task->is_finished ? 'Finished' : '' ?></td>
             <td class="actions">
-                <?= $this->Html->link(__('View'), ['action' => 'view', $task->id]) ?>
+            	 <?php if ($role=='1'): ?>
+                
                 <?= $this->Html->link(__('Edit'), ['action' => 'edit', $task->id]) ?>
-                <?= $this->Html->link(__('Add file'), ['action' => 'upload', $task->id]) ?>
+                
                 <?= $this->Form->postLink(__('Delete'), ['action' => 'delete', $task->id], ['confirm' => __('Are you sure you want to delete # {0}?', $task->id)]) ?>
+                  <?php endif; ?>
+                <?= $this->Html->link(__('View'), ['action' => 'view', $task->id]) ?>
+                <?= $this->Html->link(__('Add file'), ['action' => 'upload', $task->id]) ?>
             </td>
 			
         </tr>

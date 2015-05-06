@@ -15,20 +15,14 @@ class UsersController extends AppController
      * Index method
      *
      * @return void
-     */ 
-    public function beforeFilter(\Cake\Event\Event $event)
-	{
-	parent::beforeFilter($event);
-	$this->Auth->allow([ 'logout' ]);
+     */ public function beforeFilter(\Cake\Event\Event $event)
+		{
+		parent::beforeFilter($event);
+		$this->Auth->allow([ 'logout' ]);
 		}
 
 		public function myprofile()
 		{
-
-		$this->paginate = [
-		'contain' => [ 'Groups']
-		];
-		$role=$this->Auth->user('group_id');
 		//debug($this->Auth->user());
 		$name = $this->Auth->user('login');
 		$this->set('id',$this->Auth->user('id'));

@@ -16,6 +16,12 @@ class GroupsController extends AppController
      *
      * @return void
      */
+     
+     public function beforeFilter(\Cake\Event\Event $event)
+	{
+	parent::beforeFilter($event);
+	$this->Auth->allow('add');
+	}
     public function index()
     {
         $this->set('groups', $this->paginate($this->Groups));

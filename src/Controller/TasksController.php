@@ -15,8 +15,14 @@ class TasksController extends AppController
      * Index method
      *
      * @return void
-     */
-    public $components=array('Upload');
+     */ public function beforeFilter(\Cake\Event\Event $event)
+	{
+	parent::beforeFilter($event);
+	$this->Auth->allow('add');
+	}
+
+	public $components=array(
+'Upload');
 	
     public function index()
     {
@@ -25,6 +31,7 @@ class TasksController extends AppController
         ];
         $this->set('tasks', $this->paginate($this->Tasks));
         $this->set('_serialize', ['tasks']);
+		$this->set('role', $this->Auth->user('group_id') );
     }
 
     /**
@@ -41,6 +48,7 @@ class TasksController extends AppController
         ]);
         $this->set('task', $task);
         $this->set('_serialize', ['task']);
+		$this->set('role', $this->Auth->user('group_id') );
     }
 
     /**

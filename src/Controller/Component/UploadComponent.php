@@ -18,9 +18,21 @@ class UploadComponent extends Component {
 				
 				$filename= $file['name'];
 				$file_tmp_name= $file['tmp_name'];
-				$dir=WWW_ROOT.'uploads'.DS.$id;
-				$allowed= array('jpg','png' );
-				move_uploaded_file($file_tmp_name, $dir.'-'.$filename);
+				$dir=WWW_ROOT.'uploads'.'/'.$id."/";
+					
+
+					if (!file_exists($dir)) {
+					mkdir(WWW_ROOT.'uploads'.'/'. $id, 0777);
+					echo "The directory $dir was successfully created.";
+					
+					} else {
+					echo "The directory $dir exists.";
+					}
+					
+					$allowed= array(
+				'jpg','png' );
+				
+				move_uploaded_file($file_tmp_name, $dir.$filename);
 				
 			}
 		}

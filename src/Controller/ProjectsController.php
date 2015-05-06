@@ -16,10 +16,18 @@ class ProjectsController extends AppController
      *
      * @return void
      */
+     
+     public function beforeFilter(\Cake\Event\Event $event)
+	{
+	parent::beforeFilter($event);
+	$this->Auth->allow('add');
+	}
+	
     public function index()
     {
         $this->set('projects', $this->paginate($this->Projects));
         $this->set('_serialize', ['projects']);
+		$this->set('role', $this->Auth->user('group_id') );
     }
 
     /**
@@ -36,6 +44,7 @@ class ProjectsController extends AppController
         ]);
         $this->set('project', $project);
         $this->set('_serialize', ['project']);
+		$this->set('role', $this->Auth->user('group_id') );
     }
 
     /**
