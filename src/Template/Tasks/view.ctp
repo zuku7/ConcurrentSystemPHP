@@ -53,12 +53,14 @@
         <div class="columns large-9">
             <h6 class="subheader"><?= __('Files') ?></h6>
         
-            
+            <?php if ($files==null): ?>
+            	<?= $this->Text->autoParagraph(h('No file for this task.'));  ?>
+            	
+           	<?php else: ?>
           	<?php foreach ($files as $file): ?>
-
-            <?= $this->Text->autoParagraph($file);  ?>
-             
+         	<li><?= $this->Html->link($file,'/uploads/'.$task->id.'/'.$file) ?> </li>
             <?php endforeach; ?>
+			<?php endif; ?>
 			
           
 

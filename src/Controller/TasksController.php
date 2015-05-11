@@ -51,12 +51,13 @@ class TasksController extends AppController
 			
 			$dir=WWW_ROOT.'uploads'.'/'.$id."/";
 			if (!file_exists($dir)) {
-			mkdir(WWW_ROOT.'uploads'.'/'. $id, 0777);
-			$files='no file.';
+			
+			$files=null;
 			
 			} else {
 				$dir = new Folder(WWW_ROOT . 'uploads/'. $id.'/');
 				$files = $dir->find();
+				
 				//debug($files);
 			//$file='exists.';
 			}
@@ -65,6 +66,7 @@ class TasksController extends AppController
 		'task', $task);
 					$this->set(
 		'files', $files);
+	
         $this->set('_serialize', ['task']);
 		$this->set('role', $this->Auth->user('group_id') );
     }
