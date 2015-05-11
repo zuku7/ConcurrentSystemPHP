@@ -48,4 +48,21 @@
 
         </div>
     </div>
+    
+        <div class="row texts">
+        <div class="columns large-9">
+            <h6 class="subheader"><?= __('Files') ?></h6>
+        
+            
+          	<?php foreach ($files as $file): ?>
+
+            <?= $this->Text->autoParagraph($file);  ?>
+             
+            <?php endforeach; ?>
+			
+          
+
+        </div>
+    </div>
+    
 </div>

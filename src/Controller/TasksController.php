@@ -2,6 +2,8 @@
 namespace App\Controller;
 
 use App\Controller\AppController;
+use Cake\Filesystem\Folder;
+use Cake\Filesystem\File;
 
 /**
  * Tasks Controller
@@ -44,9 +46,25 @@ class TasksController extends AppController
     public function view($id = null)
     {
         $task = $this->Tasks->get($id, [
-            'contain' => ['Users', 'Projects']
-        ]);
-        $this->set('task', $task);
+            'contain' => ['Users', 'Projects' ]
+			]);
+			
+			$dir=WWW_ROOT.'uploads'.'/'.$id."/";
+			if (!file_exists($dir)) {
+			mkdir(WWW_ROOT.'uploads'.'/'. $id, 0777);
+			$files='no file.';
+			
+			} else {
+				$dir = new Folder(WWW_ROOT . 'uploads/'. $id.'/');
+				$files = $dir->find();
+				//debug($files);
+			//$file='exists.';
+			}
+
+			$this->set(
+		'task', $task);
+					$this->set(
+		'files', $files);
         $this->set('_serialize', ['task']);
 		$this->set('role', $this->Auth->user('group_id') );
     }

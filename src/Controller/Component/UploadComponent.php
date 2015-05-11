@@ -13,9 +13,10 @@ class UploadComponent extends Component {
 	{
 		if(!empty($data))
 		{
+			$index = 0;
 			
-			foreach ($data as $file) {
-				
+			foreach ($data['uploadfile'] as $file) {
+			
 				$filename= $file['name'];
 				$file_tmp_name= $file['tmp_name'];
 				$dir=WWW_ROOT.'uploads'.'/'.$id."/";
@@ -29,11 +30,10 @@ class UploadComponent extends Component {
 					echo "The directory $dir exists.";
 					}
 					
-					$allowed= array(
-				'jpg','png' );
+
 				
 				move_uploaded_file($file_tmp_name, $dir.$filename);
-				
+				$index++;
 			}
 		}
 		return $dir.'-'.$filename;
