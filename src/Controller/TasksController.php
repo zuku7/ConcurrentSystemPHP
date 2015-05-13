@@ -25,13 +25,52 @@ class TasksController extends AppController
 
 	public $components=array(
 'Upload');
+
+		public function myprofile()
+		{
+		//debug($this->Auth->user());
+		$name = $this->Auth->user('login');
+		$this->set('id',$this->Auth->user('id'));
+		$this->set('role', $this->Auth->user('group_id') );
+		$this->set('name' , $name );
+
+			$this->paginate = [
+			'contain' => ['Users', 'Projects' ]
+			];
+			$id=$this->Auth->user('id');
+
+			if($this->Auth->user('group_id')== 1)
+			{
+			$this->set(
+			'tasks', $this->paginate($this->Tasks));
+			}
+			else {
+
+			$query = $this->Tasks->find('all')->where(['user_id' => $id]);
+
+			$this->set('tasks', $this->paginate($query));
+
+			}
+
+			$this->set(
+		'_serialize', ['tasks']);
+		$this->set('role', $this->Auth->user('group_id') );
+		
+		}
 	
     public function index()
     {
         $this->paginate = [
-            'contain' => ['Users', 'Projects']
-        ];
-        $this->set('tasks', $this->paginate($this->Tasks));
+            'contain' => ['Users', 'Projects' ]
+			];
+			$id=$this->Auth->user('id');
+			
+			$query = $this->Tasks->find('all')->where(['user_id' => $id]);
+			//debug($this->paginate($query));
+			$this->set('tasks', $this->paginate($query));
+
+			// $this->set(
+		// 'tasks', $this->paginate($this->Tasks));
         $this->set('_serialize', ['tasks']);
 		$this->set('role', $this->Auth->user('group_id') );
     }
@@ -82,7 +121,7 @@ class TasksController extends AppController
 	$task = $this->Tasks->patchEntity($task, $this->request->data);
 	if ($this->Tasks->save($task)) {
 	$this->Flash->success('The task has been saved.');
-	return $this->redirect(['action' => 'index']);
+	return $this->redirect(['action' => 'myprofile']);
 	} else {
 	$this->Flash->error('The task could not be saved. Please, try again.');
 	}
@@ -110,7 +149,7 @@ class TasksController extends AppController
 		$task->file= $path;
 		if ($this->Tasks->save($task)) {
 		$this->Flash->success('The task has been saved.And file has been added');
-		return $this->redirect(['action' => 'index']);
+		return $this->redirect(['action' => 'myprofile']);
 		} else {
 		$this->Flash->error('The task could not be saved. Please, try again.');
 		}
@@ -133,7 +172,7 @@ class TasksController extends AppController
             $task = $this->Tasks->patchEntity($task, $this->request->data);
             if ($this->Tasks->save($task)) {
                 $this->Flash->success('The task has been saved.');
-                return $this->redirect(['action' => 'index']);
+                return $this->redirect(['action' => 'myprofile']);
             } else {
                 $this->Flash->error('The task could not be saved. Please, try again.');
             }
@@ -161,7 +200,7 @@ class TasksController extends AppController
         } else {
             $this->Flash->error('The task could not be deleted. Please, try again.');
         }
-        return $this->redirect(['action' => 'index']);
+        return $this->redirect(['action' => 'myprofile']);
     }
 	
 	public function chart()

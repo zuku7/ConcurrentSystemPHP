@@ -112,6 +112,10 @@ class UsersController extends AppController
         $this->set(compact('user', 'groups'));
         $this->set('_serialize', ['user']);
 		$this->set('role', $this->Auth->user('group_id') );
+				$name = $this->Auth->user('login');
+		$this->set('id',$this->Auth->user('id'));
+		
+		$this->set('name' , $name );
     }
 
     /**

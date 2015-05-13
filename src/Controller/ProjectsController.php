@@ -28,6 +28,10 @@ class ProjectsController extends AppController
         $this->set('projects', $this->paginate($this->Projects));
         $this->set('_serialize', ['projects']);
 		$this->set('role', $this->Auth->user('group_id') );
+				$name = $this->Auth->user('login');
+		$this->set('id',$this->Auth->user('id'));
+		$this->set('role', $this->Auth->user('group_id') );
+		$this->set('name' , $name );
     }
 
     /**

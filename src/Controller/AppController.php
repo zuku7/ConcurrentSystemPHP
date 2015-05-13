@@ -42,7 +42,7 @@ class AppController extends Controller
                 ]
             ],
             'loginRedirect' => [
-                'controller' => 'Users',
+                'controller' => 'Tasks',
                 'action' => 'myprofile'
             ],
             'logoutRedirect' => [
