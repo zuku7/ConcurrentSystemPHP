@@ -9520,3 +9520,729 @@ Stack Trace:
 #3 {main}
 
 
+2015-05-19 15:34:39 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jquery.js
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-05-19 15:34:39 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/chat.js
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-05-19 15:34:52 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jquery.js
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-05-19 15:34:53 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/chat.js
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-05-19 15:34:55 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jquery.js
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-05-19 15:34:55 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/chat.js
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-05-19 15:35:17 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jquery.js
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-05-19 15:35:18 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/chat.js
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-05-19 15:35:37 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jquery.js
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-05-19 15:35:37 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/chat.js
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-05-19 15:36:45 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jquery.js
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-05-19 15:36:45 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/chat.js
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-05-19 15:36:52 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Chat.php could not be found.
+Exception Attributes: array (
+  'class' => 'Chat.php',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /chat.php?action=startchatsession&_=1432049812325
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-05-19 15:39:38 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Chat.php could not be found.
+Exception Attributes: array (
+  'class' => 'Chat.php',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /chat.php?action=startchatsession&_=1432049977858
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-05-19 15:41:42 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Chat.php could not be found.
+Exception Attributes: array (
+  'class' => 'Chat.php',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /chat.php?action=startchatsession&_=1432050102023
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-05-19 15:41:47 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Chat.php could not be found.
+Exception Attributes: array (
+  'class' => 'Chat.php',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /chat.php?action=sendchat
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-05-19 15:41:55 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Chat.php could not be found.
+Exception Attributes: array (
+  'class' => 'Chat.php',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /chat.php?action=sendchat
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-05-19 15:41:59 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Chat.php could not be found.
+Exception Attributes: array (
+  'class' => 'Chat.php',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /chat.php?action=closechat
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-05-19 15:42:00 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Chat.php could not be found.
+Exception Attributes: array (
+  'class' => 'Chat.php',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /chat.php?action=closechat
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-05-19 15:43:46 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Chat.php could not be found.
+Exception Attributes: array (
+  'class' => 'Chat.php',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /chat.php?action=sendchat
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-05-19 15:46:58 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Chat.php could not be found.
+Exception Attributes: array (
+  'class' => 'Chat.php',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /chat.php?action=closechat
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-05-19 15:47:01 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Chat.php could not be found.
+Exception Attributes: array (
+  'class' => 'Chat.php',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /chat.php?action=startchatsession&_=1432050421422
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-05-19 15:47:06 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Chat.php could not be found.
+Exception Attributes: array (
+  'class' => 'Chat.php',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /chat.php?action=sendchat
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-05-19 15:47:19 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Chat.php could not be found.
+Exception Attributes: array (
+  'class' => 'Chat.php',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /chat.php?action=closechat
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-05-19 15:52:06 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Chat.php could not be found.
+Exception Attributes: array (
+  'class' => 'Chat.php',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /chat.php?action=startchatsession&_=1432050725814
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-05-19 15:52:13 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Chat.php could not be found.
+Exception Attributes: array (
+  'class' => 'Chat.php',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /chat.php?action=sendchat
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-05-19 15:52:16 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Chat.php could not be found.
+Exception Attributes: array (
+  'class' => 'Chat.php',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /chat.php?action=closechat
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-05-19 15:52:48 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Chat.php could not be found.
+Exception Attributes: array (
+  'class' => 'Chat.php',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /chat.php?action=startchatsession&_=1432050768747
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-05-19 15:57:20 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Chat.php could not be found.
+Exception Attributes: array (
+  'class' => 'Chat.php',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /chat.php?action=sendchat
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-05-19 16:01:17 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Chat.php could not be found.
+Exception Attributes: array (
+  'class' => 'Chat.php',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /chat.php?action=startchatsession&_=1432051277020
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-05-19 16:01:37 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Chat.php could not be found.
+Exception Attributes: array (
+  'class' => 'Chat.php',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /chat.php?action=startchatsession&_=1432051297379
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-05-19 16:02:06 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Chat.php could not be found.
+Exception Attributes: array (
+  'class' => 'Chat.php',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /chat.php?action=startchatsession&_=1432051326501
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-05-19 16:05:35 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Chat.php could not be found.
+Exception Attributes: array (
+  'class' => 'Chat.php',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /chat.php?action=startchatsession&_=1432051534535
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-05-19 16:05:59 Error: Fatal Error (4): syntax error, unexpected '$_SESSION' (T_VARIABLE) in [C:\xampp\htdocs\concurrentSystem\src\Template\Users\index.ctp, line 73]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-05-19 16:05:59 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '$_SESSION' (T_VARIABLE)
+Request URL: /users
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 73)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-05-19 16:06:10 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Chat.php could not be found.
+Exception Attributes: array (
+  'class' => 'Chat.php',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /chat.php?action=startchatsession&_=1432051570632
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-05-19 17:16:42 Error: [Cake\View\Exception\MissingHelperException] Helper class AuthHelper could not be found.
+Exception Attributes: array (
+  'class' => 'AuthHelper',
+  'plugin' => NULL,
+)
+Request URL: /users
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php(86): Cake\View\HelperRegistry->_throwMissingClassError('Auth', NULL)
+#1 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\View\HelperRegistry.php(66): Cake\Core\ObjectRegistry->load('Auth')
+#2 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\View\View.php(732): Cake\View\HelperRegistry->__isset('Auth')
+#3 C:\xampp\htdocs\concurrentSystem\src\Template\Users\index.ctp(75): Cake\View\View->__get('Auth')
+#4 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\View\View.php(815): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\View\View.php(775): Cake\View\View->_evaluate('C:\\xampp\\htdocs...', Array)
+#6 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\View\View.php(463): Cake\View\View->_render('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Controller\Controller.php(575): Cake\View\View->render(NULL, NULL)
+#8 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(120): Cake\Controller\Controller->render()
+#9 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#10 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#11 {main}
+
+
+2015-05-19 17:17:04 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Chat.php could not be found.
+Exception Attributes: array (
+  'class' => 'Chat.php',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /chat.php?action=startchatsession&_=1432055823892
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-05-19 17:17:49 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Chat.php could not be found.
+Exception Attributes: array (
+  'class' => 'Chat.php',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /chat.php?action=startchatsession&_=1432055868737
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-05-19 17:18:09 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Chat.php could not be found.
+Exception Attributes: array (
+  'class' => 'Chat.php',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /chat.php?action=sendchat
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-05-19 17:19:32 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Chat.php could not be found.
+Exception Attributes: array (
+  'class' => 'Chat.php',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /chat.php?action=sendchat
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-05-19 17:20:36 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Chat.php could not be found.
+Exception Attributes: array (
+  'class' => 'Chat.php',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /chat.php?action=startchatsession&_=1432056035958
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-05-19 17:20:40 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Chat.php could not be found.
+Exception Attributes: array (
+  'class' => 'Chat.php',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /chat.php?action=sendchat
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-05-19 17:21:45 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Chat.php could not be found.
+Exception Attributes: array (
+  'class' => 'Chat.php',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /chat.php?action=startchatsession&_=1432056105337
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-05-19 17:21:52 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Chat.php could not be found.
+Exception Attributes: array (
+  'class' => 'Chat.php',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /chat.php?action=sendchat
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-05-19 17:22:07 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Chat.php could not be found.
+Exception Attributes: array (
+  'class' => 'Chat.php',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /chat.php?action=startchatsession&_=1432056127447
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-05-19 17:23:43 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Chat.php could not be found.
+Exception Attributes: array (
+  'class' => 'Chat.php',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /chat.php?action=startchatsession&_=1432056222822
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-05-19 17:23:52 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Chat.php could not be found.
+Exception Attributes: array (
+  'class' => 'Chat.php',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /chat.php?action=startchatsession&_=1432056231941
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-05-19 17:23:55 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Chat.php could not be found.
+Exception Attributes: array (
+  'class' => 'Chat.php',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /chat.php?action=closechat
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-05-19 17:23:57 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Chat.php could not be found.
+Exception Attributes: array (
+  'class' => 'Chat.php',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /chat.php?action=startchatsession&_=1432056237516
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-05-19 17:23:59 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Chat.php could not be found.
+Exception Attributes: array (
+  'class' => 'Chat.php',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /chat.php?action=startchatsession&_=1432056239371
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-05-19 17:26:03 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Chat.php could not be found.
+Exception Attributes: array (
+  'class' => 'Chat.php',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /chat.php?action=startchatsession&_=1432056363437
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-05-19 17:26:06 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Chat.php could not be found.
+Exception Attributes: array (
+  'class' => 'Chat.php',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /chat.php?action=sendchat
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-05-19 17:32:29 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Chat.php could not be found.
+Exception Attributes: array (
+  'class' => 'Chat.php',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /chat.php?action=startchatsession&_=1432056749404
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-05-19 17:32:32 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Chat.php could not be found.
+Exception Attributes: array (
+  'class' => 'Chat.php',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /chat.php?action=sendchat
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-05-19 17:32:34 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Chat.php could not be found.
+Exception Attributes: array (
+  'class' => 'Chat.php',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /chat.php?action=closechat
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+

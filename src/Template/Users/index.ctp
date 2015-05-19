@@ -1,3 +1,10 @@
+<link type="text/css" rel="stylesheet" media="all" href="/chat/css/chat.css" />
+<link type="text/css" rel="stylesheet" media="all" href="/chat/css/screen.css" />
+
+<?php 
+$_SESSION['user'] = $name;
+?>
+
 <div class="actions columns large-2 medium-3">
 	<h3>Hi, <?=  $name ?></h3>
     
@@ -18,6 +25,13 @@
         <li><?= $this->Html->link(__('Log out'), ['controller' => 'Users', 'action' => 'logout']) ?> </li>
     </ul>
 </div>
+
+<a href="javascript:void(0)" onclick="javascript:chatWith('admin')">Chat With Admin</a><br/>
+
+ 
+<!--[if lte IE 7]>
+<link type="text/css" rel="stylesheet" media="all" href="css/screen_ie.css" />
+<![endif]-->
 <div class="users index large-10 medium-9 columns">
     <table cellpadding="0" cellspacing="0">
     <thead>
@@ -57,3 +71,6 @@
         <p><?= $this->Paginator->counter() ?></p>
     </div>
 </div>
+
+<script type="text/javascript" src="/chat/js/jquery.js"></script>
+<script type="text/javascript" src="/chat/js/chat.js"></script>
