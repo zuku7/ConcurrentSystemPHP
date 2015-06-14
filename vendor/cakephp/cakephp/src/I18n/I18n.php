@@ -240,7 +240,7 @@ class I18n
     public static function defaultLocale()
     {
         if (static::$_defaultLocale === null) {
-            static::$_defaultLocale = Locale::getDefault() ?: 'en_US';
+            static::$_defaultLocale = \Locale::getDefault() ?: 'en_US';
         }
         return static::$_defaultLocale;
     }

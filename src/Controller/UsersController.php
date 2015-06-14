@@ -45,7 +45,12 @@ class UsersController extends AppController
 		$this->set('users' , $this->paginate($this->Users));
 
 		}
+	public function sample()
+		{
 
+		$name = $this->Auth->user('login');
+		$this->set('name', $name );
+		}
 
     /**
      * View method

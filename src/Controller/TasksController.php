@@ -4,6 +4,8 @@ namespace App\Controller;
 use App\Controller\AppController;
 use Cake\Filesystem\Folder;
 use Cake\Filesystem\File;
+use Cake\Network\Email\Email;
+use Cake\ORM\TableRegistry;
 
 /**
  * Tasks Controller
@@ -110,17 +112,49 @@ class TasksController extends AppController
 		$this->set('role', $this->Auth->user('group_id') );
     }
 
-    /**
-     * Add method
-     *
-     * @return void Redirects on successful add, renders view otherwise.
-     */ public function add()
+     /**
+	 * Add method
+	 *
+	 * @return void Redirects on successful add, renders view otherwise.
+	 */ public function add()
 	{
 	$task = $this->Tasks->newEntity();
+
 	if ($this->request->is('post')) {
 	$task = $this->Tasks->patchEntity($task, $this->request->data);
 	if ($this->Tasks->save($task)) {
+
+	$queryUser = TableRegistry::get('Users')->find()->where(['id' => $this->request->data['user_id' ]]);
+
+	foreach ($queryUser as $user) {
+	$userMail=$user->email;
+	$userLogin=$user->login;
+	}
+	$queryProject = TableRegistry::get('Projects')->find()->where(['id' => $this->request->data['project_id']]);
+
+	foreach ($queryProject as $project) {
+	$projectName=$project->name;
+
+	}
+
+	$email = new Email();
+	$email->transport('default');
+
+	try {
+	$res = $email->from([ $this->Auth->user(
+	'email') => $this->Auth->user('login')])
+	->to([$userMail => $userLogin])
+	->subject('ConcurrentSystem - Added to Task')
+	->send('Hi '.$userLogin.','."\n".'You have been added to task:  '.$this->request->data['name'].' in project: '.$projectName."\n".'Kinds regards'.','."\n".$this->Auth->user('login'));
+
+	} catch (Exception $e) {
+
+	echo 'Exception : ',  $e->getMessage(), "\n";
+
+	}
+
 	$this->Flash->success('The task has been saved.');
+	//$this->Flash->success($query);
 	return $this->redirect(['action' => 'myprofile']);
 	} else {
 	$this->Flash->error('The task could not be saved. Please, try again.');
@@ -133,12 +167,12 @@ class TasksController extends AppController
 	$tasks = $this->Tasks->find('list', ['limit' => 200]);
 	$this->set(compact('task', 'users', 'projects', 'tasks'));
 	$this->set('_serialize', ['task' ]);
-		}
+	}
 
-		public function upload($id = null)
-		{
+	public function upload($id = null)
+	{
 		//debug($this->request->data);
-
+debug($query);
 		$task = $this->Tasks->get($id, [
 		'contain' => []
 		]);

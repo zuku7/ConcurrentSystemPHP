@@ -190,16 +190,22 @@ return [
             'client' => null,
             'tls' => null,
         ],
+        'gmail' => [
+  
+		'host' => 'ssl://smtp.gmail.com',
+		'port' => 465,
+		'timeout' => 60,
+		'username' => 'szabrzes@gmail.com',
+		'password' => 'xxxx',
+		'className' => 'Smtp',
+	 	
+		
+   
+    ]
+    
     ],
 
-    'Email' => [
-        'default' => [
-            'transport' => 'default',
-            'from' => 'you@localhost',
-            //'charset' => 'utf-8',
-            //'headerCharset' => 'utf-8',
-        ],
-    ],
+
 
     /**
      * Connection information used by the ORM to connect

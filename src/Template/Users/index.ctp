@@ -1,8 +1,24 @@
-<link type="text/css" rel="stylesheet" media="all" href="/chat/css/chat.css" />
-<link type="text/css" rel="stylesheet" media="all" href="/chat/css/screen.css" />
 
+
+<?= $this->Html->css('chat.css') ?>
+<?= $this->Html->css('screen.css') ?>
+<script src="/chat/js/jquery.js"></script>
+<script src="/chat/js/chat.js"></script>
+<style>
+body {
+	background-color: #eeeeee;
+	padding:0;
+	margin:0 auto;
+	font-family:"Lucida Grande",Verdana,Arial,"Bitstream Vera Sans",sans-serif;
+	font-size:11px;
+}
+</style>
+ 
 <?php 
-$_SESSION['user'] = $name;
+echo $_SESSION['user'];
+
+$_SESSION['username']=$_SESSION['user'];
+
 ?>
 
 <div class="actions columns large-2 medium-3">
