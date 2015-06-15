@@ -40,10 +40,12 @@ class UsersController extends AppController
 		$role=$this->Auth->user('group_id');
 		//debug($this->Auth->user('group_id'));
 		$name = $this->Auth->user('login');
+		$id = $this->Auth->user('id');
 		$this->set('role', $role );
 		$this->set('name', $name );
+		$this->set('id', $id );
 		$this->set('users' , $this->paginate($this->Users));
-
+		
 		}
 	public function sample()
 		{
@@ -162,4 +164,24 @@ class UsersController extends AppController
 		$this->Flash->success('You logged out successfully.');
 		return $this->redirect($this->Auth->logout());
 	}
+	
+	public function chat()
+		{
+
+		$this->paginate = [
+		'contain' => [ 'Groups']
+		];
+		$role=$this->Auth->user('group_id');
+		//debug($this->Auth->user('group_id'));
+		$name = $this->Auth->user('login');
+		$id = $this->Auth->user('id');
+		$email = $this->Auth->user('email');
+		$this->set('role', $role );
+		$this->set('name', $name );
+		$this->set('id', $id );
+		$this->set('email', $email);
+		$this->set('users' , $this->paginate($this->Users));
+		
+		}
+	
 }

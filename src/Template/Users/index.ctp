@@ -1,7 +1,14 @@
 
+<?php
+	$_SESSION['username'] = $name;
+?>
 
-<?= $this->Html->css('chat.css') ?>
-<?= $this->Html->css('screen.css') ?>
+<link type="text/css" rel="stylesheet" media="all" href="/chat/css/chat.css" />
+<link type="text/css" rel="stylesheet" media="all" href="/chat/css/screen.css" />
+ 
+<!--[if lte IE 7]>
+<link type="text/css" rel="stylesheet" media="all" href="/chat/css/screen_ie.css" />
+<![endif]-->
 <script src="/chat/js/jquery.js"></script>
 <script src="/chat/js/chat.js"></script>
 <style>
@@ -14,12 +21,7 @@ body {
 }
 </style>
  
-<?php 
-echo $_SESSION['user'];
-
-$_SESSION['username']=$_SESSION['user'];
-
-?>
+<div id="main_container">
 
 <div class="actions columns large-2 medium-3">
 	<h3>Hi, <?=  $name ?></h3>
@@ -37,13 +39,14 @@ $_SESSION['username']=$_SESSION['user'];
          <?php endif; ?>
         <li><?= $this->Html->link(__('List tasks'), ['controller' => 'Tasks', 'action' => 'index']) ?> </li>
         <li><?= $this->Html->link(__('List projects'), ['controller' => 'Projects', 'action' => 'index']) ?> </li>
+		<li><?= $this->Html->link(__('Chat'), ['controller' => 'Users', 'action' => 'chat']) ?> </li>
        
         <li><?= $this->Html->link(__('Log out'), ['controller' => 'Users', 'action' => 'logout']) ?> </li>
     </ul>
 </div>
 
-<a href="javascript:void(0)" onclick="javascript:chatWith('admin')">Chat With Admin</a><br/>
 
+<a href="javascript:void(0)" onclick="javascript:chatWith('nowy')">Chat With Jane Doe</a><br/>
  
 <!--[if lte IE 7]>
 <link type="text/css" rel="stylesheet" media="all" href="css/screen_ie.css" />
@@ -88,5 +91,4 @@ $_SESSION['username']=$_SESSION['user'];
     </div>
 </div>
 
-<script type="text/javascript" src="/chat/js/jquery.js"></script>
-<script type="text/javascript" src="/chat/js/chat.js"></script>
+</div>

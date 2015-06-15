@@ -12743,3 +12743,2063 @@ Stack Trace:
 #9 {main}
 
 
+2015-06-14 12:23:26 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Chat.php could not be found.
+Exception Attributes: array (
+  'class' => 'Chat.php',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /chat.php?action=startchatsession&_=1434284605947
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-14 12:23:26 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Chat.php could not be found.
+Exception Attributes: array (
+  'class' => 'Chat.php',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /chat.php?action=startchatsession&_=1434284605950
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-14 12:23:52 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Chat.php could not be found.
+Exception Attributes: array (
+  'class' => 'Chat.php',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /chat.php?action=startchatsession&_=1434284632336
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-14 12:23:53 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Chat.php could not be found.
+Exception Attributes: array (
+  'class' => 'Chat.php',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /chat.php?action=startchatsession&_=1434284632338
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-14 12:25:28 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Chat.php could not be found.
+Exception Attributes: array (
+  'class' => 'Chat.php',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /chat.php?action=startchatsession&_=1434284728450
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-14 12:25:28 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Chat.php could not be found.
+Exception Attributes: array (
+  'class' => 'Chat.php',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /chat.php?action=startchatsession&_=1434284728454
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-14 12:28:05 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Chat.php could not be found.
+Exception Attributes: array (
+  'class' => 'Chat.php',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /chat.php?action=sendchat
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-14 12:28:06 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Chat.php could not be found.
+Exception Attributes: array (
+  'class' => 'Chat.php',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /chat.php?action=closechat
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-14 12:33:39 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Chat.php could not be found.
+Exception Attributes: array (
+  'class' => 'Chat.php',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /chat.php?action=startchatsession&_=1434285218897
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-14 12:33:39 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Chat.php could not be found.
+Exception Attributes: array (
+  'class' => 'Chat.php',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /chat.php?action=startchatsession&_=1434285218900
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-14 12:40:18 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Chat.php could not be found.
+Exception Attributes: array (
+  'class' => 'Chat.php',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /chat.php?action=startchatsession&_=1434285618696
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-14 12:40:19 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Chat.php could not be found.
+Exception Attributes: array (
+  'class' => 'Chat.php',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /chat.php?action=startchatsession&_=1434285618699
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-14 12:43:36 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Chat.php could not be found.
+Exception Attributes: array (
+  'class' => 'Chat.php',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /chat.php?action=startchatsession&_=1434285815899
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-14 12:44:28 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Chat.php could not be found.
+Exception Attributes: array (
+  'class' => 'Chat.php',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /chat.php?action=startchatsession&_=1434285867995
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-14 12:44:36 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Basics could not be found.
+Exception Attributes: array (
+  'class' => 'Basics',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /basics/chatjs/sounds/chat.mp3
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-14 12:44:36 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Basics could not be found.
+Exception Attributes: array (
+  'class' => 'Basics',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /basics/chatjs/sounds/chat.ogg
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-14 13:05:06 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Chat.php could not be found.
+Exception Attributes: array (
+  'class' => 'Chat.php',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /chat.php?action=startchatsession&_=1434287106022
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-14 13:05:34 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Chat.php could not be found.
+Exception Attributes: array (
+  'class' => 'Chat.php',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /chat.php?action=startchatsession&_=1434287133971
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-14 13:05:53 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Chat.php could not be found.
+Exception Attributes: array (
+  'class' => 'Chat.php',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /chat.php?action=startchatsession&_=1434287153006
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-14 13:06:15 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Chat.php could not be found.
+Exception Attributes: array (
+  'class' => 'Chat.php',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /chat.php?action=startchatsession&_=1434287175394
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-14 13:07:21 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Chat.php could not be found.
+Exception Attributes: array (
+  'class' => 'Chat.php',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /chat.php?action=startchatsession&_=1434287241336
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-14 13:07:51 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Chat.php could not be found.
+Exception Attributes: array (
+  'class' => 'Chat.php',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /chat.php?action=startchatsession&_=1434287271316
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-14 13:08:26 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Chat.php could not be found.
+Exception Attributes: array (
+  'class' => 'Chat.php',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /chat.php?action=startchatsession&_=1434287306429
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-14 13:11:25 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Chat.php could not be found.
+Exception Attributes: array (
+  'class' => 'Chat.php',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /chat.php?action=startchatsession&_=1434287484968
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-14 13:12:00 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Chat.php could not be found.
+Exception Attributes: array (
+  'class' => 'Chat.php',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /chat.php?action=startchatsession&_=1434287520109
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-14 13:12:10 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Chat.php could not be found.
+Exception Attributes: array (
+  'class' => 'Chat.php',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /chat.php?action=startchatsession&_=1434287530381
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-14 13:12:23 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Chat.php could not be found.
+Exception Attributes: array (
+  'class' => 'Chat.php',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /chat.php?action=startchatsession&_=1434287543105
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-14 13:12:36 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Chat.php could not be found.
+Exception Attributes: array (
+  'class' => 'Chat.php',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /chat.php?action=startchatsession&_=1434287556183
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-15 09:48:05 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Chat.php could not be found.
+Exception Attributes: array (
+  'class' => 'Chat.php',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /chat.php?action=startchatsession&_=1434361684447
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-15 09:48:42 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Chat.php could not be found.
+Exception Attributes: array (
+  'class' => 'Chat.php',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /chat.php?action=startchatsession&_=1434361721573
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-15 09:50:34 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Chat.php could not be found.
+Exception Attributes: array (
+  'class' => 'Chat.php',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /chat.php?action=startchatsession&_=1434361833688
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-15 09:52:08 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Chat.php could not be found.
+Exception Attributes: array (
+  'class' => 'Chat.php',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /chat.php?action=startchatsession&_=1434361928132
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-15 09:54:57 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Chat.php could not be found.
+Exception Attributes: array (
+  'class' => 'Chat.php',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /chat.php?action=startchatsession&_=1434362097089
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-15 09:55:45 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Chat.php could not be found.
+Exception Attributes: array (
+  'class' => 'Chat.php',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /chat.php?action=startchatsession&_=1434362144835
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-15 09:55:48 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Chat.php could not be found.
+Exception Attributes: array (
+  'class' => 'Chat.php',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /chat.php?action=sendchat
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-15 09:55:56 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Chat.php could not be found.
+Exception Attributes: array (
+  'class' => 'Chat.php',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /chat.php?action=closechat
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-15 09:56:27 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Chat.php could not be found.
+Exception Attributes: array (
+  'class' => 'Chat.php',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /chat.php?action=startchatsession&_=1434362186643
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-15 09:56:30 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Chat.php could not be found.
+Exception Attributes: array (
+  'class' => 'Chat.php',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /chat.php?action=sendchat
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-15 09:57:05 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Chat.php could not be found.
+Exception Attributes: array (
+  'class' => 'Chat.php',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /chat.php?action=startchatsession&_=1434362225107
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-15 09:57:09 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Chat.php could not be found.
+Exception Attributes: array (
+  'class' => 'Chat.php',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /chat.php?action=sendchat
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-15 09:57:25 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Chat.php could not be found.
+Exception Attributes: array (
+  'class' => 'Chat.php',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /chat.php?action=startchatsession&_=1434362244724
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-15 09:57:31 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Chat.php could not be found.
+Exception Attributes: array (
+  'class' => 'Chat.php',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /chat.php?action=sendchat
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-15 09:57:35 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Chat.php could not be found.
+Exception Attributes: array (
+  'class' => 'Chat.php',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /chat.php?action=sendchat
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-15 09:58:16 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Chat.php could not be found.
+Exception Attributes: array (
+  'class' => 'Chat.php',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /chat.php?action=closechat
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-15 10:49:05 Error: [Cake\Controller\Exception\MissingActionException] Action UsersController::chat() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'chat',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /users/chat
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#2 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2015-06-15 11:12:18 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Package.json could not be found.
+Exception Attributes: array (
+  'class' => 'Package.json',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /package.json
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-15 11:12:18 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Check.php could not be found.
+Exception Attributes: array (
+  'class' => 'Check.php',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /check.php
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-15 11:17:02 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Server could not be found.
+Exception Attributes: array (
+  'class' => 'Server',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /server/users/null/closed
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-15 11:17:02 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Package.json could not be found.
+Exception Attributes: array (
+  'class' => 'Package.json',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /package.json
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-15 11:17:03 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Check.php could not be found.
+Exception Attributes: array (
+  'class' => 'Check.php',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /check.php
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-15 11:18:27 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Server could not be found.
+Exception Attributes: array (
+  'class' => 'Server',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /server/users/null/closed
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-15 11:18:28 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Package.json could not be found.
+Exception Attributes: array (
+  'class' => 'Package.json',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /package.json
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-15 11:18:28 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Check.php could not be found.
+Exception Attributes: array (
+  'class' => 'Check.php',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /check.php
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-15 11:19:57 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Server could not be found.
+Exception Attributes: array (
+  'class' => 'Server',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /server/users/null/closed
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-15 11:19:57 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Package.json could not be found.
+Exception Attributes: array (
+  'class' => 'Package.json',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /package.json
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-15 11:19:58 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Check.php could not be found.
+Exception Attributes: array (
+  'class' => 'Check.php',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /check.php
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-15 11:23:47 Error: [Cake\View\Exception\MissingTemplateException] Template file "Users\chat.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users\\chat.ctp',
+)
+Request URL: /users/chat
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\View\View.php(460): Cake\View\View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Controller\Controller.php(575): Cake\View\View->render(NULL, NULL)
+#2 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(120): Cake\Controller\Controller->render()
+#3 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#4 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 {main}
+
+
+2015-06-15 11:23:47 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Server could not be found.
+Exception Attributes: array (
+  'class' => 'Server',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /server/users/null/closed
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-15 11:23:54 Error: [Cake\Controller\Exception\MissingActionException] Action UsersController::test() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'test',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /users/test/chat
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#2 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2015-06-15 11:23:59 Error: [Cake\View\Exception\MissingTemplateException] Template file "Users\chat.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users\\chat.ctp',
+)
+Request URL: /users/chat
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\View\View.php(460): Cake\View\View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Controller\Controller.php(575): Cake\View\View->render(NULL, NULL)
+#2 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(120): Cake\Controller\Controller->render()
+#3 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#4 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 {main}
+
+
+2015-06-15 11:25:15 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Package.json could not be found.
+Exception Attributes: array (
+  'class' => 'Package.json',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /package.json
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-15 11:25:15 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Check.php could not be found.
+Exception Attributes: array (
+  'class' => 'Check.php',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /check.php
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-15 11:26:20 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Server could not be found.
+Exception Attributes: array (
+  'class' => 'Server',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /server/users/null/closed
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-15 11:26:20 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Package.json could not be found.
+Exception Attributes: array (
+  'class' => 'Package.json',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /package.json
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-15 11:26:20 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Server could not be found.
+Exception Attributes: array (
+  'class' => 'Server',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /server/check.php
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-15 13:10:49 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Server could not be found.
+Exception Attributes: array (
+  'class' => 'Server',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /server/users/null/closed
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-15 14:29:02 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Chat.php could not be found.
+Exception Attributes: array (
+  'class' => 'Chat.php',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /chat.php?action=startchatsession&_=1434378542464
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-15 14:29:11 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Package.json could not be found.
+Exception Attributes: array (
+  'class' => 'Package.json',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /package.json
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-15 14:29:11 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Check.php could not be found.
+Exception Attributes: array (
+  'class' => 'Check.php',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /check.php
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-15 14:30:28 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Server could not be found.
+Exception Attributes: array (
+  'class' => 'Server',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /server/users/null/closed
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-15 15:22:51 Error: [Cake\Controller\Exception\MissingActionException] Action UsersController::\token-generator\js\src\FirebaseTokenGenerator.js() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => '\\token-generator\\js\\src\\FirebaseTokenGenerator.js',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /users/%5Ctoken-generator%5Cjs%5Csrc%5CFirebaseTokenGenerator.js
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#2 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2015-06-15 15:27:09 Error: [Cake\Controller\Exception\MissingActionException] Action UsersController::\token-generator\js\src\FirebaseTokenGenerator.js() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => '\\token-generator\\js\\src\\FirebaseTokenGenerator.js',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /users/%5Ctoken-generator%5Cjs%5Csrc%5CFirebaseTokenGenerator.js
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#2 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2015-06-15 15:27:10 Error: [Cake\Controller\Exception\MissingActionException] Action UsersController::\token-generator\js\src\FirebaseTokenGenerator.js() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => '\\token-generator\\js\\src\\FirebaseTokenGenerator.js',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /users/%5Ctoken-generator%5Cjs%5Csrc%5CFirebaseTokenGenerator.js
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#2 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2015-06-15 15:28:02 Error: [Cake\Controller\Exception\MissingActionException] Action UsersController::\token-generator\js\src\FirebaseTokenGenerator.js() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => '\\token-generator\\js\\src\\FirebaseTokenGenerator.js',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /users/%5Ctoken-generator%5Cjs%5Csrc%5CFirebaseTokenGenerator.js
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#2 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2015-06-15 15:28:03 Error: [Cake\Controller\Exception\MissingActionException] Action UsersController::\token-generator\js\src\FirebaseTokenGenerator.js() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => '\\token-generator\\js\\src\\FirebaseTokenGenerator.js',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /users/%5Ctoken-generator%5Cjs%5Csrc%5CFirebaseTokenGenerator.js
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#2 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2015-06-15 15:28:03 Error: [Cake\Controller\Exception\MissingActionException] Action UsersController::firebase-token-generator.js() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'firebase-token-generator.js',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /users/firebase-token-generator.js
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#2 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2015-06-15 15:55:11 Error: [Cake\Controller\Exception\MissingActionException] Action UsersController::\node_modules\firebase-token-generator\js\src\FirebaseTokenGenerator.js() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => '\\node_modules\\firebase-token-generator\\js\\src\\FirebaseTokenGenerator.js',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /users/%5Cnode_modules%5Cfirebase-token-generator%5Cjs%5Csrc%5CFirebaseTokenGenerator.js
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#2 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2015-06-15 15:55:19 Error: [Cake\Controller\Exception\MissingActionException] Action UsersController::\node_modules\firebase-token-generator\js\src\FirebaseTokenGenerator.js() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => '\\node_modules\\firebase-token-generator\\js\\src\\FirebaseTokenGenerator.js',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /users/%5Cnode_modules%5Cfirebase-token-generator%5Cjs%5Csrc%5CFirebaseTokenGenerator.js
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#2 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2015-06-15 15:55:20 Error: [Cake\Controller\Exception\MissingActionException] Action UsersController::\node_modules\firebase-token-generator\js\src\FirebaseTokenGenerator.js() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => '\\node_modules\\firebase-token-generator\\js\\src\\FirebaseTokenGenerator.js',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /users/%5Cnode_modules%5Cfirebase-token-generator%5Cjs%5Csrc%5CFirebaseTokenGenerator.js
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#2 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2015-06-15 15:59:30 Warning: Warning (2): include_once(FirebaseToken.php): failed to open stream: No such file or directory in [C:\xampp\htdocs\concurrentSystem\src\Template\Users\chat.ctp, line 3]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include_once - APP/Template\Users\chat.ctp, line 3
+include - APP/Template\Users\chat.ctp, line 3
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 575
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-06-15 15:59:30 Warning: Warning (2): include_once() [<a href='http://php.net/function.include'>function.include</a>]: Failed opening 'FirebaseToken.php' for inclusion (include_path='.;C:\xampp\php\PEAR') in [C:\xampp\htdocs\concurrentSystem\src\Template\Users\chat.ctp, line 3]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include_once - APP/Template\Users\chat.ctp, line 3
+include - APP/Template\Users\chat.ctp, line 3
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 575
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-06-15 15:59:30 Error: Fatal Error (1): Class 'Services_FirebaseTokenGenerator' not found in [C:\xampp\htdocs\concurrentSystem\src\Template\Users\chat.ctp, line 5]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-06-15 15:59:30 Error: [Cake\Error\FatalErrorException] Class 'Services_FirebaseTokenGenerator' not found
+Request URL: /users/chat
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'Services...', 'C:\\xampp\\htdocs...', 5)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-06-15 15:59:31 Warning: Warning (2): include_once(FirebaseToken.php): failed to open stream: No such file or directory in [C:\xampp\htdocs\concurrentSystem\src\Template\Users\chat.ctp, line 3]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include_once - APP/Template\Users\chat.ctp, line 3
+include - APP/Template\Users\chat.ctp, line 3
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 575
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-06-15 15:59:31 Warning: Warning (2): include_once() [<a href='http://php.net/function.include'>function.include</a>]: Failed opening 'FirebaseToken.php' for inclusion (include_path='.;C:\xampp\php\PEAR') in [C:\xampp\htdocs\concurrentSystem\src\Template\Users\chat.ctp, line 3]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include_once - APP/Template\Users\chat.ctp, line 3
+include - APP/Template\Users\chat.ctp, line 3
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 575
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-06-15 15:59:31 Error: Fatal Error (1): Class 'Services_FirebaseTokenGenerator' not found in [C:\xampp\htdocs\concurrentSystem\src\Template\Users\chat.ctp, line 5]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-06-15 15:59:31 Error: [Cake\Error\FatalErrorException] Class 'Services_FirebaseTokenGenerator' not found
+Request URL: /users/chat
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'Services...', 'C:\\xampp\\htdocs...', 5)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-06-15 16:01:45 Warning: Warning (2): include_once(irebase-token-php	ests\FirebaseTokenTest.php): failed to open stream: Invalid argument in [C:\xampp\htdocs\concurrentSystem\src\Template\Users\chat.ctp, line 3]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include_once - APP/Template\Users\chat.ctp, line 3
+include - APP/Template\Users\chat.ctp, line 3
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 575
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-06-15 16:01:45 Warning: Warning (2): include_once() [<a href='http://php.net/function.include'>function.include</a>]: Failed opening 'irebase-token-php	ests\FirebaseTokenTest.php' for inclusion (include_path='.;C:\xampp\php\PEAR') in [C:\xampp\htdocs\concurrentSystem\src\Template\Users\chat.ctp, line 3]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include_once - APP/Template\Users\chat.ctp, line 3
+include - APP/Template\Users\chat.ctp, line 3
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 575
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-06-15 16:01:45 Error: Fatal Error (1): Class 'Services_FirebaseTokenGenerator' not found in [C:\xampp\htdocs\concurrentSystem\src\Template\Users\chat.ctp, line 5]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-06-15 16:01:45 Error: [Cake\Error\FatalErrorException] Class 'Services_FirebaseTokenGenerator' not found
+Request URL: /users/chat
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'Services...', 'C:\\xampp\\htdocs...', 5)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-06-15 16:01:46 Warning: Warning (2): include_once(irebase-token-php	ests\FirebaseTokenTest.php): failed to open stream: Invalid argument in [C:\xampp\htdocs\concurrentSystem\src\Template\Users\chat.ctp, line 3]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include_once - APP/Template\Users\chat.ctp, line 3
+include - APP/Template\Users\chat.ctp, line 3
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 575
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-06-15 16:01:46 Warning: Warning (2): include_once() [<a href='http://php.net/function.include'>function.include</a>]: Failed opening 'irebase-token-php	ests\FirebaseTokenTest.php' for inclusion (include_path='.;C:\xampp\php\PEAR') in [C:\xampp\htdocs\concurrentSystem\src\Template\Users\chat.ctp, line 3]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include_once - APP/Template\Users\chat.ctp, line 3
+include - APP/Template\Users\chat.ctp, line 3
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 575
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-06-15 16:01:46 Error: Fatal Error (1): Class 'Services_FirebaseTokenGenerator' not found in [C:\xampp\htdocs\concurrentSystem\src\Template\Users\chat.ctp, line 5]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-06-15 16:01:46 Error: [Cake\Error\FatalErrorException] Class 'Services_FirebaseTokenGenerator' not found
+Request URL: /users/chat
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'Services...', 'C:\\xampp\\htdocs...', 5)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-06-15 16:05:07 Warning: Warning (2): include_once(irebase-token-php\FirebaseToken.php): failed to open stream: Invalid argument in [C:\xampp\htdocs\concurrentSystem\src\Template\Users\chat.ctp, line 3]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include_once - APP/Template\Users\chat.ctp, line 3
+include - APP/Template\Users\chat.ctp, line 3
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 575
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-06-15 16:05:07 Warning: Warning (2): include_once() [<a href='http://php.net/function.include'>function.include</a>]: Failed opening 'irebase-token-php\FirebaseToken.php' for inclusion (include_path='.;C:\xampp\php\PEAR') in [C:\xampp\htdocs\concurrentSystem\src\Template\Users\chat.ctp, line 3]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include_once - APP/Template\Users\chat.ctp, line 3
+include - APP/Template\Users\chat.ctp, line 3
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 575
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-06-15 16:05:07 Error: Fatal Error (1): Class 'Services_FirebaseTokenGenerator' not found in [C:\xampp\htdocs\concurrentSystem\src\Template\Users\chat.ctp, line 5]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-06-15 16:05:07 Error: [Cake\Error\FatalErrorException] Class 'Services_FirebaseTokenGenerator' not found
+Request URL: /users/chat
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'Services...', 'C:\\xampp\\htdocs...', 5)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-06-15 16:05:08 Warning: Warning (2): include_once(irebase-token-php\FirebaseToken.php): failed to open stream: Invalid argument in [C:\xampp\htdocs\concurrentSystem\src\Template\Users\chat.ctp, line 3]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include_once - APP/Template\Users\chat.ctp, line 3
+include - APP/Template\Users\chat.ctp, line 3
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 575
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-06-15 16:05:08 Warning: Warning (2): include_once() [<a href='http://php.net/function.include'>function.include</a>]: Failed opening 'irebase-token-php\FirebaseToken.php' for inclusion (include_path='.;C:\xampp\php\PEAR') in [C:\xampp\htdocs\concurrentSystem\src\Template\Users\chat.ctp, line 3]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include_once - APP/Template\Users\chat.ctp, line 3
+include - APP/Template\Users\chat.ctp, line 3
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 575
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-06-15 16:05:08 Error: Fatal Error (1): Class 'Services_FirebaseTokenGenerator' not found in [C:\xampp\htdocs\concurrentSystem\src\Template\Users\chat.ctp, line 5]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-06-15 16:05:08 Error: [Cake\Error\FatalErrorException] Class 'Services_FirebaseTokenGenerator' not found
+Request URL: /users/chat
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'Services...', 'C:\\xampp\\htdocs...', 5)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-06-15 16:06:16 Error: Fatal Error (4): syntax error, unexpected '<' in [C:\xampp\htdocs\concurrentSystem\src\Template\Users\chat.ctp, line 190]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-06-15 16:06:16 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '<'
+Request URL: /users/chat
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 190)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-06-15 16:06:17 Error: Fatal Error (4): syntax error, unexpected '<' in [C:\xampp\htdocs\concurrentSystem\src\Template\Users\chat.ctp, line 190]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-06-15 16:06:17 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '<'
+Request URL: /users/chat
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 190)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-06-15 16:06:24 Warning: Warning (2): include_once(irebase-token-php\FirebaseToken.php): failed to open stream: Invalid argument in [C:\xampp\htdocs\concurrentSystem\src\Template\Users\chat.ctp, line 191]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include_once - APP/Template\Users\chat.ctp, line 191
+include - APP/Template\Users\chat.ctp, line 191
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 575
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-06-15 16:06:24 Warning: Warning (2): include_once() [<a href='http://php.net/function.include'>function.include</a>]: Failed opening 'irebase-token-php\FirebaseToken.php' for inclusion (include_path='.;C:\xampp\php\PEAR') in [C:\xampp\htdocs\concurrentSystem\src\Template\Users\chat.ctp, line 191]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include_once - APP/Template\Users\chat.ctp, line 191
+include - APP/Template\Users\chat.ctp, line 191
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 575
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-06-15 16:06:24 Error: Fatal Error (1): Class 'JWT' not found in [C:\xampp\htdocs\concurrentSystem\src\Template\Users\chat.ctp, line 92]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-06-15 16:06:25 Error: [Cake\Error\FatalErrorException] Class 'JWT' not found
+Request URL: /users/chat
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'JWT' not...', 'C:\\xampp\\htdocs...', 92)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-06-15 16:06:26 Warning: Warning (2): include_once(irebase-token-php\FirebaseToken.php): failed to open stream: Invalid argument in [C:\xampp\htdocs\concurrentSystem\src\Template\Users\chat.ctp, line 191]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include_once - APP/Template\Users\chat.ctp, line 191
+include - APP/Template\Users\chat.ctp, line 191
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 575
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-06-15 16:06:26 Warning: Warning (2): include_once() [<a href='http://php.net/function.include'>function.include</a>]: Failed opening 'irebase-token-php\FirebaseToken.php' for inclusion (include_path='.;C:\xampp\php\PEAR') in [C:\xampp\htdocs\concurrentSystem\src\Template\Users\chat.ctp, line 191]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include_once - APP/Template\Users\chat.ctp, line 191
+include - APP/Template\Users\chat.ctp, line 191
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 575
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-06-15 16:06:26 Error: Fatal Error (1): Class 'JWT' not found in [C:\xampp\htdocs\concurrentSystem\src\Template\Users\chat.ctp, line 92]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-06-15 16:06:26 Error: [Cake\Error\FatalErrorException] Class 'JWT' not found
+Request URL: /users/chat
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'JWT' not...', 'C:\\xampp\\htdocs...', 92)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-06-15 16:06:47 Warning: Warning (2): include_once(irebase-token-php\FirebaseToken.php): failed to open stream: Invalid argument in [C:\xampp\htdocs\concurrentSystem\src\Template\Users\chat.ctp, line 4]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include_once - APP/Template\Users\chat.ctp, line 4
+include - APP/Template\Users\chat.ctp, line 4
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 575
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-06-15 16:06:47 Warning: Warning (2): include_once() [<a href='http://php.net/function.include'>function.include</a>]: Failed opening 'irebase-token-php\FirebaseToken.php' for inclusion (include_path='.;C:\xampp\php\PEAR') in [C:\xampp\htdocs\concurrentSystem\src\Template\Users\chat.ctp, line 4]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include_once - APP/Template\Users\chat.ctp, line 4
+include - APP/Template\Users\chat.ctp, line 4
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 575
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-06-15 16:06:47 Error: Fatal Error (1): Class 'Services_FirebaseTokenGenerator' not found in [C:\xampp\htdocs\concurrentSystem\src\Template\Users\chat.ctp, line 6]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-06-15 16:06:47 Error: [Cake\Error\FatalErrorException] Class 'Services_FirebaseTokenGenerator' not found
+Request URL: /users/chat
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'Services...', 'C:\\xampp\\htdocs...', 6)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-06-15 16:06:48 Warning: Warning (2): include_once(irebase-token-php\FirebaseToken.php): failed to open stream: Invalid argument in [C:\xampp\htdocs\concurrentSystem\src\Template\Users\chat.ctp, line 4]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include_once - APP/Template\Users\chat.ctp, line 4
+include - APP/Template\Users\chat.ctp, line 4
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 575
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-06-15 16:06:48 Warning: Warning (2): include_once() [<a href='http://php.net/function.include'>function.include</a>]: Failed opening 'irebase-token-php\FirebaseToken.php' for inclusion (include_path='.;C:\xampp\php\PEAR') in [C:\xampp\htdocs\concurrentSystem\src\Template\Users\chat.ctp, line 4]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include_once - APP/Template\Users\chat.ctp, line 4
+include - APP/Template\Users\chat.ctp, line 4
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 575
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-06-15 16:06:48 Error: Fatal Error (1): Class 'Services_FirebaseTokenGenerator' not found in [C:\xampp\htdocs\concurrentSystem\src\Template\Users\chat.ctp, line 6]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-06-15 16:06:48 Error: [Cake\Error\FatalErrorException] Class 'Services_FirebaseTokenGenerator' not found
+Request URL: /users/chat
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'Services...', 'C:\\xampp\\htdocs...', 6)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-06-15 16:07:17 Warning: Warning (2): include_once(FirebaseToken.php): failed to open stream: No such file or directory in [C:\xampp\htdocs\concurrentSystem\src\Template\Users\chat.ctp, line 4]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include_once - APP/Template\Users\chat.ctp, line 4
+include - APP/Template\Users\chat.ctp, line 4
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 575
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-06-15 16:07:17 Warning: Warning (2): include_once() [<a href='http://php.net/function.include'>function.include</a>]: Failed opening 'FirebaseToken.php' for inclusion (include_path='.;C:\xampp\php\PEAR') in [C:\xampp\htdocs\concurrentSystem\src\Template\Users\chat.ctp, line 4]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include_once - APP/Template\Users\chat.ctp, line 4
+include - APP/Template\Users\chat.ctp, line 4
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 575
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-06-15 16:07:17 Error: Fatal Error (1): Class 'Services_FirebaseTokenGenerator' not found in [C:\xampp\htdocs\concurrentSystem\src\Template\Users\chat.ctp, line 6]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-06-15 16:07:17 Error: [Cake\Error\FatalErrorException] Class 'Services_FirebaseTokenGenerator' not found
+Request URL: /users/chat
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'Services...', 'C:\\xampp\\htdocs...', 6)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-06-15 16:07:18 Warning: Warning (2): include_once(FirebaseToken.php): failed to open stream: No such file or directory in [C:\xampp\htdocs\concurrentSystem\src\Template\Users\chat.ctp, line 4]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include_once - APP/Template\Users\chat.ctp, line 4
+include - APP/Template\Users\chat.ctp, line 4
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 575
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-06-15 16:07:18 Warning: Warning (2): include_once() [<a href='http://php.net/function.include'>function.include</a>]: Failed opening 'FirebaseToken.php' for inclusion (include_path='.;C:\xampp\php\PEAR') in [C:\xampp\htdocs\concurrentSystem\src\Template\Users\chat.ctp, line 4]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include_once - APP/Template\Users\chat.ctp, line 4
+include - APP/Template\Users\chat.ctp, line 4
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 575
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-06-15 16:07:18 Error: Fatal Error (1): Class 'Services_FirebaseTokenGenerator' not found in [C:\xampp\htdocs\concurrentSystem\src\Template\Users\chat.ctp, line 6]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-06-15 16:07:18 Error: [Cake\Error\FatalErrorException] Class 'Services_FirebaseTokenGenerator' not found
+Request URL: /users/chat
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'Services...', 'C:\\xampp\\htdocs...', 6)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-06-15 16:17:38 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Chat.php could not be found.
+Exception Attributes: array (
+  'class' => 'Chat.php',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /chat.php?action=startchatsession&_=1434385058277
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-15 16:20:51 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Chatr could not be found.
+Exception Attributes: array (
+  'class' => 'Chatr',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /chatr
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-15 16:21:12 Error: [Cake\Controller\Exception\MissingActionException] Action UsersController::install2.php() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'install2.php',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /users/install2.php
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#2 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2015-06-15 16:22:46 Error: [Cake\Controller\Exception\MissingActionException] Action UsersController::install2.php() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'install2.php',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /users/install2.php
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#2 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2015-06-15 18:27:57 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Chat.php could not be found.
+Exception Attributes: array (
+  'class' => 'Chat.php',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /chat.php?action=startchatsession&_=1434392877534
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-15 18:28:03 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Chat.php could not be found.
+Exception Attributes: array (
+  'class' => 'Chat.php',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /chat.php?action=sendchat
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-15 18:33:28 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Chat.php could not be found.
+Exception Attributes: array (
+  'class' => 'Chat.php',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /chat.php?action=startchatsession&_=1434393207751
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-15 18:33:31 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Chat.php could not be found.
+Exception Attributes: array (
+  'class' => 'Chat.php',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /chat.php?action=sendchat
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-15 18:33:33 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Chat.php could not be found.
+Exception Attributes: array (
+  'class' => 'Chat.php',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /chat.php?action=sendchat
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-15 18:33:34 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Chat.php could not be found.
+Exception Attributes: array (
+  'class' => 'Chat.php',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /chat.php?action=sendchat
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-15 18:33:35 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Chat.php could not be found.
+Exception Attributes: array (
+  'class' => 'Chat.php',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /chat.php?action=sendchat
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-15 18:36:03 Error: [Cake\Controller\Exception\MissingActionException] Action UsersController::chat.php() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'chat.php',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /users/chat.php?action=startchatsession&_=1434393362747
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#2 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2015-06-15 18:36:09 Error: [Cake\Controller\Exception\MissingActionException] Action UsersController::chat.php() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'chat.php',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /users/chat.php?action=sendchat
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#2 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2015-06-15 18:36:28 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Chat.php could not be found.
+Exception Attributes: array (
+  'class' => 'Chat.php',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /chat.php?action=startchatsession&_=1434393387838
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-15 18:43:44 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Chat.php could not be found.
+Exception Attributes: array (
+  'class' => 'Chat.php',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /chat.php?action=startchatsession&_=1434393823526
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-15 18:43:47 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Chat.php could not be found.
+Exception Attributes: array (
+  'class' => 'Chat.php',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /chat.php?action=sendchat
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-15 18:43:48 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Chat.php could not be found.
+Exception Attributes: array (
+  'class' => 'Chat.php',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /chat.php?action=sendchat
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-15 18:43:49 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Chat.php could not be found.
+Exception Attributes: array (
+  'class' => 'Chat.php',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /chat.php?action=sendchat
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-15 18:43:50 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Chat.php could not be found.
+Exception Attributes: array (
+  'class' => 'Chat.php',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /chat.php?action=sendchat
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-15 18:43:50 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Chat.php could not be found.
+Exception Attributes: array (
+  'class' => 'Chat.php',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /chat.php?action=sendchat
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-15 18:43:50 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Chat.php could not be found.
+Exception Attributes: array (
+  'class' => 'Chat.php',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /chat.php?action=sendchat
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-15 18:43:51 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Chat.php could not be found.
+Exception Attributes: array (
+  'class' => 'Chat.php',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /chat.php?action=sendchat
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-15 18:43:51 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Chat.php could not be found.
+Exception Attributes: array (
+  'class' => 'Chat.php',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /chat.php?action=sendchat
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-15 18:43:51 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Chat.php could not be found.
+Exception Attributes: array (
+  'class' => 'Chat.php',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /chat.php?action=sendchat
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-15 18:43:55 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Chat.php could not be found.
+Exception Attributes: array (
+  'class' => 'Chat.php',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /chat.php?action=closechat
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-15 19:05:43 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Chat.php could not be found.
+Exception Attributes: array (
+  'class' => 'Chat.php',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /chat.php?action=startchatsession&_=1434395143565
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-15 19:23:29 Error: Fatal Error (4): syntax error, unexpected '"', expecting identifier (T_STRING) in [C:\xampp\htdocs\concurrentSystem\src\Template\Users\chat.ctp, line 32]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-06-15 19:23:29 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '"', expecting identifier (T_STRING)
+Request URL: /users/chat
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 32)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-06-15 19:23:30 Error: Fatal Error (4): syntax error, unexpected '"', expecting identifier (T_STRING) in [C:\xampp\htdocs\concurrentSystem\src\Template\Users\chat.ctp, line 32]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-06-15 19:23:30 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '"', expecting identifier (T_STRING)
+Request URL: /users/chat
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 32)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-06-15 19:23:53 Error: Fatal Error (4): syntax error, unexpected '""' (T_CONSTANT_ENCAPSED_STRING), expecting identifier (T_STRING) in [C:\xampp\htdocs\concurrentSystem\src\Template\Users\chat.ctp, line 32]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-06-15 19:23:53 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '""' (T_CONSTANT_ENCAPSED_STRING), expecting identifier (T_STRING)
+Request URL: /users/chat
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 32)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-06-15 19:23:54 Error: Fatal Error (4): syntax error, unexpected '""' (T_CONSTANT_ENCAPSED_STRING), expecting identifier (T_STRING) in [C:\xampp\htdocs\concurrentSystem\src\Template\Users\chat.ctp, line 32]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-06-15 19:23:54 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '""' (T_CONSTANT_ENCAPSED_STRING), expecting identifier (T_STRING)
+Request URL: /users/chat
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 32)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-06-15 19:45:43 Error: [Cake\Controller\Exception\MissingActionException] Action UsersController::chat.php() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'chat.php',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /users/chat.php?action=startchatsession&_=1434397542968
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#2 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
