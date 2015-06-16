@@ -14803,3 +14803,761 @@ Stack Trace:
 #3 {main}
 
 
+2015-06-16 10:39:04 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Chat.php could not be found.
+Exception Attributes: array (
+  'class' => 'Chat.php',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /chat.php?action=startchatsession&_=1434451143876
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-16 10:43:35 Error: [Cake\Network\Exception\NotFoundException] Not Found
+Request URL: /tasks/myprofile?page=2
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Controller\Controller.php(634): Cake\Controller\Component\PaginatorComponent->paginate(Object(App\Model\Table\TasksTable), Array)
+#1 C:\xampp\htdocs\concurrentSystem\src\Controller\TasksController.php(47): Cake\Controller\Controller->paginate(Object(App\Model\Table\TasksTable))
+#2 [internal function]: App\Controller\TasksController->myprofile()
+#3 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Controller\Controller.php(404): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#5 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\TasksController))
+#6 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#7 {main}
+
+
+2015-06-16 10:45:00 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/style.css
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-16 10:45:03 Error: [Cake\Controller\Exception\MissingActionException] Action TasksController::js() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'TasksController',
+  'action' => 'js',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /tasks/js/jquery.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\TasksController))
+#2 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2015-06-16 10:45:04 Error: [Cake\Controller\Exception\MissingActionException] Action TasksController::js() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'TasksController',
+  'action' => 'js',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /tasks/js/jquery.fn.gantt.js
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\TasksController))
+#2 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2015-06-16 10:45:04 Error: [Cake\Controller\Exception\MissingActionException] Action TasksController::js() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'TasksController',
+  'action' => 'js',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /tasks/js/jquery.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\TasksController))
+#2 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2015-06-16 10:45:04 Error: [Cake\Controller\Exception\MissingActionException] Action TasksController::js() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'TasksController',
+  'action' => 'js',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /tasks/js/jquery.fn.gantt.js
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\TasksController))
+#2 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2015-06-16 11:16:11 Error: Fatal Error (1): Call to a member function first() on a non-object in [C:\xampp\htdocs\concurrentSystem\src\Template\Projects\chart.ctp, line 78]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-06-16 11:16:11 Error: [Cake\Error\FatalErrorException] Call to a member function first() on a non-object
+Request URL: /projects/chart/1
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 78)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-06-16 11:17:08 Error: Fatal Error (1): Call to a member function first() on a non-object in [C:\xampp\htdocs\concurrentSystem\src\Template\Projects\chart.ctp, line 78]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-06-16 11:17:08 Error: [Cake\Error\FatalErrorException] Call to a member function first() on a non-object
+Request URL: /projects/chart/1
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 78)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-06-16 11:17:27 Error: Fatal Error (1): Call to a member function first() on a non-object in [C:\xampp\htdocs\concurrentSystem\src\Template\Projects\chart.ctp, line 78]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-06-16 11:17:28 Error: [Cake\Error\FatalErrorException] Call to a member function first() on a non-object
+Request URL: /projects/chart/1
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 78)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-06-16 11:19:14 Error: Fatal Error (1): Call to a member function first() on a non-object in [C:\xampp\htdocs\concurrentSystem\src\Template\Projects\chart.ctp, line 78]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-06-16 11:19:14 Error: [Cake\Error\FatalErrorException] Call to a member function first() on a non-object
+Request URL: /projects/chart/1
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 78)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-06-16 11:19:34 Error: Fatal Error (1): Call to a member function first() on a non-object in [C:\xampp\htdocs\concurrentSystem\src\Template\Projects\chart.ctp, line 80]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-06-16 11:19:35 Error: [Cake\Error\FatalErrorException] Call to a member function first() on a non-object
+Request URL: /projects/chart/1
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 80)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-06-16 11:19:57 Error: Fatal Error (1): Call to a member function first() on a non-object in [C:\xampp\htdocs\concurrentSystem\src\Template\Projects\chart.ctp, line 81]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-06-16 11:19:57 Error: [Cake\Error\FatalErrorException] Call to a member function first() on a non-object
+Request URL: /projects/chart/1
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 81)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-06-16 11:20:11 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/style.css
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-16 11:20:11 Error: [Cake\Datasource\Exception\RecordNotFoundException] Record not found in table "projects"
+Request URL: /projects/chart/js/jquery.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Table.php(1110): Cake\ORM\Query->firstOrFail()
+#1 C:\xampp\htdocs\concurrentSystem\src\Controller\ProjectsController.php(123): Cake\ORM\Table->get('js', Array)
+#2 [internal function]: App\Controller\ProjectsController->chart('js', 'jquery.min.js')
+#3 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Controller\Controller.php(404): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#5 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ProjectsController))
+#6 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#7 {main}
+
+
+2015-06-16 11:20:12 Error: [Cake\Datasource\Exception\RecordNotFoundException] Record not found in table "projects"
+Request URL: /projects/chart/js/jquery.fn.gantt.js
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Table.php(1110): Cake\ORM\Query->firstOrFail()
+#1 C:\xampp\htdocs\concurrentSystem\src\Controller\ProjectsController.php(123): Cake\ORM\Table->get('js', Array)
+#2 [internal function]: App\Controller\ProjectsController->chart('js', 'jquery.fn.gantt...')
+#3 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Controller\Controller.php(404): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#5 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ProjectsController))
+#6 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#7 {main}
+
+
+2015-06-16 11:20:12 Error: [Cake\Datasource\Exception\RecordNotFoundException] Record not found in table "projects"
+Request URL: /projects/chart/js/jquery.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Table.php(1110): Cake\ORM\Query->firstOrFail()
+#1 C:\xampp\htdocs\concurrentSystem\src\Controller\ProjectsController.php(123): Cake\ORM\Table->get('js', Array)
+#2 [internal function]: App\Controller\ProjectsController->chart('js', 'jquery.min.js')
+#3 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Controller\Controller.php(404): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#5 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ProjectsController))
+#6 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#7 {main}
+
+
+2015-06-16 11:20:13 Error: [Cake\Datasource\Exception\RecordNotFoundException] Record not found in table "projects"
+Request URL: /projects/chart/js/jquery.fn.gantt.js
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Table.php(1110): Cake\ORM\Query->firstOrFail()
+#1 C:\xampp\htdocs\concurrentSystem\src\Controller\ProjectsController.php(123): Cake\ORM\Table->get('js', Array)
+#2 [internal function]: App\Controller\ProjectsController->chart('js', 'jquery.fn.gantt...')
+#3 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Controller\Controller.php(404): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#5 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ProjectsController))
+#6 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#7 {main}
+
+
+2015-06-16 11:20:36 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\xampp\htdocs\concurrentSystem\src\Template\Projects\chart.ctp, line 93]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Projects\chart.ctp, line 93
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 575
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-06-16 11:20:36 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/style.css
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-16 11:20:37 Error: [Cake\Datasource\Exception\RecordNotFoundException] Record not found in table "projects"
+Request URL: /projects/chart/js/jquery.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Table.php(1110): Cake\ORM\Query->firstOrFail()
+#1 C:\xampp\htdocs\concurrentSystem\src\Controller\ProjectsController.php(123): Cake\ORM\Table->get('js', Array)
+#2 [internal function]: App\Controller\ProjectsController->chart('js', 'jquery.min.js')
+#3 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Controller\Controller.php(404): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#5 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ProjectsController))
+#6 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#7 {main}
+
+
+2015-06-16 11:20:37 Error: [Cake\Datasource\Exception\RecordNotFoundException] Record not found in table "projects"
+Request URL: /projects/chart/js/jquery.fn.gantt.js
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Table.php(1110): Cake\ORM\Query->firstOrFail()
+#1 C:\xampp\htdocs\concurrentSystem\src\Controller\ProjectsController.php(123): Cake\ORM\Table->get('js', Array)
+#2 [internal function]: App\Controller\ProjectsController->chart('js', 'jquery.fn.gantt...')
+#3 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Controller\Controller.php(404): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#5 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ProjectsController))
+#6 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#7 {main}
+
+
+2015-06-16 11:20:38 Error: [Cake\Datasource\Exception\RecordNotFoundException] Record not found in table "projects"
+Request URL: /projects/chart/js/jquery.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Table.php(1110): Cake\ORM\Query->firstOrFail()
+#1 C:\xampp\htdocs\concurrentSystem\src\Controller\ProjectsController.php(123): Cake\ORM\Table->get('js', Array)
+#2 [internal function]: App\Controller\ProjectsController->chart('js', 'jquery.min.js')
+#3 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Controller\Controller.php(404): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#5 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ProjectsController))
+#6 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#7 {main}
+
+
+2015-06-16 11:20:39 Error: [Cake\Datasource\Exception\RecordNotFoundException] Record not found in table "projects"
+Request URL: /projects/chart/js/jquery.fn.gantt.js
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Table.php(1110): Cake\ORM\Query->firstOrFail()
+#1 C:\xampp\htdocs\concurrentSystem\src\Controller\ProjectsController.php(123): Cake\ORM\Table->get('js', Array)
+#2 [internal function]: App\Controller\ProjectsController->chart('js', 'jquery.fn.gantt...')
+#3 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Controller\Controller.php(404): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#5 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ProjectsController))
+#6 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#7 {main}
+
+
+2015-06-16 11:20:47 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/style.css
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-16 11:20:48 Error: [Cake\Datasource\Exception\RecordNotFoundException] Record not found in table "projects"
+Request URL: /projects/chart/js/jquery.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Table.php(1110): Cake\ORM\Query->firstOrFail()
+#1 C:\xampp\htdocs\concurrentSystem\src\Controller\ProjectsController.php(123): Cake\ORM\Table->get('js', Array)
+#2 [internal function]: App\Controller\ProjectsController->chart('js', 'jquery.min.js')
+#3 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Controller\Controller.php(404): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#5 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ProjectsController))
+#6 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#7 {main}
+
+
+2015-06-16 11:20:48 Error: [Cake\Datasource\Exception\RecordNotFoundException] Record not found in table "projects"
+Request URL: /projects/chart/js/jquery.fn.gantt.js
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Table.php(1110): Cake\ORM\Query->firstOrFail()
+#1 C:\xampp\htdocs\concurrentSystem\src\Controller\ProjectsController.php(123): Cake\ORM\Table->get('js', Array)
+#2 [internal function]: App\Controller\ProjectsController->chart('js', 'jquery.fn.gantt...')
+#3 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Controller\Controller.php(404): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#5 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ProjectsController))
+#6 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#7 {main}
+
+
+2015-06-16 11:20:49 Error: [Cake\Datasource\Exception\RecordNotFoundException] Record not found in table "projects"
+Request URL: /projects/chart/js/jquery.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Table.php(1110): Cake\ORM\Query->firstOrFail()
+#1 C:\xampp\htdocs\concurrentSystem\src\Controller\ProjectsController.php(123): Cake\ORM\Table->get('js', Array)
+#2 [internal function]: App\Controller\ProjectsController->chart('js', 'jquery.min.js')
+#3 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Controller\Controller.php(404): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#5 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ProjectsController))
+#6 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#7 {main}
+
+
+2015-06-16 11:20:50 Error: [Cake\Datasource\Exception\RecordNotFoundException] Record not found in table "projects"
+Request URL: /projects/chart/js/jquery.fn.gantt.js
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Table.php(1110): Cake\ORM\Query->firstOrFail()
+#1 C:\xampp\htdocs\concurrentSystem\src\Controller\ProjectsController.php(123): Cake\ORM\Table->get('js', Array)
+#2 [internal function]: App\Controller\ProjectsController->chart('js', 'jquery.fn.gantt...')
+#3 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Controller\Controller.php(404): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#5 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ProjectsController))
+#6 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#7 {main}
+
+
+2015-06-16 11:21:54 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/style.css
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-16 11:21:54 Error: [Cake\Datasource\Exception\RecordNotFoundException] Record not found in table "projects"
+Request URL: /projects/chart/js/jquery.fn.gantt.js
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Table.php(1110): Cake\ORM\Query->firstOrFail()
+#1 C:\xampp\htdocs\concurrentSystem\src\Controller\ProjectsController.php(123): Cake\ORM\Table->get('js', Array)
+#2 [internal function]: App\Controller\ProjectsController->chart('js', 'jquery.fn.gantt...')
+#3 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Controller\Controller.php(404): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#5 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ProjectsController))
+#6 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#7 {main}
+
+
+2015-06-16 11:21:55 Error: [Cake\Datasource\Exception\RecordNotFoundException] Record not found in table "projects"
+Request URL: /projects/chart/js/jquery.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Table.php(1110): Cake\ORM\Query->firstOrFail()
+#1 C:\xampp\htdocs\concurrentSystem\src\Controller\ProjectsController.php(123): Cake\ORM\Table->get('js', Array)
+#2 [internal function]: App\Controller\ProjectsController->chart('js', 'jquery.min.js')
+#3 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Controller\Controller.php(404): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#5 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ProjectsController))
+#6 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#7 {main}
+
+
+2015-06-16 11:21:56 Error: [Cake\Datasource\Exception\RecordNotFoundException] Record not found in table "projects"
+Request URL: /projects/chart/js/jquery.fn.gantt.js
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Table.php(1110): Cake\ORM\Query->firstOrFail()
+#1 C:\xampp\htdocs\concurrentSystem\src\Controller\ProjectsController.php(123): Cake\ORM\Table->get('js', Array)
+#2 [internal function]: App\Controller\ProjectsController->chart('js', 'jquery.fn.gantt...')
+#3 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Controller\Controller.php(404): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#5 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ProjectsController))
+#6 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#7 {main}
+
+
+2015-06-16 11:22:02 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/style.css
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-16 11:22:02 Error: [Cake\Datasource\Exception\RecordNotFoundException] Record not found in table "projects"
+Request URL: /projects/chart/js/jquery.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Table.php(1110): Cake\ORM\Query->firstOrFail()
+#1 C:\xampp\htdocs\concurrentSystem\src\Controller\ProjectsController.php(123): Cake\ORM\Table->get('js', Array)
+#2 [internal function]: App\Controller\ProjectsController->chart('js', 'jquery.min.js')
+#3 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Controller\Controller.php(404): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#5 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ProjectsController))
+#6 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#7 {main}
+
+
+2015-06-16 11:22:03 Error: [Cake\Datasource\Exception\RecordNotFoundException] Record not found in table "projects"
+Request URL: /projects/chart/js/jquery.fn.gantt.js
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Table.php(1110): Cake\ORM\Query->firstOrFail()
+#1 C:\xampp\htdocs\concurrentSystem\src\Controller\ProjectsController.php(123): Cake\ORM\Table->get('js', Array)
+#2 [internal function]: App\Controller\ProjectsController->chart('js', 'jquery.fn.gantt...')
+#3 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Controller\Controller.php(404): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#5 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ProjectsController))
+#6 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#7 {main}
+
+
+2015-06-16 11:25:45 Error: Fatal Error (4): syntax error, unexpected ''",'' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in [C:\xampp\htdocs\concurrentSystem\src\Template\Projects\chart.ctp, line 86]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-06-16 11:25:45 Error: [Cake\Error\FatalErrorException] syntax error, unexpected ''",'' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';'
+Request URL: /projects/chart/1
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 86)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-06-16 11:25:57 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/style.css
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-16 11:25:58 Error: [Cake\Datasource\Exception\RecordNotFoundException] Record not found in table "projects"
+Request URL: /projects/chart/js/jquery.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Table.php(1110): Cake\ORM\Query->firstOrFail()
+#1 C:\xampp\htdocs\concurrentSystem\src\Controller\ProjectsController.php(123): Cake\ORM\Table->get('js', Array)
+#2 [internal function]: App\Controller\ProjectsController->chart('js', 'jquery.min.js')
+#3 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Controller\Controller.php(404): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#5 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ProjectsController))
+#6 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#7 {main}
+
+
+2015-06-16 11:25:58 Error: [Cake\Datasource\Exception\RecordNotFoundException] Record not found in table "projects"
+Request URL: /projects/chart/js/jquery.fn.gantt.js
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Table.php(1110): Cake\ORM\Query->firstOrFail()
+#1 C:\xampp\htdocs\concurrentSystem\src\Controller\ProjectsController.php(123): Cake\ORM\Table->get('js', Array)
+#2 [internal function]: App\Controller\ProjectsController->chart('js', 'jquery.fn.gantt...')
+#3 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Controller\Controller.php(404): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#5 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ProjectsController))
+#6 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#7 {main}
+
+
+2015-06-16 11:25:59 Error: [Cake\Datasource\Exception\RecordNotFoundException] Record not found in table "projects"
+Request URL: /projects/chart/js/jquery.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Table.php(1110): Cake\ORM\Query->firstOrFail()
+#1 C:\xampp\htdocs\concurrentSystem\src\Controller\ProjectsController.php(123): Cake\ORM\Table->get('js', Array)
+#2 [internal function]: App\Controller\ProjectsController->chart('js', 'jquery.min.js')
+#3 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Controller\Controller.php(404): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#5 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ProjectsController))
+#6 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#7 {main}
+
+
+2015-06-16 11:25:59 Error: [Cake\Datasource\Exception\RecordNotFoundException] Record not found in table "projects"
+Request URL: /projects/chart/js/jquery.fn.gantt.js
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Table.php(1110): Cake\ORM\Query->firstOrFail()
+#1 C:\xampp\htdocs\concurrentSystem\src\Controller\ProjectsController.php(123): Cake\ORM\Table->get('js', Array)
+#2 [internal function]: App\Controller\ProjectsController->chart('js', 'jquery.fn.gantt...')
+#3 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Controller\Controller.php(404): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#5 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ProjectsController))
+#6 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#7 {main}
+
+
+2015-06-16 11:26:05 Error: [Cake\Datasource\Exception\RecordNotFoundException] Record not found in table "projects"
+Request URL: /projects/chart/js/jquery.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Table.php(1110): Cake\ORM\Query->firstOrFail()
+#1 C:\xampp\htdocs\concurrentSystem\src\Controller\ProjectsController.php(123): Cake\ORM\Table->get('js', Array)
+#2 [internal function]: App\Controller\ProjectsController->chart('js', 'jquery.min.js')
+#3 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Controller\Controller.php(404): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#5 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ProjectsController))
+#6 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#7 {main}
+
+
+2015-06-16 11:26:05 Error: [Cake\Datasource\Exception\RecordNotFoundException] Record not found in table "projects"
+Request URL: /projects/chart/js/jquery.fn.gantt.js
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Table.php(1110): Cake\ORM\Query->firstOrFail()
+#1 C:\xampp\htdocs\concurrentSystem\src\Controller\ProjectsController.php(123): Cake\ORM\Table->get('js', Array)
+#2 [internal function]: App\Controller\ProjectsController->chart('js', 'jquery.fn.gantt...')
+#3 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Controller\Controller.php(404): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#5 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ProjectsController))
+#6 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#7 {main}
+
+
+2015-06-16 11:26:06 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/style.css
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-16 11:26:06 Error: [Cake\Datasource\Exception\RecordNotFoundException] Record not found in table "projects"
+Request URL: /projects/chart/js/jquery.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Table.php(1110): Cake\ORM\Query->firstOrFail()
+#1 C:\xampp\htdocs\concurrentSystem\src\Controller\ProjectsController.php(123): Cake\ORM\Table->get('js', Array)
+#2 [internal function]: App\Controller\ProjectsController->chart('js', 'jquery.min.js')
+#3 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Controller\Controller.php(404): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#5 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ProjectsController))
+#6 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#7 {main}
+
+
+2015-06-16 11:26:07 Error: [Cake\Datasource\Exception\RecordNotFoundException] Record not found in table "projects"
+Request URL: /projects/chart/js/jquery.fn.gantt.js
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Table.php(1110): Cake\ORM\Query->firstOrFail()
+#1 C:\xampp\htdocs\concurrentSystem\src\Controller\ProjectsController.php(123): Cake\ORM\Table->get('js', Array)
+#2 [internal function]: App\Controller\ProjectsController->chart('js', 'jquery.fn.gantt...')
+#3 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Controller\Controller.php(404): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#5 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ProjectsController))
+#6 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#7 {main}
+
+
+2015-06-16 11:27:19 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/style.css
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-16 11:27:20 Error: [Cake\Datasource\Exception\RecordNotFoundException] Record not found in table "projects"
+Request URL: /projects/chart/js/jquery.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Table.php(1110): Cake\ORM\Query->firstOrFail()
+#1 C:\xampp\htdocs\concurrentSystem\src\Controller\ProjectsController.php(123): Cake\ORM\Table->get('js', Array)
+#2 [internal function]: App\Controller\ProjectsController->chart('js', 'jquery.min.js')
+#3 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Controller\Controller.php(404): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#5 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ProjectsController))
+#6 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#7 {main}
+
+
+2015-06-16 11:27:20 Error: [Cake\Datasource\Exception\RecordNotFoundException] Record not found in table "projects"
+Request URL: /projects/chart/js/jquery.fn.gantt.js
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Table.php(1110): Cake\ORM\Query->firstOrFail()
+#1 C:\xampp\htdocs\concurrentSystem\src\Controller\ProjectsController.php(123): Cake\ORM\Table->get('js', Array)
+#2 [internal function]: App\Controller\ProjectsController->chart('js', 'jquery.fn.gantt...')
+#3 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Controller\Controller.php(404): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#5 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ProjectsController))
+#6 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#7 {main}
+
+
+2015-06-16 11:27:20 Error: [Cake\Datasource\Exception\RecordNotFoundException] Record not found in table "projects"
+Request URL: /projects/chart/js/jquery.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Table.php(1110): Cake\ORM\Query->firstOrFail()
+#1 C:\xampp\htdocs\concurrentSystem\src\Controller\ProjectsController.php(123): Cake\ORM\Table->get('js', Array)
+#2 [internal function]: App\Controller\ProjectsController->chart('js', 'jquery.min.js')
+#3 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Controller\Controller.php(404): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#5 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ProjectsController))
+#6 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#7 {main}
+
+
+2015-06-16 11:27:21 Error: [Cake\Datasource\Exception\RecordNotFoundException] Record not found in table "projects"
+Request URL: /projects/chart/js/jquery.fn.gantt.js
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Table.php(1110): Cake\ORM\Query->firstOrFail()
+#1 C:\xampp\htdocs\concurrentSystem\src\Controller\ProjectsController.php(123): Cake\ORM\Table->get('js', Array)
+#2 [internal function]: App\Controller\ProjectsController->chart('js', 'jquery.fn.gantt...')
+#3 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Controller\Controller.php(404): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#5 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ProjectsController))
+#6 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#7 {main}
+
+
+2015-06-16 11:27:29 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/style.css
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-16 11:27:30 Error: [Cake\Datasource\Exception\RecordNotFoundException] Record not found in table "projects"
+Request URL: /projects/chart/js/jquery.fn.gantt.js
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Table.php(1110): Cake\ORM\Query->firstOrFail()
+#1 C:\xampp\htdocs\concurrentSystem\src\Controller\ProjectsController.php(123): Cake\ORM\Table->get('js', Array)
+#2 [internal function]: App\Controller\ProjectsController->chart('js', 'jquery.fn.gantt...')
+#3 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Controller\Controller.php(404): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#5 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ProjectsController))
+#6 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#7 {main}
+
+
+2015-06-16 11:27:30 Error: [Cake\Datasource\Exception\RecordNotFoundException] Record not found in table "projects"
+Request URL: /projects/chart/js/jquery.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Table.php(1110): Cake\ORM\Query->firstOrFail()
+#1 C:\xampp\htdocs\concurrentSystem\src\Controller\ProjectsController.php(123): Cake\ORM\Table->get('js', Array)
+#2 [internal function]: App\Controller\ProjectsController->chart('js', 'jquery.min.js')
+#3 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Controller\Controller.php(404): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#5 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ProjectsController))
+#6 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#7 {main}
+
+
+2015-06-16 11:27:31 Error: [Cake\Datasource\Exception\RecordNotFoundException] Record not found in table "projects"
+Request URL: /projects/chart/js/jquery.fn.gantt.js
+Stack Trace:
+#0 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\ORM\Table.php(1110): Cake\ORM\Query->firstOrFail()
+#1 C:\xampp\htdocs\concurrentSystem\src\Controller\ProjectsController.php(123): Cake\ORM\Table->get('js', Array)
+#2 [internal function]: App\Controller\ProjectsController->chart('js', 'jquery.fn.gantt...')
+#3 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Controller\Controller.php(404): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#5 C:\xampp\htdocs\concurrentSystem\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ProjectsController))
+#6 C:\xampp\htdocs\concurrentSystem\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#7 {main}
+
+

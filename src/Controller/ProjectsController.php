@@ -115,4 +115,14 @@ class ProjectsController extends AppController
         }
         return $this->redirect(['action' => 'index']);
     }
+	
+	    public function chart($id = null)
+    {
+        $project = $this->Projects->get($id, [
+            'contain' => ['Tasks']
+        ]);
+        $this->set('project', $project);
+        $this->set('_serialize', ['project']);
+		$this->set('role', $this->Auth->user('group_id') );
+    }
 }

@@ -1,0 +1,15 @@
+To: admin <k@ka.pl>
+Subject: ConcurrentSystem - Added to Task
+From: test <test@test.pl>
+Date: Tue, 16 Jun 2015 10:44:50 +0000
+Message-ID: <eafb957ac7d64f2f9d8a47bae3b1eec3@localhost>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+Hi admin,
+You have been added to task:  Podzadanie 2 in project: Testowy kurde
+Kinds regards,
+test
+
+

@@ -1,0 +1,15 @@
+To: Stachu <stachu@gmail.com>
+Subject: ConcurrentSystem - Added to Task
+From: test <test@test.pl>
+Date: Tue, 16 Jun 2015 10:43:59 +0000
+Message-ID: <6b71d2b1a4b84cdbbf92aa72dd8f0720@localhost>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+Hi Stachu,
+You have been added to task:  Zadanie 1 in project: Testowy kurde
+Kinds regards,
+test
+
+

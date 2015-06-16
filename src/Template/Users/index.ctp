@@ -1,16 +1,5 @@
-
-<?php
-	$_SESSION['username'] = $name;
-?>
-
 <link type="text/css" rel="stylesheet" media="all" href="/chat/css/chat.css" />
 <link type="text/css" rel="stylesheet" media="all" href="/chat/css/screen.css" />
- 
-<!--[if lte IE 7]>
-<link type="text/css" rel="stylesheet" media="all" href="/chat/css/screen_ie.css" />
-<![endif]-->
-<script src="/chat/js/jquery.js"></script>
-<script src="/chat/js/chat.js"></script>
 <style>
 body {
 	background-color: #eeeeee;
@@ -46,8 +35,6 @@ body {
 </div>
 
 
-<a href="javascript:void(0)" onclick="javascript:chatWith('nowy')">Chat With Jane Doe</a><br/>
- 
 <!--[if lte IE 7]>
 <link type="text/css" rel="stylesheet" media="all" href="css/screen_ie.css" />
 <![endif]-->
